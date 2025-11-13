@@ -26,7 +26,7 @@ const JSON_OUTPUT_PATH = path.join(__dirname, 'public', 'products.json');
 // Agrega o quita los nombres exactos de las pestañas que quieres leer.
 // ¡Respeta mayúsculas, minúsculas, espacios y comas!
 const SHEET_NAMES_TO_READ = [
-  'SCAJIAT0_1.XML'
+  'DA1'
 ];
 
 // --- Mapeo de columnas ---
@@ -35,7 +35,7 @@ const COLUMN_MAP = {
   id: 'Producto',       // Usaremos 'Producto' (Código) como ID
   code: 'Cod.Producto',
   description: 'Descripcion',
-  stock: 'Grupo       ',
+  stock: 'Grupo',
   price: 'Final Final'
   // Si tienes columnas para Marca o Capacidad, añádelas aquí:
   // brand: 'NombreDeTuColumnaMarca',

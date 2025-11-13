@@ -567,42 +567,48 @@ function PriceListPage() {
         </p>
       </header>
 
-      {/* --- Barra de Filtros --- */}
+      {/* --- Barra de Filtros (CORREGIDA) --- */}
       <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mb-6 p-3 sm:p-4 bg-white rounded-lg shadow-sm border border-gray-200">
-        <div className="relative">
+        {/* 1. Contenedor del item de la grilla (sin 'relative') */}
+        <div>
           <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-1">
             Buscar por Código o Nombre
           </label>
-          <input
-            type="text"
-            id="search"
-            value={searchTerm}
-            onChange={handleSearchChange}
-            placeholder="Ej: 10001, Z10, Latex..."
-            // Ajuste en padding para evitar solapamiento
-            className="w-full pl-10 pr-12 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-          />
-          {/* Icono de Lupa a la izquierda - CORREGIDO: Se quitó el 'mt-1' innecesario para un mejor centrado */}
-          <SearchIcon size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
-          
-          {/* Botón de Búsqueda por Voz a la derecha - CORREGIDO: Se quitó el 'mt-1' innecesario para un mejor centrado */}
-          <button
-            onClick={handleVoiceSearch}
-            className={`absolute right-0 top-1/2 transform -translate-y-1/2 p-2 rounded-full transition-colors ${
-              isListening
-                ? 'text-red-500 hover:text-red-600 animate-pulse'
-                : 'text-gray-500 hover:text-blue-600'
-            }`}
-            title={isListening ? "Escuchando..." : "Buscar por voz"}
-          >
-            {isListening ? (
-              <LoaderIcon size={20} className="text-red-500" />
-            ) : (
-              <MicIcon size={20} />
-            )}
-          </button>
+          {/* 2. Div 'relative' que envuelve SOLO el input y los íconos */}
+          <div className="relative">
+            <input
+              type="text"
+              id="search"
+              value={searchTerm}
+              onChange={handleSearchChange}
+              placeholder="Ej: 10001, Z10, Latex..."
+              // Ajuste en padding para evitar solapamiento
+              className="w-full pl-10 pr-12 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+            {/* 3. Icono de Lupa (ahora centrado correctamente) */}
+            <SearchIcon size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+            
+            {/* 4. Botón de Búsqueda por Voz (ahora centrado correctamente) */}
+            <button
+              onClick={handleVoiceSearch}
+              className={`absolute right-0 top-1/2 transform -translate-y-1/2 p-2 rounded-full transition-colors ${
+                isListening
+                  ? 'text-red-500 hover:text-red-600 animate-pulse'
+                  : 'text-gray-500 hover:text-blue-600'
+              }`}
+              title={isListening ? "Escuchando..." : "Buscar por voz"}
+            >
+              {isListening ? (
+                <LoaderIcon size={20} className="text-red-500" />
+              ) : (
+                <MicIcon size={20} />
+              )}
+            </button>
+          </div>
         </div>
       </div>
+      {/* --- Fin Barra de Filtros (CORREGIDA) --- */}
+
 
       {/* --- Lista/Carrito de Productos Seleccionados (Sin cambios) --- */}
       <CartList
