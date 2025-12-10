@@ -8067,7 +8067,7 @@
     "code": "001595",
     "description": "CINTA DE PAPEL RAPIFIX OBRA PREMIUM AZUL (550) 36MM",
     "stock": "0181",
-    "price": 5.5977141,
+    "price": 6.1932156,
     "id": "001595"
   },
   {
@@ -13882,14 +13882,14 @@
   },
   {
     "code": "002798",
-    "description": "DYL01 ESMALTE PU BLANCO PLENO DELFLEET X 1",
+    "description": "DYL01.11  ESMALTE PU BLANCO PLENO DELFLEET X 1",
     "stock": "0133",
     "price": 45.429050700000005,
     "id": "002798"
   },
   {
     "code": "002799",
-    "description": "DYL01 ESMALTE PU BLANCO PLENO DELFLEET X 3,500",
+    "description": "DYL01P.01 ESMALTE PU BLANCO PLENO DELFLEET X 3,500",
     "stock": "0133",
     "price": 164.4639381,
     "id": "002799"
@@ -14885,7 +14885,7 @@
     "code": "002977",
     "description": "ESMALTE EPOXI ALBA MULTIPROPOSITO GRIS HIELO X 4",
     "stock": "0112",
-    "price": 253306.7951601,
+    "price": 231325.62698505,
     "id": "002977"
   },
   {
@@ -14899,7 +14899,7 @@
     "code": "002979",
     "description": "EQUIPO PARA PINTAR ADIABATIC EC.3000",
     "stock": "0104",
-    "price": 1112123.478414,
+    "price": 1217800.3700279999,
     "id": "002979"
   },
   {
@@ -16257,7 +16257,7 @@
     "code": "003255",
     "description": "SOPORTE MAGNETICO PARA PISTOLA",
     "stock": "0156",
-    "price": 49016.253000000004,
+    "price": 44762.7765,
     "id": "003255"
   },
   {
@@ -16271,7 +16271,7 @@
     "code": "003257",
     "description": "PISTOLA PARA PINTAR ADIABATIC ALTA PRESION (PI-S701-17)",
     "stock": "0104",
-    "price": 274282.580208,
+    "price": 300345.630816,
     "id": "003257"
   },
   {
@@ -16292,7 +16292,7 @@
     "code": "003260",
     "description": "DILUYENTE AGUARRAS MINERAL X 10",
     "stock": "0186",
-    "price": 62759.07,
+    "price": 57313.034999999996,
     "id": "003260"
   },
   {
@@ -16313,7 +16313,7 @@
     "code": "003265",
     "description": "PISTOLA DE GRAVEDAD PARA PINTAR ADIABATIC TAZA DE PLASTICO",
     "stock": "0104",
-    "price": 488963.5578828,
+    "price": 535426.1584056,
     "id": "003265"
   },
   {
@@ -17881,7 +17881,7 @@
     "code": "003629",
     "description": "FILM PARA ENMASCASCARAR 25MM X 360CM X 22,5",
     "stock": "0156",
-    "price": 88708.125,
+    "price": 81010.3125,
     "id": "003629"
   },
   {
@@ -17895,7 +17895,7 @@
     "code": "003650",
     "description": "EQUIPO PARA PINTAR ADIABATIC EC.3000 - P.GRAVEDAD",
     "stock": "0104",
-    "price": 1112123.478414,
+    "price": 1217800.3700279999,
     "id": "003650"
   },
   {
@@ -18126,14 +18126,14 @@
     "code": "003772",
     "description": "SOPORTE MAGNETICO P/ 2 PISTOLAS",
     "stock": "0156",
-    "price": 92608.197,
+    "price": 84571.9485,
     "id": "003772"
   },
   {
     "code": "003775",
     "description": "PULIDORA 3D ROTATIVA C/BACKING PLATE (L-36)",
     "stock": "0191",
-    "price": 338641.9322013,
+    "price": 370820.5773426,
     "id": "003775"
   },
   {
@@ -20058,14 +20058,14 @@
     "code": "004145",
     "description": "ESTABILIZADORES ANDAMIO MULTIUSO EQUUS",
     "stock": "0161",
-    "price": 787567.704,
+    "price": 719225.052,
     "id": "004145"
   },
   {
     "code": "004147",
     "description": "PULIDORA 3D ROTO ORBITAL (L-35)",
     "stock": "0191",
-    "price": 360670.1008365,
+    "price": 394941.92037300003,
     "id": "004147"
   },
   {
@@ -26694,14 +26694,14 @@
     "code": "005670",
     "description": "D807P.48 DILUYENTE MEDIO PU/POLIESTER PPG X 200",
     "stock": "0134",
-    "price": 2807.8401747,
+    "price": 2564.18462235,
     "id": "005670"
   },
   {
     "code": "005671",
     "description": "MAQUINA DUO MIX (98-0015 )",
     "stock": "0163",
-    "price": 42062321.277931504,
+    "price": 46059193.435563,
     "id": "005671"
   },
   {
@@ -30892,7 +30892,7 @@
   },
   {
     "code": "021308",
-    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE AZUL PROFUNDO X 1",
+    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE CELESTE PROFUNDO X  1",
     "stock": "0107",
     "price": 30617.0363664,
     "id": "021308"
@@ -30913,7 +30913,7 @@
   },
   {
     "code": "021408",
-    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE AZUL PROFUNDO X 4",
+    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE CELESTE PROFUNDO X  4",
     "stock": "0107",
     "price": 101547.89945850002,
     "id": "021408"
@@ -32373,5 +32373,12 @@
     "stock": "0195",
     "price": 166060.8620748,
     "id": "005859"
+  },
+  {
+    "code": "001591",
+    "description": "CINTA DE PAPEL RAPIFIX USO GENERAL NEGRO (520) 36MM",
+    "stock": "0181",
+    "price": 8.5678164,
+    "id": "001591"
   }
 ]
