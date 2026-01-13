@@ -131,7 +131,7 @@ async function updatePrices() {
 
             // Update value
             const currentVal = priceCell.value;
-            if (currentVal != newPrice) { # simple check, might need fuzzy float comparison
+            if (currentVal != newPrice) { // simple check, might need fuzzy float comparison
                 priceCell.value = newPrice;
                 updatesCount++;
             }
