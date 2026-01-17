@@ -381,7 +381,7 @@
     "code": "000103",
     "description": "LLANA DENTADA SANTA JUANA 30 4X4",
     "stock": "0148",
-    "price": 14542.070399999999,
+    "price": 15277.8619136,
     "id": "000103"
   },
   {
@@ -2201,42 +2201,42 @@
     "code": "000455",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 30",
     "stock": "0148",
-    "price": 7135.430016,
+    "price": 7496.439808,
     "id": "000455"
   },
   {
     "code": "000456",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 40",
     "stock": "0148",
-    "price": 7264.9747456000005,
+    "price": 7632.588620799999,
     "id": "000456"
   },
   {
     "code": "000457",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 50",
     "stock": "0148",
-    "price": 7524.1044736,
+    "price": 7904.8057088,
     "id": "000457"
   },
   {
     "code": "000458",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 60",
     "stock": "0148",
-    "price": 7912.7386624,
+    "price": 8313.1313408,
     "id": "000458"
   },
   {
     "code": "000459",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 70",
     "stock": "0148",
-    "price": 8171.828121599999,
+    "price": 8585.3484288,
     "id": "000459"
   },
   {
     "code": "000460",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 80",
     "stock": "0148",
-    "price": 8560.5025792,
+    "price": 8993.6740608,
     "id": "000460"
   },
   {
@@ -2292,7 +2292,7 @@
     "code": "000468",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL INOXIDABLE 150",
     "stock": "0148",
-    "price": 12706.215808,
+    "price": 13349.147468799998,
     "id": "000468"
   },
   {
@@ -2334,7 +2334,7 @@
     "code": "000475",
     "description": "ESPATULA PINTOR SANTA JUANA RECTIFICADA BI MATERIAL 90",
     "stock": "0148",
-    "price": 8949.1770368,
+    "price": 9401.9996928,
     "id": "000475"
   },
   {
@@ -3531,14 +3531,14 @@
     "code": "000691",
     "description": "TRAPO REJILLA (40X50)",
     "stock": "0124",
-    "price": 4944.1592200000005,
+    "price": 5143.71,
     "id": "000691"
   },
   {
     "code": "000693",
     "description": "TRAPO FRANELA (50X50)",
     "stock": "0124",
-    "price": 5655.97318,
+    "price": 5656.69676,
     "id": "000693"
   },
   {
@@ -5260,14 +5260,14 @@
     "code": "001006",
     "description": "ACIDO MURIATICO INDUQUIMICA X 1",
     "stock": "0124",
-    "price": 4116.5271576000005,
+    "price": 4247.5756752,
     "id": "001006"
   },
   {
     "code": "001007",
     "description": "ACIDO MURIATICO INDUQUIMICA X 5",
     "stock": "0124",
-    "price": 17795.688768,
+    "price": 18322.193260800002,
     "id": "001007"
   },
   {
@@ -12099,28 +12099,28 @@
     "code": "002396",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 30",
     "stock": "0148",
-    "price": 6132.7645808,
+    "price": 6443.1111888000005,
     "id": "002396"
   },
   {
     "code": "002397",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 40",
     "stock": "0148",
-    "price": 6272.6835599999995,
+    "price": 6590.0595904,
     "id": "002397"
   },
   {
     "code": "002398",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 50",
     "stock": "0148",
-    "price": 6459.2262592,
+    "price": 6786.070491200001,
     "id": "002398"
   },
   {
     "code": "002399",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 60",
     "stock": "0148",
-    "price": 6592.1636352,
+    "price": 6925.702555200001,
     "id": "002399"
   },
   {
@@ -12239,42 +12239,42 @@
     "code": "002454",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO PLASTICO 100",
     "stock": "0148",
-    "price": 9023.8756608,
+    "price": 9480.5238528,
     "id": "002454"
   },
   {
     "code": "002455",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO PLASTICO 120",
     "stock": "0148",
-    "price": 9165.339955200001,
+    "price": 9629.155993600001,
     "id": "002455"
   },
   {
     "code": "002456",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO PLASTICO 140",
     "stock": "0148",
-    "price": 9725.317888,
+    "price": 10217.402624,
     "id": "002456"
   },
   {
     "code": "002457",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO PLASTICO 160",
     "stock": "0148",
-    "price": 10515.1098624,
+    "price": 11047.1815168,
     "id": "002457"
   },
   {
     "code": "002458",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO PLASTICO 180",
     "stock": "0148",
-    "price": 11794.127487999998,
+    "price": 12390.911103999999,
     "id": "002458"
   },
   {
     "code": "002459",
     "description": "FRATACHO LIJADOR SANTA JUANA CABO PLASTICO",
     "stock": "0148",
-    "price": 22108.294780000004,
+    "price": 23226.980919999998,
     "id": "002459"
   },
   {
@@ -12701,126 +12701,126 @@
     "code": "002555",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 100",
     "stock": "0148",
-    "price": 8881.2033024,
+    "price": 9330.6031104,
     "id": "002555"
   },
   {
     "code": "002556",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 120",
     "stock": "0148",
-    "price": 9187.487795199999,
+    "price": 9652.3508224,
     "id": "002556"
   },
   {
     "code": "002557",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 140",
     "stock": "0148",
-    "price": 9606.0014336,
+    "price": 10092.0861184,
     "id": "002557"
   },
   {
     "code": "002558",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 160",
     "stock": "0148",
-    "price": 10346.1419776,
+    "price": 10869.6363776,
     "id": "002558"
   },
   {
     "code": "002559",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 180",
     "stock": "0148",
-    "price": 11851.872947200001,
+    "price": 12451.555916800002,
     "id": "002559"
   },
   {
     "code": "002560",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 200",
     "stock": "0148",
-    "price": 12510.2678272,
+    "price": 13143.2933632,
     "id": "002560"
   },
   {
     "code": "002561",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 220",
     "stock": "0148",
-    "price": 13505.5917568,
+    "price": 14188.9532928,
     "id": "002561"
   },
   {
     "code": "002562",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO CORTO MADERA 240",
     "stock": "0148",
-    "price": 14373.2635904,
+    "price": 15100.558387200002,
     "id": "002562"
   },
   {
     "code": "002563",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 100",
     "stock": "0148",
-    "price": 10670.22528,
+    "price": 11210.149350400001,
     "id": "002563"
   },
   {
     "code": "002564",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 120",
     "stock": "0148",
-    "price": 10837.783756800001,
+    "price": 11386.1642752,
     "id": "002564"
   },
   {
     "code": "002565",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 140",
     "stock": "0148",
-    "price": 11466.0575744,
+    "price": 12046.210175999999,
     "id": "002565"
   },
   {
     "code": "002566",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 160",
     "stock": "0148",
-    "price": 12705.128550399999,
+    "price": 13348.0199424,
     "id": "002566"
   },
   {
     "code": "002567",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 180",
     "stock": "0148",
-    "price": 14806.3948032,
+    "price": 15555.5958272,
     "id": "002567"
   },
   {
     "code": "002568",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 200",
     "stock": "0148",
-    "price": 15644.106649600002,
+    "price": 16435.6704512,
     "id": "002568"
   },
   {
     "code": "002569",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 220",
     "stock": "0148",
-    "price": 16837.8349568,
+    "price": 17689.8019584,
     "id": "002569"
   },
   {
     "code": "002570",
     "description": "ESPATULA PARA ENDUIR SANTA JUANA CABO LARGO MADERA 240",
     "stock": "0148",
-    "price": 17947.7638912,
+    "price": 18855.9461376,
     "id": "002570"
   },
   {
     "code": "002571",
     "description": "LLANA DURA SANTA JUANA CABO PLASTICO 12X25",
     "stock": "0148",
-    "price": 12261.4066432,
+    "price": 12881.8280448,
     "id": "002571"
   },
   {
     "code": "002572",
     "description": "LLANA DURA SANTA JUANA CABO PLASTICO 12X30",
     "stock": "0148",
-    "price": 13834.4267776,
+    "price": 14534.4595968,
     "id": "002572"
   },
   {
@@ -13415,7 +13415,7 @@
     "code": "002700",
     "description": "ROLLO CARTON CORRUGADO 1X30MT",
     "stock": "0103",
-    "price": 21230.648112960003,
+    "price": 23392.31404224,
     "id": "002700"
   },
   {
@@ -13436,49 +13436,49 @@
     "code": "002705",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 30",
     "stock": "0148",
-    "price": 6699.0873664,
+    "price": 7038.077675199999,
     "id": "002705"
   },
   {
     "code": "002706",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 40",
     "stock": "0148",
-    "price": 6837.523950400001,
+    "price": 7183.4958624,
     "id": "002706"
   },
   {
     "code": "002707",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 50",
     "stock": "0148",
-    "price": 6994.8012992,
+    "price": 7348.7590176,
     "id": "002707"
   },
   {
     "code": "002708",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 60",
     "stock": "0148",
-    "price": 7138.545814400001,
+    "price": 7499.724232,
     "id": "002708"
   },
   {
     "code": "002709",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 70",
     "stock": "0148",
-    "price": 7258.3329104,
+    "price": 7625.584366399999,
     "id": "002709"
   },
   {
     "code": "002710",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 80",
     "stock": "0148",
-    "price": 7449.9444447999995,
+    "price": 7826.9031984,
     "id": "002710"
   },
   {
     "code": "002711",
     "description": "ESPATULA PINTOR SANTA JUANA CABO MADERA 90",
     "stock": "0148",
-    "price": 7612.625363200001,
+    "price": 7997.809019199999,
     "id": "002711"
   },
   {
@@ -13569,21 +13569,21 @@
     "code": "002742",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 70",
     "stock": "0148",
-    "price": 6720.4147296,
+    "price": 7060.4570608,
     "id": "002742"
   },
   {
     "code": "002743",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 80",
     "stock": "0148",
-    "price": 6951.238008,
+    "price": 7302.996043200001,
     "id": "002743"
   },
   {
     "code": "002744",
     "description": "ESPATULA PINTOR SANTA JUANA CABO PLASTICO 90",
     "stock": "0148",
-    "price": 7130.799104000001,
+    "price": 7491.6427872,
     "id": "002744"
   },
   {
@@ -25350,7 +25350,7 @@
     "code": "005424",
     "description": "AUTONIVELANTE CAPA FINA SECADO NORMAL WEBER AUTONIVELA GRIS X 25",
     "stock": "0163",
-    "price": 133191.774144,
+    "price": 139851.36285119999,
     "id": "005424"
   },
   {
