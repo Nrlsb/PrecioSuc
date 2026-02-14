@@ -81,9 +81,9 @@ app.post('/api/register', async (req, res) => {
 
 // Endpoint para obtener productos (Solo para admins)
 app.get('/api/products', async (req, res) => {
-    const { username } = req.query;
+    const { adminUsername } = req.query;
     const users = await readUsers();
-    const user = users.find(u => u.username === username);
+    const user = users.find(u => u.username === adminUsername);
 
     if (!user || (!user.canSeePrices && user.role !== 'admin')) {
         return res.status(403).json({ success: false, message: 'Acceso denegado. No tienes permiso para ver precios.' });
