@@ -1,0 +1,8 @@
+[
+    {
+        "username": "BenitezLucas",
+        "password": "12345678",
+        "role": "admin",
+        "canSeePrices": true
+    }
+]

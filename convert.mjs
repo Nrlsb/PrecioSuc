@@ -1,17 +1,5 @@
-/*
- * SCRIPT DE CONVERSIÓN DE EXCEL A JSON (Versión Robusta Multi-Pestaña)
- *
- * CÓMO USAR:
- * 1. (Hecho) Instala 'xlsx' con 'npm install xlsx'.
- * 2. (Hecho) Coloca 'ListaDeProductos.xlsx' en 'public'.
- * 3. (Ajustado) Revisa el array 'SHEET_NAMES_TO_READ' abajo.
- * 4. (Ajustado) Revisa 'COLUMN_MAP' abajo.
- * 5. Ejecuta: node convert.mjs
- */
-
 import { read, utils } from 'xlsx';
-// (MODIFICADO) Importamos 'readFile' además de 'writeFile'
-import { writeFile, readFile } from 'fs/promises'; 
+import { writeFile, readFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
 import path from 'path';
 
@@ -22,191 +10,137 @@ const __dirname = path.dirname(__filename);
 const EXCEL_FILE_PATH = path.join(__dirname, 'public', 'ListaDeProductos.xlsx');
 const JSON_OUTPUT_PATH = path.join(__dirname, 'public', 'products.json');
 
-// --- (MODIFICADO) Pestañas a leer ---
-// Agrega o quita los nombres exactos de las pestañas que quieres leer.
-// ¡Respeta mayúsculas, minúsculas, espacios y comas!
-const SHEET_NAMES_TO_READ = [
-  'ListaCorte'
-];
+const SHEET_NAMES_TO_READ = ['001', 'ListaCorte'];
+const MASTER_SHEET = 'SB1';
 
-// --- Mapeo de columnas ---
-// Asegúrate de que estas columnas existan en TODAS las pestañas que lees.
-const COLUMN_MAP = {
-  id: 'Producto',       // Usaremos 'Producto' (Código) como ID
-  code: 'Cod.Producto',
-  description: 'Descripcion',
-  stock: 'Grupo',
-  price: 'Final'
-  // Si tienes columnas para Marca o Capacidad, añádelas aquí:
-  // brand: 'NombreDeTuColumnaMarca',
-  // capacity_desc: 'NombreDeTuColumnaCapacidad',
+// Mapeo de IVA basado en TES
+const IVA_MAP = {
+  '501': 1.105,
+  '503': 1.21
 };
 
-// --- Función de ayuda para encontrar el índice de columna (Sin cambios) ---
+// Función para limpiar nombres de columnas de forma agresiva
+const cleanStr = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+
 function findHeaderIndex(headers, colName) {
   if (!colName) return -1;
-  const trimmedColName = colName.trim().toLowerCase();
+  const target = cleanStr(colName);
   for (let i = 0; i < headers.length; i++) {
-    const header = headers[i] || ''; // Maneja celdas vacías
-    if (header.trim().toLowerCase() === trimmedColName) {
-      return i; // ¡Encontrado! Retorna el índice (0, 1, 2...)
-    }
+    if (cleanStr(headers[i]) === target) return i;
   }
-  return -1; // No encontrado
+  return -1;
 }
 
-
-async function convertExcelToJson() {
+export async function convertExcelToJson() {
   try {
-    
-    // --- (NUEVO) Cargar productos existentes ---
-    let existingProducts = [];
-    // (MOVIDO) Inicializamos el Map aquí para cargarlo con datos existentes
-    const productMap = new Map(); 
-
-    try {
-      console.log(`Leyendo JSON existente desde: ${JSON_OUTPUT_PATH}`);
-      const existingData = await readFile(JSON_OUTPUT_PATH, 'utf-8');
-      existingProducts = JSON.parse(existingData);
-      
-      if (Array.isArray(existingProducts)) {
-        console.log(`Se encontraron ${existingProducts.length} productos existentes.`);
-        // (NUEVO) Cargar productos existentes en el Map
-        for (const product of existingProducts) {
-          if (product.code) {
-            productMap.set(product.code, product);
-          }
-        }
-        console.log(`Cargados ${productMap.size} productos existentes en el mapa.`);
-      }
-    } catch (err) {
-      if (err.code === 'ENOENT') {
-        console.log('No se encontró "products.json" existente. Se creará uno nuevo.');
-      } else {
-        console.warn(`Advertencia: No se pudo leer "products.json". ${err.message}`);
-      }
-    }
-    // --- Fin de carga de productos existentes ---
-
-
+    const productMap = new Map();
     console.log(`Leyendo archivo Excel desde: ${EXCEL_FILE_PATH}`);
     const workbook = read(EXCEL_FILE_PATH, { type: 'file' });
-    console.log('Pestañas disponibles en el archivo:', workbook.SheetNames);
 
-    // Array para guardar solo los productos NUEVOS leídos del excel
-    let allMappedData = [];
+    // 1. Cargar Maestro de Descripciones (SB1)
+    const descriptionsMap = new Map();
+    const sb1Sheet = workbook.Sheets[MASTER_SHEET];
+    if (sb1Sheet) {
+      console.log(`Cargando descripciones maestras desde ${MASTER_SHEET}...`);
+      const sb1Data = utils.sheet_to_json(sb1Sheet, { header: 1 });
+      const sb1Headers = sb1Data[0] || [];
+      const codeIdx = findHeaderIndex(sb1Headers, 'Codigo');
+      const descIdx = findHeaderIndex(sb1Headers, 'Descripcion');
 
-    // --- (MODIFICADO) Bucle principal ---
-    // Itera sobre cada nombre de pestaña que especificaste
+      if (codeIdx !== -1 && descIdx !== -1) {
+        sb1Data.slice(1).forEach(row => {
+          const code = String(row[codeIdx] || '').trim();
+          const desc = String(row[descIdx] || '').trim();
+          if (code && desc) descriptionsMap.set(code, desc);
+        });
+        console.log(`  -> ${descriptionsMap.size} descripciones maestras cargadas.`);
+      }
+    }
+
+    // 2. Procesar hojas de precios
     for (const sheetName of SHEET_NAMES_TO_READ) {
       console.log(`\n--- Procesando pestaña: '${sheetName}' ---`);
-
       const worksheet = workbook.Sheets[sheetName];
+      if (!worksheet) continue;
 
-      if (!worksheet) {
-        console.warn(`  -> Advertencia: No se encontró la pestaña '${sheetName}'. Saltando...`);
-        continue; // Salta a la siguiente pestaña
-      }
-
-      // 1. Convierte la hoja a un arreglo de arreglos
       const dataAsArray = utils.sheet_to_json(worksheet, { header: 1 });
+      if (dataAsArray.length < 2) continue;
 
-      if (dataAsArray.length < 2) {
-        console.warn('  -> Advertencia: La pestaña está vacía o solo tiene encabezados. Saltando...');
-        continue;
-      }
-
-      // 2. Extrae los encabezados (la primera fila)
       const headers = dataAsArray[0];
-      
-      // 3. Mapea nuestras columnas a los índices del Excel
-      const headerIndexMap = {};
-      let foundHeadersCount = 0;
-      
-      for (const appKey in COLUMN_MAP) {
-        const excelColName = COLUMN_MAP[appKey];
-        const index = findHeaderIndex(headers, excelColName);
-        
-        if (index !== -1) {
-          headerIndexMap[appKey] = index;
-          foundHeadersCount++;
-        } else {
-          console.warn(`  -> Advertencia: No se encontró la columna '${excelColName}' (para '${appKey}') en esta pestaña.`);
-        }
-      }
 
-      if (foundHeadersCount === 0) {
-        console.error(`  -> Error: No se encontró ninguna columna útil en la pestaña '${sheetName}'. Saltando...`);
-        continue;
-      }
+      // Índices de columnas clave
+      const codeIdx = findHeaderIndex(headers, 'Cod.Producto');
+      const descIdx = findHeaderIndex(headers, 'Descripcion');
+      const stockIdx = findHeaderIndex(headers, 'Grupo');
+      const netoIdx = findHeaderIndex(headers, 'Precio Venta');
+      const finalIdx = findHeaderIndex(headers, 'Final');
+      const tesIdx = findHeaderIndex(headers, 'TES');
 
-      // 4. Extrae las filas de datos
+      console.log(`  -> Índices detectados: Code:${codeIdx}, Neto:${netoIdx}, Final:${finalIdx}, TES:${tesIdx}`);
+
       const dataRows = dataAsArray.slice(1);
+      dataRows.forEach((row, index) => {
+        const code = String(row[codeIdx] || '').trim();
+        if (!code || code === 'undefined') return;
 
-      // 5. Mapea y limpia los datos
-      const mappedData = dataRows.map((row, index) => {
-        const newRow = {};
-        
-        for (const appKey in headerIndexMap) {
-          const excelIndex = headerIndexMap[appKey];
-          newRow[appKey] = row[excelIndex];
+        // Limpieza de precios
+        const parsePrice = (val) => {
+          if (typeof val === 'number') return val;
+          if (typeof val === 'string') {
+            return parseFloat(val.replace(/\$/g, '').replace(/\./g, '').replace(',', '.').trim());
+          }
+          return 0;
+        };
+
+        const rawNeto = parsePrice(row[netoIdx]);
+        const rawFinal = parsePrice(row[finalIdx]);
+        const tesValue = String(row[tesIdx] || '').trim();
+        const ivaFactor = IVA_MAP[tesValue] || 1.21;
+
+        let priceNeto = 0;
+
+        // LÓGICA DE CÁLCULO: Priorizar Precio Venta si existe.
+        if (rawNeto > 0) {
+          priceNeto = rawNeto;
+        } else if (rawFinal > 0) {
+          // Si solo hay 'Final', calculamos el Neto hacia atrás.
+          // Según el usuario, la fórmula es (Neto * 1.04) * Factor_IVA = Final
+          // Por lo tanto: Neto = Final / (1.04 * Factor_IVA)
+          priceNeto = rawFinal / (1.04 * ivaFactor);
         }
 
-        // Limpieza de precio
-        let price = newRow.price || 0;
-        if (typeof price === 'string') {
-          price = parseFloat(price.replace(/\$/g, '').replace(/\./g, '').replace(',', '.').trim());
+        if (priceNeto === 0) return;
+
+        // El precio base con IVA (sin el recargo del usuario)
+        const priceConIva = priceNeto * ivaFactor;
+
+        const product = {
+          id: code,
+          code: code,
+          description: descriptionsMap.get(code) || String(row[descIdx] || '').trim(),
+          stock: String(row[stockIdx] || '').trim(),
+          price_neto: parseFloat(priceNeto.toFixed(4)),
+          price: parseFloat(priceConIva.toFixed(2)), // Base con IVA
+          tes: tesValue || (ivaFactor === 1.105 ? '501' : '503')
+        };
+
+        if (product.description && product.description !== 'undefined') {
+          productMap.set(code, product);
         }
-        newRow.price = isNaN(price) ? 0 : price;
-        
-        // Asigna un ID
-        newRow.id = newRow.id || newRow.code || `idx-${sheetName}-${index + 1}`;
-        
-        // Solo incluye filas que tengan un código y una descripción
-        if (!newRow.code || !newRow.description) {
-          return null;
-        }
-
-        return newRow;
-      }).filter(row => row !== null); // Filtra filas nulas
-
-      console.log(`  -> Se encontraron ${mappedData.length} productos válidos.`);
-      
-      // (NUEVO) Agrega los productos de esta pestaña a la lista total
-      allMappedData.push(...mappedData);
-    }
-    // --- Fin del bucle ---
-
-    console.log(`\n--- Proceso completado ---`);
-    console.log(`Total de productos nuevos/actualizados leídos del Excel: ${allMappedData.length}`);
-
-    // --- (MODIFICADO) Deduplicación y Fusión ---
-    console.log('Fusionando y deduplicando productos por código...');
-    // 'productMap' ya tiene los productos viejos.
-    // Ahora agregamos/sobreescribimos con los nuevos.
-    for (const product of allMappedData) {
-      if (product.code) {
-        productMap.set(product.code, product);
-      }
+      });
     }
 
     const finalProductList = Array.from(productMap.values());
-    console.log(`Total de productos únicos (final): ${finalProductList.length}`);
-    
-    // Escribe el archivo JSON final
     await writeFile(JSON_OUTPUT_PATH, JSON.stringify(finalProductList, null, 2));
-
-    console.log(`¡Éxito! Archivo JSON actualizado en: ${JSON_OUTPUT_PATH}`);
+    console.log(`¡Éxito! JSON actualizado con ${finalProductList.length} productos.`);
+    return { success: true, count: finalProductList.length };
 
   } catch (error) {
-    console.error('Error durante la conversión:');
-    if (error.code === 'ENOENT' && error.path.includes('ListaDeProductos.xlsx')) {
-      console.error(`No se pudo encontrar el archivo: ${EXCEL_FILE_PATH}`);
-      console.error("Asegúrate de que 'ListaDeProductos.xlsx' esté en la carpeta 'public'.");
-    } else {
-      console.error(error);
-    }
+    console.error('Error durante la conversión:', error);
+    throw error;
   }
 }
 
-convertExcelToJson();
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  convertExcelToJson();
+}

@@ -96,6 +96,237 @@ const MicIcon = ({ size = 20, className = "" }) => (
     <line x1="8" y1="23" x2="16" y2="23" />
   </svg>
 );
+// --- Componente de Login ---
+// --- Componente de Login ---
+function LoginForm({ onLogin }) {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+
+    try {
+      const response = await fetch(`http://localhost:3001/api/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        onLogin(data.user);
+      } else {
+        setError(data.message || 'Error en la operación');
+      }
+    } catch (err) {
+      setError('No se pudo conectar con el servidor.');
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-extrabold text-gray-900">Iniciar Sesión</h2>
+          <p className="mt-2 text-sm text-gray-600">Ingresa tus credenciales</p>
+        </div>
+
+        <form onSubmit={handleSubmit} className="space-y-6">
+          {error && (
+            <div className="bg-red-50 text-red-600 p-3 rounded-md text-sm border border-red-200">
+              {error}
+            </div>
+          )}
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Usuario</label>
+            <input
+              type="text"
+              required
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Tu nombre de usuario"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Contraseña</label>
+            <input
+              type="password"
+              required
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              placeholder="••••••••"
+            />
+          </div>
+
+          <button
+            type="submit"
+            className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
+          >
+            Entrar
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+// --- Componente de Creación de Usuarios (Solo Admin) ---
+function UserRegistration({ adminUsername }) {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [role, setRole] = useState('user');
+  const [error, setError] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+    setMessage('');
+
+    try {
+      const response = await fetch(`http://localhost:3001/api/register`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password, role, adminUsername }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setMessage('Usuario creado con éxito');
+        setUsername('');
+        setPassword('');
+        setRole('user');
+      } else {
+        setError(data.message || 'Error al crear usuario');
+      }
+    } catch (err) {
+      setError('Error de conexión');
+    }
+  };
+
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+      <h3 className="text-lg font-bold text-gray-800 mb-4">Registrar Nuevo Usuario</h3>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        {error && <p className="text-sm text-red-600">{error}</p>}
+        {message && <p className="text-sm text-green-600">{message}</p>}
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Usuario</label>
+          <input type="text" value={username} onChange={e => setUsername(e.target.value)} required className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Contraseña</label>
+          <input type="password" value={password} onChange={e => setPassword(e.target.value)} required className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Rol</label>
+          <select value={role} onChange={e => setRole(e.target.value)} className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+            <option value="user">Usuario</option>
+            <option value="admin">Administrador</option>
+          </select>
+        </div>
+        <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors font-bold">Crear Usuario</button>
+      </form>
+    </div>
+  );
+}
+
+// --- Componente de Gestión de Usuarios (NUEVO) ---
+function UserManagementList({ adminUsername }) {
+  const [users, setUsers] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState('');
+
+  const fetchUsers = useCallback(async () => {
+    try {
+      const response = await fetch(`http://localhost:3001/api/admin/users?adminUsername=${adminUsername}`);
+      const data = await response.json();
+      if (response.ok) {
+        setUsers(data);
+      } else {
+        setError(data.message);
+      }
+    } catch (err) {
+      setError('Error al cargar usuarios');
+    } finally {
+      setIsLoading(false);
+    }
+  }, [adminUsername]);
+
+  useEffect(() => {
+    fetchUsers();
+  }, [fetchUsers]);
+
+  const toggleAccess = async (targetUsername, currentAccess) => {
+    try {
+      const response = await fetch('http://localhost:3001/api/admin/update-access', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          adminUsername,
+          targetUsername,
+          canSeePrices: !currentAccess
+        }),
+      });
+      if (response.ok) {
+        fetchUsers();
+      } else {
+        alert('Error al actualizar permisos');
+      }
+    } catch (err) {
+      alert('Error de conexión');
+    }
+  };
+
+  if (isLoading) return <p className="text-gray-500 italic">Cargando usuarios...</p>;
+  if (error) return <p className="text-red-500 italic">{error}</p>;
+
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200 mt-6">
+      <h3 className="text-lg font-bold text-gray-800 mb-4 text-center sm:text-left">Gestionar Acceso a Precios</h3>
+      <div className="overflow-x-auto">
+        <table className="min-w-full divide-y divide-gray-200">
+          <thead>
+            <tr>
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Usuario</th>
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Rol</th>
+              <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Ver Precios</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {users.map(u => (
+              <tr key={u.username}>
+                <td className="px-4 py-3 text-sm font-medium text-gray-900">{u.username}</td>
+                <td className="px-4 py-3 text-sm text-gray-500 uppercase">{u.role}</td>
+                <td className="px-4 py-3 text-center">
+                  <button
+                    onClick={() => toggleAccess(u.username, u.canSeePrices)}
+                    disabled={u.role === 'admin'}
+                    className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${u.canSeePrices
+                        ? 'bg-green-100 text-green-700 hover:bg-green-200'
+                        : 'bg-red-100 text-red-700 hover:bg-red-200'
+                      } ${u.role === 'admin' ? 'opacity-50 cursor-not-allowed' : ''}`}
+                  >
+                    {u.canSeePrices ? 'Activado' : 'Desactivado'}
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 // --- Fin Iconos ---
 
 
@@ -132,7 +363,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
   const total = useMemo(() => {
     return cartItems.reduce((acc, item) => acc + (item.price * item.quantity), 0);
   }, [cartItems]);
-  
+
   // Función local para manejar el cambio en el input
   const handleQuantityChange = useCallback((code, value) => {
     // Actualiza el estado local para que el input refleje lo que escribe el usuario,
@@ -141,7 +372,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
 
     // Si el campo no está vacío, llama a la función de actualización principal
     if (value.trim() !== '') {
-        onUpdateQuantity(code, value);
+      onUpdateQuantity(code, value);
     }
   }, [onUpdateQuantity]);
 
@@ -150,16 +381,16 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
     // Si el campo quedó vacío (cadena vacía) o es inválido,
     // usamos la cantidad actual del item para forzar un re-render
     if (editingQuantity[code] === '' || isNaN(parseInt(editingQuantity[code], 10))) {
-        // Llama a la función de actualización con 0 si el campo estaba vacío/inválido.
-        const valueToUse = 0;
-        onUpdateQuantity(code, valueToUse);
+      // Llama a la función de actualización con 0 si el campo estaba vacío/inválido.
+      const valueToUse = 0;
+      onUpdateQuantity(code, valueToUse);
     }
-    
+
     // Limpia el estado local para que el input vuelva a usar item.quantity
     setEditingQuantity(prev => {
-        const newState = { ...prev };
-        delete newState[code];
-        return newState;
+      const newState = { ...prev };
+      delete newState[code];
+      return newState;
     });
   }, [editingQuantity, onUpdateQuantity]);
 
@@ -220,7 +451,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
                 </button>
                 <input
                   type="number"
-                  min="0" 
+                  min="0"
                   // Usa el valor temporal o el valor real del carrito
                   value={editingQuantity[item.code] !== undefined ? editingQuantity[item.code] : item.quantity}
                   onChange={(e) => handleQuantityChange(item.code, e.target.value)}
@@ -334,11 +565,30 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
 
 // --- Componente de Página (Refactorizado) ---
 
-function PriceListPage() {
+function PriceListPage({ user, onLogout }) {
+  // --- Redirección si no tiene permiso ---
+  if (!user.canSeePrices && user.role !== 'admin') {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+        <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8 border border-gray-200 text-center">
+          <h2 className="text-2xl font-bold text-red-600 mb-4">Acceso Restringido</h2>
+          <p className="text-gray-600 mb-6">Tu cuenta no tiene permiso para ver la lista de precios. Por favor, contacta a un administrador.</p>
+          <button
+            onClick={onLogout}
+            className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors font-bold"
+          >
+            Cerrar Sesión
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   // --- Estados ---
   const [searchTerm, setSearchTerm] = useState('');
   const [allProducts, setAllProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [isUpdatingPrices, setIsUpdatingPrices] = useState(false); // NUEVO
   const [error, setError] = useState(null);
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const [isListening, setIsListening] = useState(false); // NUEVO: Estado para el micrófono
@@ -353,7 +603,7 @@ function PriceListPage() {
   });
 
   const { ref, inView } = useInView();
-  
+
   // --- Lógica de Reconocimiento de Voz (NUEVO) ---
   const handleVoiceSearch = () => {
     // Verifica si la API de reconocimiento de voz está disponible
@@ -404,12 +654,38 @@ function PriceListPage() {
     recognition.start();
   };
 
-  // --- Carga de Datos y Guardado en LocalStorage (Sin cambios) ---
-  useEffect(() => {
-    fetch('/products.json')
+  // --- Lógica de Actualización de Precios (NUEVO) ---
+  const handleUpdatePrices = async () => {
+    if (!window.confirm('¿Seguro que deseas actualizar los precios desde el archivo Excel?')) return;
+
+    setIsUpdatingPrices(true);
+    try {
+      const response = await fetch('http://localhost:3001/api/admin/update-prices', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ adminUsername: user.username }),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        alert(`¡Éxito! Se actualizaron ${data.count} productos.`);
+        // Recargar productos
+        loadProducts();
+      } else {
+        alert(`Error: ${data.message}`);
+      }
+    } catch (err) {
+      alert('Error de conexión al servidor.');
+    } finally {
+      setIsUpdatingPrices(false);
+    }
+  };
+
+  const loadProducts = useCallback(() => {
+    setIsLoading(true);
+    fetch(`http://localhost:3001/api/products?adminUsername=${user.username}`)
       .then(response => {
         if (!response.ok) {
-          throw new Error(`Error al cargar 'products.json': ${response.statusText}`);
+          throw new Error(`Error al cargar los productos`);
         }
         return response.json();
       })
@@ -422,8 +698,13 @@ function PriceListPage() {
         setError(err);
         setIsLoading(false);
       });
-  }, []);
-  
+  }, [user.username]);
+
+  // --- Carga de Datos y Guardado en LocalStorage ---
+  useEffect(() => {
+    loadProducts();
+  }, [loadProducts]);
+
   useEffect(() => {
     try {
       localStorage.setItem('priceListCart', JSON.stringify(cart));
@@ -455,19 +736,19 @@ function PriceListPage() {
     // Si la cadena está vacía (el usuario borró el número) o es NaN,
     // permitimos que el input mantenga el campo vacío/inválido.
     if (newQuantityStr.trim() === '' || isNaN(parseInt(newQuantityStr, 10))) {
-        // La lógica de actualización la maneja handleBlur al perder el foco
-        return; 
+      // La lógica de actualización la maneja handleBlur al perder el foco
+      return;
     }
-    
+
     const newQuantity = parseInt(newQuantityStr, 10);
-    
+
     // Si la cantidad es negativa, la forzamos a 0. No eliminamos el producto.
     const finalQuantity = Math.max(0, newQuantity);
-    
+
     setCart(prevCart =>
-        prevCart.map(item =>
-          item.code === productCode ? { ...item, quantity: finalQuantity } : item
-        )
+      prevCart.map(item =>
+        item.code === productCode ? { ...item, quantity: finalQuantity } : item
+      )
     );
   };
 
@@ -488,7 +769,7 @@ function PriceListPage() {
       )
     );
   };
-  
+
   const handleDecrementQuantity = (productCode) => {
     setCart(prevCart => {
       const existingItem = prevCart.find(item => item.code === productCode);
@@ -512,9 +793,9 @@ function PriceListPage() {
       const normalizedSearchTerm = normalizeText(searchTerm);
 
       const searchWords = normalizedSearchTerm
-        .split(' ') 
-        .filter(word => word.length > 0); 
-      
+        .split(' ')
+        .filter(word => word.length > 0);
+
       products = products.filter(p => {
         // Normaliza el texto del producto para compararlo
         const productText = normalizeText(
@@ -541,7 +822,7 @@ function PriceListPage() {
   const visibleProducts = useMemo(() => {
     return filteredProducts.slice(0, visibleCount);
   }, [filteredProducts, visibleCount]);
-  
+
   const totalProductsFound = filteredProducts.length;
   const hasMore = visibleCount < totalProductsFound;
 
@@ -554,17 +835,36 @@ function PriceListPage() {
   return (
     // (MODIFICADO) Padding responsivo
     <div className="container mx-auto p-3 sm:p-4 md:p-6 max-w-7xl">
-      <header className="mb-6">
-        {/* (MODIFICADO) Título responsivo */}
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Lista de Precios</h1>
-        <p className="text-gray-600 mt-1">
-          Explora nuestro catálogo completo de productos.
-          {!isLoading && !error && (
-            <span className="ml-2 font-medium text-blue-600">
-              ({totalProductsFound} {totalProductsFound === 1 ? 'producto' : 'productos'} encontrados)
-            </span>
-          )}
-        </p>
+      <header className="mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          {/* (MODIFICADO) Título responsivo */}
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Lista de Precios</h1>
+          <p className="text-gray-600 mt-1">
+            Explora nuestro catálogo completo de productos.
+            {!isLoading && !error && (
+              <span className="ml-2 font-medium text-blue-600">
+                ({totalProductsFound} {totalProductsFound === 1 ? 'producto' : 'productos'} encontrados)
+              </span>
+            )}
+          </p>
+        </div>
+        <div className="flex items-center gap-3 bg-white p-2 px-4 rounded-full shadow-sm border border-gray-200 self-start sm:self-auto">
+          <span className="text-sm font-medium text-gray-700">Hola, <span className="font-bold">{user.username}</span></span>
+          <button
+            onClick={handleUpdatePrices}
+            disabled={isUpdatingPrices}
+            className={`text-xs px-3 py-1 rounded-full transition-colors font-semibold ${isUpdatingPrices ? 'bg-gray-100 text-gray-400' : 'bg-green-50 text-green-600 hover:bg-green-100'
+              }`}
+          >
+            {isUpdatingPrices ? 'Actualizando...' : 'Actualizar Precios'}
+          </button>
+          <button
+            onClick={onLogout}
+            className="text-xs bg-red-50 text-red-600 px-3 py-1 rounded-full hover:bg-red-100 transition-colors font-semibold"
+          >
+            Salir
+          </button>
+        </div>
       </header>
 
       {/* --- Barra de Filtros (CORREGIDA) --- */}
@@ -587,15 +887,14 @@ function PriceListPage() {
             />
             {/* 3. Icono de Lupa (ahora centrado correctamente) */}
             <SearchIcon size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
-            
+
             {/* 4. Botón de Búsqueda por Voz (ahora centrado correctamente) */}
             <button
               onClick={handleVoiceSearch}
-              className={`absolute right-0 top-1/2 transform -translate-y-1/2 p-2 rounded-full transition-colors ${
-                isListening
-                  ? 'text-red-500 hover:text-red-600 animate-pulse'
-                  : 'text-gray-500 hover:text-blue-600'
-              }`}
+              className={`absolute right-0 top-1/2 transform -translate-y-1/2 p-2 rounded-full transition-colors ${isListening
+                ? 'text-red-500 hover:text-red-600 animate-pulse'
+                : 'text-gray-500 hover:text-blue-600'
+                }`}
               title={isListening ? "Escuchando..." : "Buscar por voz"}
             >
               {isListening ? (
@@ -610,7 +909,15 @@ function PriceListPage() {
       {/* --- Fin Barra de Filtros (CORREGIDA) --- */}
 
 
-      {/* --- Lista/Carrito de Productos Seleccionados (Sin cambios) --- */}
+      {/* Seccion Admin para crear usuarios */}
+      {user.role === 'admin' && (
+        <div className="mb-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <UserRegistration adminUsername={user.username} />
+          <UserManagementList adminUsername={user.username} />
+        </div>
+      )}
+
+      {/* --- Lista/Carrito de Productos Seleccionados (Sin cambios) --- ListList... */}
       <CartList
         cartItems={cart}
         onRemoveItem={handleRemoveFromCart}
@@ -619,7 +926,7 @@ function PriceListPage() {
         onIncrement={handleIncrementQuantity}
         onDecrement={handleDecrementQuantity}
       />
-      
+
       {/* --- Título de la tabla de productos (MODIFICADO) --- */}
       <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-3">
         Catálogo de Productos
@@ -636,7 +943,7 @@ function PriceListPage() {
       ) : error ? (
         <div className="text-center py-12 bg-white rounded-lg shadow border border-red-200 text-red-600">
           Error al cargar los productos: {error.message}.
-          <br/>
+          <br />
           <span className="text-sm text-gray-600">¿Ejecutaste 'node convert.mjs' y 'products.json' está en 'public'?</span>
         </div>
       ) : totalProductsFound === 0 ? (
@@ -662,11 +969,10 @@ function PriceListPage() {
                   <button
                     onClick={() => handleAddToCart(product)}
                     disabled={isInCart}
-                    className={`w-full py-2 px-3 rounded-full flex items-center justify-center gap-1.5 transition-colors text-sm font-bold ${
-                      isInCart
-                        ? 'bg-green-100 text-green-700 cursor-default'
-                        : 'bg-blue-100 text-blue-700 hover:bg-blue-200'
-                    }`}
+                    className={`w-full py-2 px-3 rounded-full flex items-center justify-center gap-1.5 transition-colors text-sm font-bold ${isInCart
+                      ? 'bg-green-100 text-green-700 cursor-default'
+                      : 'bg-blue-100 text-blue-700 hover:bg-blue-200'
+                      }`}
                   >
                     {isInCart ? (
                       <CheckIcon size={16} />
@@ -717,11 +1023,10 @@ function PriceListPage() {
                         <button
                           onClick={() => handleAddToCart(product)}
                           disabled={isInCart}
-                          className={`py-1 px-2.5 rounded-full flex items-center justify-center gap-1.5 transition-colors text-xs font-bold ${
-                            isInCart
-                              ? 'bg-green-100 text-green-700 cursor-default'
-                              : 'bg-blue-100 text-blue-700 hover:bg-blue-200'
-                          }`}
+                          className={`py-1 px-2.5 rounded-full flex items-center justify-center gap-1.5 transition-colors text-xs font-bold ${isInCart
+                            ? 'bg-green-100 text-green-700 cursor-default'
+                            : 'bg-blue-100 text-blue-700 hover:bg-blue-200'
+                            }`}
                         >
                           {isInCart ? (
                             <CheckIcon size={14} />
@@ -756,11 +1061,30 @@ function PriceListPage() {
 }
 
 
-// --- Componente Raíz (App) (Sin cambios) ---
+// --- Componente Raíz (App) ---
 export default function App() {
+  const [user, setUser] = useState(() => {
+    const savedUser = localStorage.getItem('priceListUser');
+    return savedUser ? JSON.parse(savedUser) : null;
+  });
+
+  const handleLogin = (userData) => {
+    setUser(userData);
+    localStorage.setItem('priceListUser', JSON.stringify(userData));
+  };
+
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem('priceListUser');
+  };
+
   return (
     <main className="bg-gray-50 min-h-screen font-sans">
-      <PriceListPage />
+      {!user ? (
+        <LoginForm onLogin={handleLogin} />
+      ) : (
+        <PriceListPage user={user} onLogout={handleLogout} />
+      )}
     </main>
   );
 }
