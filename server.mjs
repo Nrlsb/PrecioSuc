@@ -45,7 +45,8 @@ app.post('/api/login', async (req, res) => {
             user: {
                 username: user.username,
                 role: user.role || 'user',
-                canSeePrices: user.role === 'admin' ? true : (user.canSeePrices || false)
+                canSeePrices: user.role === 'admin' ? true : (user.canSeePrices || false),
+                percentage: user.percentage || 0
             }
         });
     } else {
@@ -55,7 +56,7 @@ app.post('/api/login', async (req, res) => {
 
 // Endpoint de registro (Solo para admins)
 app.post('/api/register', async (req, res) => {
-    const { username, password, role, adminUsername } = req.body;
+    const { username, password, role, adminUsername, percentage } = req.body;
 
     const users = await readUsers();
     const admin = users.find(u => u.username === adminUsername && u.role === 'admin');
@@ -72,7 +73,8 @@ app.post('/api/register', async (req, res) => {
         username,
         password,
         role: role || 'user',
-        canSeePrices: (role === 'admin') // Admins ven precios por defecto
+        canSeePrices: (role === 'admin'), // Admins ven precios por defecto
+        percentage: Number(percentage) || 0
     });
     await saveUsers(users);
 
@@ -132,7 +134,7 @@ app.get('/api/admin/users', async (req, res) => {
 
 // Endpoint para actualizar acceso (Solo Admin)
 app.post('/api/admin/update-access', async (req, res) => {
-    const { adminUsername, targetUsername, canSeePrices } = req.body;
+    const { adminUsername, targetUsername, canSeePrices, percentage } = req.body;
     const users = await readUsers();
     const admin = users.find(u => u.username === adminUsername && u.role === 'admin');
 
@@ -145,7 +147,9 @@ app.post('/api/admin/update-access', async (req, res) => {
         return res.status(404).json({ success: false, message: 'Usuario no encontrado' });
     }
 
-    users[userIndex].canSeePrices = canSeePrices;
+    if (canSeePrices !== undefined) users[userIndex].canSeePrices = canSeePrices;
+    if (percentage !== undefined) users[userIndex].percentage = Number(percentage) || 0;
+
     await saveUsers(users);
 
     res.json({ success: true, message: 'Permisos actualizados' });

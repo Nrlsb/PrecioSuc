@@ -185,6 +185,7 @@ function UserRegistration({ adminUsername }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [role, setRole] = useState('user');
+  const [percentage, setPercentage] = useState(0);
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
 
@@ -197,7 +198,7 @@ function UserRegistration({ adminUsername }) {
       const response = await fetch(`${API_URL}/api/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password, role, adminUsername }),
+        body: JSON.stringify({ username, password, role, adminUsername, percentage }),
       });
 
       const data = await response.json();
@@ -207,6 +208,7 @@ function UserRegistration({ adminUsername }) {
         setUsername('');
         setPassword('');
         setRole('user');
+        setPercentage(0);
       } else {
         setError(data.message || 'Error al crear usuario');
       }
@@ -235,6 +237,10 @@ function UserRegistration({ adminUsername }) {
             <option value="user">Usuario</option>
             <option value="admin">Administrador</option>
           </select>
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Porcentaje de Ajuste (%)</label>
+          <input type="number" value={percentage} onChange={e => setPercentage(e.target.value)} className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Ej: 10" />
         </div>
         <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors font-bold">Crear Usuario</button>
       </form>
@@ -268,7 +274,7 @@ function UserManagementList({ adminUsername }) {
     fetchUsers();
   }, [fetchUsers]);
 
-  const toggleAccess = async (targetUsername, currentAccess) => {
+  const updateParameter = async (targetUsername, currentAccess, currentPercentage, newPercentage = null) => {
     try {
       const response = await fetch(`${API_URL}/api/admin/update-access`, {
         method: 'POST',
@@ -276,13 +282,14 @@ function UserManagementList({ adminUsername }) {
         body: JSON.stringify({
           adminUsername,
           targetUsername,
-          canSeePrices: !currentAccess
+          canSeePrices: currentAccess,
+          percentage: newPercentage !== null ? newPercentage : currentPercentage
         }),
       });
       if (response.ok) {
         fetchUsers();
       } else {
-        alert('Error al actualizar permisos');
+        alert('Error al actualizar parámetros');
       }
     } catch (err) {
       alert('Error de conexión');
@@ -294,7 +301,7 @@ function UserManagementList({ adminUsername }) {
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200 mt-6">
-      <h3 className="text-lg font-bold text-gray-800 mb-4 text-center sm:text-left">Gestionar Acceso a Precios</h3>
+      <h3 className="text-lg font-bold text-gray-800 mb-4 text-center sm:text-left">Gestionar Acceso y Porcentajes</h3>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">
           <thead>
@@ -302,6 +309,7 @@ function UserManagementList({ adminUsername }) {
               <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Usuario</th>
               <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Rol</th>
               <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Ver Precios</th>
+              <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Ajuste (%)</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-100">
@@ -311,7 +319,7 @@ function UserManagementList({ adminUsername }) {
                 <td className="px-4 py-3 text-sm text-gray-500 uppercase">{u.role}</td>
                 <td className="px-4 py-3 text-center">
                   <button
-                    onClick={() => toggleAccess(u.username, u.canSeePrices)}
+                    onClick={() => updateParameter(u.username, !u.canSeePrices, u.percentage)}
                     disabled={u.role === 'admin'}
                     className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${u.canSeePrices
                       ? 'bg-green-100 text-green-700 hover:bg-green-200'
@@ -320,6 +328,15 @@ function UserManagementList({ adminUsername }) {
                   >
                     {u.canSeePrices ? 'Activado' : 'Desactivado'}
                   </button>
+                </td>
+                <td className="px-4 py-3 text-center">
+                  <input
+                    type="number"
+                    value={u.percentage || 0}
+                    onChange={(e) => updateParameter(u.username, u.canSeePrices, u.percentage, e.target.value)}
+                    className="w-16 text-center border border-gray-300 rounded p-1 text-sm"
+                    disabled={u.role === 'admin'}
+                  />
                 </td>
               </tr>
             ))}
@@ -359,7 +376,7 @@ const normalizeText = (text) => {
 const ITEMS_PER_PAGE = 50;
 
 // --- Componente de Carrito ---
-function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIncrement, onDecrement }) {
+function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIncrement, onDecrement, userPercentage }) {
   const [editingQuantity, setEditingQuantity] = useState({});
 
   // Calcula el total
@@ -471,7 +488,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
               </div>
               {/* Subtotal */}
               <p className="font-semibold text-gray-900 text-right">
-                {formatCurrency(item.price * item.quantity)}
+                {formatCurrency(item.price * (1 + (userPercentage / 100)) * item.quantity)}
               </p>
             </div>
           </div>
@@ -539,7 +556,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
                   </div>
                 </td>
                 <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
-                  {formatCurrency(item.price * item.quantity)}
+                  {formatCurrency(item.price * (1 + (userPercentage / 100)) * item.quantity)}
                 </td>
                 <td className="px-4 py-3 whitespace-nowrap text-sm text-center">
                   <button
@@ -559,7 +576,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
       {/* <!-- MODIFICADO: Se quitó bg-gray-50 para que herede el bg-blue-100 y se cambió el borde --> */}
       <footer className="p-3 sm:p-4 border-t border-blue-300 flex justify-end items-center">
         <span className="text-sm font-medium text-gray-700 uppercase mr-4">Total</span>
-        <span className="text-xl font-bold text-gray-900">{formatCurrency(total)}</span>
+        <span className="text-xl font-bold text-gray-900">{formatCurrency(cartItems.reduce((acc, item) => acc + (item.price * (1 + (userPercentage / 100)) * item.quantity), 0))}</span>
       </footer>
     </div>
   );
@@ -928,6 +945,7 @@ function PriceListPage({ user, onLogout }) {
         onClearCart={handleClearCart}
         onIncrement={handleIncrementQuantity}
         onDecrement={handleDecrementQuantity}
+        userPercentage={user.percentage}
       />
 
       {/* --- Título de la tabla de productos (MODIFICADO) --- */}
@@ -967,7 +985,7 @@ function PriceListPage({ user, onLogout }) {
                     <p className="text-sm text-gray-500">Código: {product.code}</p>
                   </div>
                   <p className="text-xl font-bold text-gray-900 mb-3">
-                    {formatCurrency(product.price)}
+                    {formatCurrency(product.price * (1 + (user.percentage / 100)))}
                   </p>
                   <button
                     onClick={() => handleAddToCart(product)}
@@ -1020,7 +1038,7 @@ function PriceListPage({ user, onLogout }) {
                         {product.description}
                       </td>
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
-                        {formatCurrency(product.price)}
+                        {formatCurrency(product.price * (1 + (user.percentage / 100)))}
                       </td>
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-center">
                         <button
