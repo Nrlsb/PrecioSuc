@@ -96,6 +96,9 @@ const MicIcon = ({ size = 20, className = "" }) => (
     <line x1="8" y1="23" x2="16" y2="23" />
   </svg>
 );
+// --- Constantes de Configuración ---
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
 // --- Componente de Login ---
 // --- Componente de Login ---
 function LoginForm({ onLogin }) {
@@ -108,7 +111,7 @@ function LoginForm({ onLogin }) {
     setError('');
 
     try {
-      const response = await fetch(`http://localhost:3001/api/login`, {
+      const response = await fetch(`${API_URL}/api/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),
@@ -191,7 +194,7 @@ function UserRegistration({ adminUsername }) {
     setMessage('');
 
     try {
-      const response = await fetch(`http://localhost:3001/api/register`, {
+      const response = await fetch(`${API_URL}/api/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password, role, adminUsername }),
@@ -247,7 +250,7 @@ function UserManagementList({ adminUsername }) {
 
   const fetchUsers = useCallback(async () => {
     try {
-      const response = await fetch(`http://localhost:3001/api/admin/users?adminUsername=${adminUsername}`);
+      const response = await fetch(`${API_URL}/api/admin/users?adminUsername=${adminUsername}`);
       const data = await response.json();
       if (response.ok) {
         setUsers(data);
@@ -267,7 +270,7 @@ function UserManagementList({ adminUsername }) {
 
   const toggleAccess = async (targetUsername, currentAccess) => {
     try {
-      const response = await fetch('http://localhost:3001/api/admin/update-access', {
+      const response = await fetch(`${API_URL}/api/admin/update-access`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -311,8 +314,8 @@ function UserManagementList({ adminUsername }) {
                     onClick={() => toggleAccess(u.username, u.canSeePrices)}
                     disabled={u.role === 'admin'}
                     className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${u.canSeePrices
-                        ? 'bg-green-100 text-green-700 hover:bg-green-200'
-                        : 'bg-red-100 text-red-700 hover:bg-red-200'
+                      ? 'bg-green-100 text-green-700 hover:bg-green-200'
+                      : 'bg-red-100 text-red-700 hover:bg-red-200'
                       } ${u.role === 'admin' ? 'opacity-50 cursor-not-allowed' : ''}`}
                   >
                     {u.canSeePrices ? 'Activado' : 'Desactivado'}
@@ -660,7 +663,7 @@ function PriceListPage({ user, onLogout }) {
 
     setIsUpdatingPrices(true);
     try {
-      const response = await fetch('http://localhost:3001/api/admin/update-prices', {
+      const response = await fetch(`${API_URL}/api/admin/update-prices`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ adminUsername: user.username }),
@@ -682,7 +685,7 @@ function PriceListPage({ user, onLogout }) {
 
   const loadProducts = useCallback(() => {
     setIsLoading(true);
-    fetch(`http://localhost:3001/api/products?adminUsername=${user.username}`)
+    fetch(`${API_URL}/api/products?adminUsername=${user.username}`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`Error al cargar los productos`);
