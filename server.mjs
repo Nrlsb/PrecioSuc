@@ -11,6 +11,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3001;
 const USERS_FILE = path.join(__dirname, 'users.json');
+const SETTINGS_FILE = path.join(__dirname, 'settings.json');
+
 
 app.use(cors());
 app.use(express.json());
@@ -32,6 +34,25 @@ async function readUsers() {
 async function saveUsers(users) {
     await writeFile(USERS_FILE, JSON.stringify(users, null, 2));
 }
+
+// Helper para leer settings
+async function readSettings() {
+    try {
+        const data = await readFile(SETTINGS_FILE, 'utf-8');
+        return JSON.parse(data);
+    } catch (error) {
+        if (error.code === 'ENOENT') {
+            return { usd_billete: 1, usd_divisa: 1 };
+        }
+        throw error;
+    }
+}
+
+// Helper para guardar settings
+async function saveSettings(settings) {
+    await writeFile(SETTINGS_FILE, JSON.stringify(settings, null, 2));
+}
+
 
 // Endpoint de login
 app.post('/api/login', async (req, res) => {
@@ -155,6 +176,39 @@ app.post('/api/admin/update-access', async (req, res) => {
     res.json({ success: true, message: 'Permisos actualizados' });
 });
 
+// Endpoint para obtener settings (Solo Admin)
+app.get('/api/admin/settings', async (req, res) => {
+    const { adminUsername } = req.query;
+    const users = await readUsers();
+    const admin = users.find(u => u.username === adminUsername && u.role === 'admin');
+
+    if (!admin) {
+        return res.status(403).json({ success: false, message: 'No tienes permisos' });
+    }
+
+    const settings = await readSettings();
+    res.json(settings);
+});
+
+// Endpoint para guardar settings (Solo Admin)
+app.post('/api/admin/settings', async (req, res) => {
+    const { adminUsername, usd_billete, usd_divisa } = req.body;
+    const users = await readUsers();
+    const admin = users.find(u => u.username === adminUsername && u.role === 'admin');
+
+    if (!admin) {
+        return res.status(403).json({ success: false, message: 'No tienes permisos' });
+    }
+
+    await saveSettings({
+        usd_billete: Number(usd_billete) || 1,
+        usd_divisa: Number(usd_divisa) || 1
+    });
+
+    res.json({ success: true, message: 'Configuración guardada' });
+});
+
 app.listen(PORT, () => {
+
     console.log(`Servidor de autenticación corriendo en http://localhost:${PORT}`);
 });

@@ -319,8 +319,8 @@
     "code": "000073",
     "description": "D8501 PRIMER 2K DP4000 BLANCO AUTONIVELANTE (G1) X 1",
     "stock": "0134",
-    "price_neto": 53.475,
-    "price": 64.7,
+    "price_neto": 74838.2625,
+    "price": 90554.3,
     "tes": "503"
   },
   {
@@ -328,8 +328,8 @@
     "code": "000074",
     "description": "D8507 PRIMER 2K DP4000 GRIS  AUTONIVELANTE (G7) X 1",
     "stock": "0134",
-    "price_neto": 52.003,
-    "price": 62.92,
+    "price_neto": 72778.1985,
+    "price": 88061.62,
     "tes": "503"
   },
   {
@@ -1192,8 +1192,8 @@
     "code": "000218",
     "description": "PM01.04 PRIMER MULTIFILLER 1K ACS X 0.900",
     "stock": "0132",
-    "price_neto": 19.1525,
-    "price": 23.17,
+    "price_neto": 26803.9237,
+    "price": 32432.75,
     "tes": "503"
   },
   {
@@ -1210,8 +1210,8 @@
     "code": "000220",
     "description": "FBR551 CLEAR EPOXI MAXIPISO X 20",
     "stock": "0133",
-    "price_neto": 641.1958,
-    "price": 775.85,
+    "price_neto": 897353.5221,
+    "price": 1085797.76,
     "tes": "503"
   },
   {
@@ -1219,8 +1219,8 @@
     "code": "000221",
     "description": "FBR560 ENDURECEDOR EPOXI MAXIPISO X 0,600",
     "stock": "0133",
-    "price_neto": 67.2305,
-    "price": 81.35,
+    "price_neto": 94089.0848,
+    "price": 113847.79,
     "tes": "503"
   },
   {
@@ -1228,8 +1228,8 @@
     "code": "000222",
     "description": "FBR100 PRIMER PU DIRECTO METAL X 20",
     "stock": "0133",
-    "price_neto": 420.189,
-    "price": 508.43,
+    "price_neto": 588054.5055,
+    "price": 711545.95,
     "tes": "503"
   },
   {
@@ -1237,26 +1237,26 @@
     "code": "000223",
     "description": "PISTOLA PARA PINTAR EXPERTO SISTEMA HVLP 600 PICO 1.4 (383058)",
     "stock": "0180",
-    "price_neto": 78371.1004,
+    "price_neto": 85818.128,
     "price": 94829.03,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000224",
     "code": "000224",
     "description": "PISTOLA PARA PINTAR EXPERTO SISTEMA HVLP 2EN1 PREMIUM 600 PICO 1.3 (383147)",
     "stock": "0180",
-    "price_neto": 230746.3813,
+    "price_neto": 252672.508,
     "price": 279203.12,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000225",
     "code": "000225",
     "description": "PM01.01 PRIMER MULTIFILLER 1K ACS X 3.500",
     "stock": "0132",
-    "price_neto": 73.738,
-    "price": 89.22,
+    "price_neto": 103196.331,
+    "price": 124867.56,
     "tes": "503"
   },
   {
@@ -1264,17 +1264,17 @@
     "code": "000226",
     "description": "PISTOLA PARA SUBCARROCERIA EXPERTO 50MM (387711)",
     "stock": "0180",
-    "price_neto": 37921.4905,
+    "price_neto": 41524.89,
     "price": 45885,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000227",
     "code": "000227",
     "description": "V21.08 BARNIZ HS ACS EVOLUTION X 4",
     "stock": "0132",
-    "price_neto": 111.527,
-    "price": 134.95,
+    "price_neto": 156082.0365,
+    "price": 188859.26,
     "tes": "503"
   },
   {
@@ -1282,8 +1282,8 @@
     "code": "000228",
     "description": "EC800.01 BARNIZ DE SECADO ULTRA RAPIDO EHP X 3.785",
     "stock": "0169",
-    "price_neto": 167.624,
-    "price": 202.83,
+    "price_neto": 234589.788,
+    "price": 283853.64,
     "tes": "503"
   },
   {
@@ -1291,8 +1291,8 @@
     "code": "000229",
     "description": "ECH8075.900 CATALIZADOR PARA BARNIZ EC800 EHP X 0.946",
     "stock": "0169",
-    "price_neto": 103.9368,
-    "price": 125.76,
+    "price_neto": 145459.5516,
+    "price": 176006.06,
     "tes": "503"
   },
   {
@@ -1318,8 +1318,8 @@
     "code": "000235",
     "description": "PAPEL DAMERO - DOXG1G7",
     "stock": "0134",
-    "price_neto": 0.338,
-    "price": 0.41,
+    "price_neto": 473.031,
+    "price": 572.37,
     "tes": "503"
   },
   {
@@ -1588,8 +1588,8 @@
     "code": "000275",
     "description": "V21.11 BARNIZ HS ACS EVOLUTION X 0.900",
     "stock": "0132",
-    "price_neto": 29.281,
-    "price": 35.43,
+    "price_neto": 40978.7595,
+    "price": 49584.3,
     "tes": "503"
   },
   {
@@ -1867,8 +1867,8 @@
     "code": "000316",
     "description": "ESPUMA POLIURETANO NODUPOL X 0,250",
     "stock": "0136",
-    "price_neto": 6.7375,
-    "price": 8.15,
+    "price_neto": 9567.25,
+    "price": 11576.37,
     "tes": "503"
   },
   {
@@ -1876,8 +1876,8 @@
     "code": "000317",
     "description": "ESPUMA POLIURETANO NODUPOL X 0,500",
     "stock": "0136",
-    "price_neto": 9.624,
-    "price": 11.65,
+    "price_neto": 13666.08,
+    "price": 16535.96,
     "tes": "503"
   },
   {
@@ -1885,8 +1885,8 @@
     "code": "000318",
     "description": "ESPUMA POLIURETANO NODUPOL X 0,750",
     "stock": "0136",
-    "price_neto": 12.173,
-    "price": 14.73,
+    "price_neto": 17285.66,
+    "price": 20915.65,
     "tes": "503"
   },
   {
@@ -1930,8 +1930,8 @@
     "code": "000325",
     "description": "FILTRO DE PAPEL PARA BASE AGUA DOX125V",
     "stock": "0134",
-    "price_neto": 0.598,
-    "price": 0.72,
+    "price_neto": 836.901,
+    "price": 1012.65,
     "tes": "503"
   },
   {
@@ -1966,8 +1966,8 @@
     "code": "000330",
     "description": "FILTRO DE PAPEL PARA BASE SOLVENTE DOX113V",
     "stock": "0134",
-    "price_neto": 0.624,
-    "price": 0.76,
+    "price_neto": 873.288,
+    "price": 1056.68,
     "tes": "503"
   },
   {
@@ -2434,8 +2434,8 @@
     "code": "000407",
     "description": "GASA BARNIZADA PPG (SX1070X)",
     "stock": "0134",
-    "price_neto": 2.6544,
-    "price": 3.21,
+    "price_neto": 3714.8328,
+    "price": 4494.95,
     "tes": "503"
   },
   {
@@ -4234,18 +4234,18 @@
     "code": "000659",
     "description": "PISTOLA PARA PINTAR CANE A.L 150",
     "stock": "0115",
-    "price_neto": 354544.3458,
+    "price_neto": 388234.08,
     "price": 428998.66,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000660",
     "code": "000660",
     "description": "PISTOLA PARA PINTAR CANE  A.L 700",
     "stock": "0115",
-    "price_neto": 434552.8845,
+    "price_neto": 475845.24,
     "price": 525808.99,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000661",
@@ -4261,9 +4261,9 @@
     "code": "000663",
     "description": "PISTOLA PARA PINTAR CANE S.K.P.",
     "stock": "0115",
-    "price_neto": 52295.2483,
+    "price_neto": 57264.48,
     "price": 63277.25,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000664",
@@ -4288,9 +4288,9 @@
     "code": "000666",
     "description": "PISTOLA PARA PINTAR CANE H.V.G.",
     "stock": "0115",
-    "price_neto": 509949.902,
+    "price_neto": 558406.68,
     "price": 617039.38,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000667",
@@ -5143,8 +5143,8 @@
     "code": "000788",
     "description": "ESCALERA MULTIPROPOSITO ALUMINIO 12 ESC",
     "stock": "0149",
-    "price_neto": 275.52,
-    "price": 333.38,
+    "price_neto": 391238.4,
+    "price": 473398.46,
     "tes": "503"
   },
   {
@@ -5152,8 +5152,8 @@
     "code": "000789",
     "description": "ESCALERA MULTIPROPOSITO ALUMINIO 16 ESC.",
     "stock": "0149",
-    "price_neto": 324.72,
-    "price": 392.91,
+    "price_neto": 461102.4,
+    "price": 557933.9,
     "tes": "503"
   },
   {
@@ -5332,8 +5332,8 @@
     "code": "000817",
     "description": "GUANTES DE JERSEY MOTEADOS X2",
     "stock": "0124",
-    "price_neto": 1.175,
-    "price": 1.42,
+    "price_neto": 1668.5,
+    "price": 2018.89,
     "tes": "503"
   },
   {
@@ -5809,9 +5809,9 @@
     "code": "000888",
     "description": "FILTRO CANE C.10",
     "stock": "0115",
-    "price_neto": 258128.3653,
+    "price_neto": 282656.4,
     "price": 312335.32,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000890",
@@ -5899,8 +5899,8 @@
     "code": "000903",
     "description": "V51.04 BARNIZ BI COMPONENTE ACS X 0.750",
     "stock": "0132",
-    "price_neto": 15.5805,
-    "price": 18.85,
+    "price_neto": 21804.9098,
+    "price": 26383.94,
     "tes": "503"
   },
   {
@@ -5917,8 +5917,8 @@
     "code": "000905",
     "description": "P51.04 PRIMER PU 5:1 ACS X 0.750",
     "stock": "0132",
-    "price_neto": 16.9905,
-    "price": 20.56,
+    "price_neto": 23778.2048,
+    "price": 28771.63,
     "tes": "503"
   },
   {
@@ -5953,8 +5953,8 @@
     "code": "000909",
     "description": "PU01.04 PRIMER UNIVERSAL 1K ACS X 0.900",
     "stock": "0132",
-    "price_neto": 18.8,
-    "price": 22.75,
+    "price_neto": 26310.6,
+    "price": 31835.83,
     "tes": "503"
   },
   {
@@ -5962,9 +5962,9 @@
     "code": "000910",
     "description": "PISTOLA PARA PINTAR CANE C.S 150",
     "stock": "0115",
-    "price_neto": 246910.8436,
+    "price_neto": 270372.96,
     "price": 298762.12,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "000911",
@@ -6277,8 +6277,8 @@
     "code": "000951",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 8 ESC.",
     "stock": "0149",
-    "price_neto": 485.44,
-    "price": 587.38,
+    "price_neto": 689324.8,
+    "price": 834083.01,
     "tes": "503"
   },
   {
@@ -6286,8 +6286,8 @@
     "code": "000953",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 10 ESC.",
     "stock": "0149",
-    "price_neto": 583.84,
-    "price": 706.45,
+    "price_neto": 829052.8,
+    "price": 1003153.89,
     "tes": "503"
   },
   {
@@ -6295,8 +6295,8 @@
     "code": "000954",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 12 ESC.",
     "stock": "0149",
-    "price_neto": 652.72,
-    "price": 789.79,
+    "price_neto": 926862.4,
+    "price": 1121503.5,
     "tes": "503"
   },
   {
@@ -6304,8 +6304,8 @@
     "code": "000955",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 14 ESC.",
     "stock": "0149",
-    "price_neto": 895.44,
-    "price": 1083.48,
+    "price_neto": 1271524.8,
+    "price": 1538545.01,
     "tes": "503"
   },
   {
@@ -6313,8 +6313,8 @@
     "code": "000956",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 16 ESC.",
     "stock": "0149",
-    "price_neto": 1066,
-    "price": 1289.86,
+    "price_neto": 1513720,
+    "price": 1831601.2,
     "tes": "503"
   },
   {
@@ -6322,8 +6322,8 @@
     "code": "000957",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 18 ESC.",
     "stock": "0149",
-    "price_neto": 1187.36,
-    "price": 1436.71,
+    "price_neto": 1686051.2,
+    "price": 2040121.95,
     "tes": "503"
   },
   {
@@ -6331,8 +6331,8 @@
     "code": "000958",
     "description": "ESCALERA DE ALUMINIO SIN FIN BOMBERO 20 ESC.",
     "stock": "0149",
-    "price_neto": 1385.8,
-    "price": 1676.82,
+    "price_neto": 1967836,
+    "price": 2381081.56,
     "tes": "503"
   },
   {
@@ -7852,8 +7852,8 @@
     "code": "001225",
     "description": "MR.04 MASILLA RAPIDA UNIVERSAL (GRIS) X 0.900",
     "stock": "0132",
-    "price_neto": 25.8265,
-    "price": 31.25,
+    "price_neto": 36144.1868,
+    "price": 43734.47,
     "tes": "503"
   },
   {
@@ -7861,8 +7861,8 @@
     "code": "001226",
     "description": "END020.32 CATALIZADOR RAPIDO ACS X 0.180",
     "stock": "0132",
-    "price_neto": 9.4815,
-    "price": 11.47,
+    "price_neto": 13269.3593,
+    "price": 16055.92,
     "tes": "503"
   },
   {
@@ -7897,8 +7897,8 @@
     "code": "001230",
     "description": "C100-3402 FLEXIB.P/PLAST.X 0,250 (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 286.7235,
-    "price": 346.94,
+    "price_neto": 401269.5383,
+    "price": 485536.14,
     "tes": "503"
   },
   {
@@ -8743,8 +8743,8 @@
     "code": "001360",
     "description": "END010.11 CATALIZADOR NORMAL ACS X 1",
     "stock": "0132",
-    "price_neto": 29.892,
-    "price": 36.17,
+    "price_neto": 41833.854,
+    "price": 50618.96,
     "tes": "503"
   },
   {
@@ -8923,8 +8923,8 @@
     "code": "001387",
     "description": "M01.17 MASILLA POLIESTER ACS EVOLUTION X 1.000",
     "stock": "0132",
-    "price_neto": 20.5155,
-    "price": 24.82,
+    "price_neto": 28711.4423,
+    "price": 34740.85,
     "tes": "503"
   },
   {
@@ -9067,8 +9067,8 @@
     "code": "001421",
     "description": "END010.31 CATALIZADOR NORMAL ACS X 0.150",
     "stock": "0132",
-    "price_neto": 7.9135,
-    "price": 9.58,
+    "price_neto": 11074.9433,
+    "price": 13400.68,
     "tes": "503"
   },
   {
@@ -9076,8 +9076,8 @@
     "code": "001422",
     "description": "END020.02 CATALIZADOR RAPIDO ACS X 0.450",
     "stock": "0132",
-    "price_neto": 22.56,
-    "price": 27.3,
+    "price_neto": 31572.72,
+    "price": 38202.99,
     "tes": "503"
   },
   {
@@ -9085,8 +9085,8 @@
     "code": "001423",
     "description": "END020.11 CATALIZADOR RAPIDO ACS X 1",
     "stock": "0132",
-    "price_neto": 35.9315,
-    "price": 43.48,
+    "price_neto": 50286.1343,
+    "price": 60846.22,
     "tes": "503"
   },
   {
@@ -9094,8 +9094,8 @@
     "code": "001424",
     "description": "END010.02 CATALIZADOR NORMAL ACS X 0.450",
     "stock": "0132",
-    "price_neto": 19.608,
-    "price": 23.73,
+    "price_neto": 27441.396,
+    "price": 33204.09,
     "tes": "503"
   },
   {
@@ -9121,8 +9121,8 @@
     "code": "001432",
     "description": "SIGMATHERM 540 X 20",
     "stock": "0162",
-    "price_neto": 880.6,
-    "price": 1065.53,
+    "price_neto": 1232399.7,
+    "price": 1491203.64,
     "tes": "503"
   },
   {
@@ -9130,8 +9130,8 @@
     "code": "001433",
     "description": "D807P.04 DILUYENTE MEDIO PU/POLIESTER PPG X  1",
     "stock": "0134",
-    "price_neto": 17.411,
-    "price": 21.07,
+    "price_neto": 24366.6945,
+    "price": 29483.7,
     "tes": "503"
   },
   {
@@ -9139,8 +9139,8 @@
     "code": "001434",
     "description": "D807P-10 DILUYENTE MEDIO PU/POLIESTER PPG X  5",
     "stock": "0134",
-    "price_neto": 63.9675,
-    "price": 77.4,
+    "price_neto": 89522.5163,
+    "price": 108322.24,
     "tes": "503"
   },
   {
@@ -9148,8 +9148,8 @@
     "code": "001435",
     "description": "D807P.20 DILUYENTE MEDIO PU/POLIESTER PPG X 20",
     "stock": "0134",
-    "price_neto": 239.463,
-    "price": 289.75,
+    "price_neto": 335128.4685,
+    "price": 405505.45,
     "tes": "503"
   },
   {
@@ -9220,8 +9220,8 @@
     "code": "001452",
     "description": "P426-HE03 GRAPHITE FLAKE X 1",
     "stock": "0902",
-    "price_neto": 148.716,
-    "price": 179.95,
+    "price_neto": 208128.042,
+    "price": 251834.93,
     "tes": "503"
   },
   {
@@ -9229,8 +9229,8 @@
     "code": "001453",
     "description": "P426-HE04 GOLD FLASH X 1",
     "stock": "0131",
-    "price_neto": 135.96,
-    "price": 164.51,
+    "price_neto": 190276.02,
+    "price": 230233.98,
     "tes": "503"
   },
   {
@@ -9238,8 +9238,8 @@
     "code": "001454",
     "description": "P426-PP05 PEARL WHITE X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9247,8 +9247,8 @@
     "code": "001455",
     "description": "P426-PP06 FINE PEARL WHITE X 1",
     "stock": "0131",
-    "price_neto": 132.192,
-    "price": 159.95,
+    "price_neto": 185002.704,
+    "price": 223853.27,
     "tes": "503"
   },
   {
@@ -9256,8 +9256,8 @@
     "code": "001456",
     "description": "P426-PP07-E1C PEARL BLUE X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9265,8 +9265,8 @@
     "code": "001457",
     "description": "P426-PP08-E1C RED PEARL X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9274,8 +9274,8 @@
     "code": "001458",
     "description": "P426-PP09 PEARL GOLD X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9283,8 +9283,8 @@
     "code": "001459",
     "description": "P426-PP10 COPPER PEARL X 1",
     "stock": "0131",
-    "price_neto": 132.192,
-    "price": 159.95,
+    "price_neto": 185002.704,
+    "price": 223853.27,
     "tes": "503"
   },
   {
@@ -9292,8 +9292,8 @@
     "code": "001460",
     "description": "P426-PP60 PEARL WHITE ULTRAFINE X 1",
     "stock": "0131",
-    "price_neto": 132.192,
-    "price": 159.95,
+    "price_neto": 185002.704,
+    "price": 223853.27,
     "tes": "503"
   },
   {
@@ -9301,8 +9301,8 @@
     "code": "001461",
     "description": "P426-PP61 PEARL RED FINE X 1",
     "stock": "0131",
-    "price_neto": 132.192,
-    "price": 159.95,
+    "price_neto": 185002.704,
+    "price": 223853.27,
     "tes": "503"
   },
   {
@@ -9310,8 +9310,8 @@
     "code": "001462",
     "description": "P426-PP62 RUSSET PEARL FINE X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9319,8 +9319,8 @@
     "code": "001463",
     "description": "P426-PP63 PEARL BLUE FINE X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9328,8 +9328,8 @@
     "code": "001464",
     "description": "P426-PP64 PEARL VIOLET MEDIUM X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -9337,8 +9337,8 @@
     "code": "001465",
     "description": "P426-PP65 PEARL GREEN MEDIUM X 1",
     "stock": "0131",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -10246,8 +10246,8 @@
     "code": "001591",
     "description": "CINTA DE PAPEL RAPIFIX USO GENERAL NEGRO (520) 36MM",
     "stock": "0181",
-    "price_neto": 6.942,
-    "price": 8.4,
+    "price_neto": 9857.64,
+    "price": 11927.74,
     "tes": "503"
   },
   {
@@ -10255,8 +10255,8 @@
     "code": "001595",
     "description": "CINTA DE PAPEL RAPIFIX OBRA PREMIUM AZUL (550) 36MM",
     "stock": "0181",
-    "price_neto": 5.018,
-    "price": 6.07,
+    "price_neto": 7125.56,
+    "price": 8621.93,
     "tes": "503"
   },
   {
@@ -10264,8 +10264,8 @@
     "code": "001596",
     "description": "CINTA DE PAPEL RAPIFIX OBRA PREMIUM AZUL (550) 48MM",
     "stock": "0181",
-    "price_neto": 6.708,
-    "price": 8.12,
+    "price_neto": 9525.36,
+    "price": 11525.69,
     "tes": "503"
   },
   {
@@ -10372,8 +10372,8 @@
     "code": "001610",
     "description": "D839.04 PRIMER 2K PRIMA X 0,750",
     "stock": "0134",
-    "price_neto": 33.12,
-    "price": 40.08,
+    "price_neto": 46351.44,
+    "price": 56085.24,
     "tes": "503"
   },
   {
@@ -10381,8 +10381,8 @@
     "code": "001611",
     "description": "D839.01 PRIMER 2K PRIMA X 3",
     "stock": "0134",
-    "price_neto": 116.505,
-    "price": 140.97,
+    "price_neto": 163048.7475,
+    "price": 197288.98,
     "tes": "503"
   },
   {
@@ -10543,8 +10543,8 @@
     "code": "001634",
     "description": "P425-992/E1 SHINING COARSE ALUMINIUM X 1",
     "stock": "0131",
-    "price_neto": 137.904,
-    "price": 166.86,
+    "price_neto": 192996.648,
+    "price": 233525.94,
     "tes": "503"
   },
   {
@@ -10570,8 +10570,8 @@
     "code": "001638",
     "description": "MP03.04 PASTA DE PULIR BASE AGUA X 1.000",
     "stock": "0132",
-    "price_neto": 18.142,
-    "price": 21.95,
+    "price_neto": 25389.729,
+    "price": 30721.57,
     "tes": "503"
   },
   {
@@ -10579,8 +10579,8 @@
     "code": "001640",
     "description": "P425-956 HS SUPER BLUE X 1",
     "stock": "0131",
-    "price_neto": 116.472,
-    "price": 140.93,
+    "price_neto": 163002.564,
+    "price": 197233.1,
     "tes": "503"
   },
   {
@@ -10588,8 +10588,8 @@
     "code": "001641",
     "description": "P426-HE02/E1 ULTRA FINE WHITE X 1",
     "stock": "0131",
-    "price_neto": 90,
-    "price": 108.9,
+    "price_neto": 125955,
+    "price": 152405.55,
     "tes": "503"
   },
   {
@@ -10597,8 +10597,8 @@
     "code": "001642",
     "description": "P425-941 H S STRONG RED X 1",
     "stock": "0131",
-    "price_neto": 80.568,
-    "price": 97.49,
+    "price_neto": 112754.916,
+    "price": 136433.45,
     "tes": "503"
   },
   {
@@ -10615,8 +10615,8 @@
     "code": "001644",
     "description": "ENVASE DE HOJALATA VACIO X 0,500",
     "stock": "0122",
-    "price_neto": 1.166,
-    "price": 1.41,
+    "price_neto": 1655.72,
+    "price": 2003.42,
     "tes": "503"
   },
   {
@@ -10624,8 +10624,8 @@
     "code": "001645",
     "description": "ENVASE DE HOJALATA VACIO X 1",
     "stock": "0122",
-    "price_neto": 1.276,
-    "price": 1.54,
+    "price_neto": 1811.92,
+    "price": 2192.42,
     "tes": "503"
   },
   {
@@ -10633,8 +10633,8 @@
     "code": "001646",
     "description": "ENVASE DE HOJALATA VACIO X 4",
     "stock": "0122",
-    "price_neto": 3.454,
-    "price": 4.18,
+    "price_neto": 4904.68,
+    "price": 5934.66,
     "tes": "503"
   },
   {
@@ -10642,8 +10642,8 @@
     "code": "001647",
     "description": "P192-475/E1 CLEARS BICAPA COLORES SOLIDOS X 1",
     "stock": "0131",
-    "price_neto": 78.936,
-    "price": 95.51,
+    "price_neto": 110470.932,
+    "price": 133669.83,
     "tes": "503"
   },
   {
@@ -10651,8 +10651,8 @@
     "code": "001648",
     "description": "P192-5600/E2.5 CLEARS BICAPA PERLADOS/METALIZADOS X 2.500",
     "stock": "0131",
-    "price_neto": 235.056,
-    "price": 284.42,
+    "price_neto": 328960.872,
+    "price": 398042.66,
     "tes": "503"
   },
   {
@@ -10660,8 +10660,8 @@
     "code": "001649",
     "description": "P192-528 CLEARS BICAPA ALUMINIOS X 2,500",
     "stock": "0131",
-    "price_neto": 211.104,
-    "price": 255.44,
+    "price_neto": 295440.048,
+    "price": 357482.46,
     "tes": "503"
   },
   {
@@ -10669,8 +10669,8 @@
     "code": "001650",
     "description": "P565-554 MATIZANTE X 1",
     "stock": "0131",
-    "price_neto": 89.856,
-    "price": 108.73,
+    "price_neto": 125753.472,
+    "price": 152161.7,
     "tes": "503"
   },
   {
@@ -10678,8 +10678,8 @@
     "code": "001651",
     "description": "P420-902 R/T PALE WHITE X 1",
     "stock": "0131",
-    "price_neto": 119.352,
-    "price": 144.42,
+    "price_neto": 167033.124,
+    "price": 202110.08,
     "tes": "503"
   },
   {
@@ -10687,8 +10687,8 @@
     "code": "001652",
     "description": "P420-904 TRANSPARENT BLACK X 1",
     "stock": "0131",
-    "price_neto": 118.272,
-    "price": 143.11,
+    "price_neto": 165521.664,
+    "price": 200281.21,
     "tes": "503"
   },
   {
@@ -10696,8 +10696,8 @@
     "code": "001653",
     "description": "P420-905 YELLOW OXIDE X 2,5",
     "stock": "0131",
-    "price_neto": 183.576,
-    "price": 222.13,
+    "price_neto": 256914.612,
+    "price": 310866.68,
     "tes": "503"
   },
   {
@@ -10705,8 +10705,8 @@
     "code": "001654",
     "description": "P420-907 RED OXIDE X 1",
     "stock": "0131",
-    "price_neto": 110.016,
-    "price": 133.12,
+    "price_neto": 153967.392,
+    "price": 186300.54,
     "tes": "503"
   },
   {
@@ -10714,8 +10714,8 @@
     "code": "001655",
     "description": "P420-908 R/T RUSSET X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10723,8 +10723,8 @@
     "code": "001656",
     "description": "P420-910 R/T DEEP BLUE X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10741,8 +10741,8 @@
     "code": "001658",
     "description": "P420-920 VIOLET X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10759,8 +10759,8 @@
     "code": "001660",
     "description": "P420-930 BLUE LAKE X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10768,8 +10768,8 @@
     "code": "001661",
     "description": "P420-933 BLUE BLACK X 3,5",
     "stock": "0131",
-    "price_neto": 264.799,
-    "price": 320.41,
+    "price_neto": 370586.2005,
+    "price": 448409.3,
     "tes": "503"
   },
   {
@@ -10777,8 +10777,8 @@
     "code": "001662",
     "description": "P420-938 TONE CONTROLLER X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10786,8 +10786,8 @@
     "code": "001663",
     "description": "P420-942 TRANSOXIDE RED X 1",
     "stock": "0131",
-    "price_neto": 110.016,
-    "price": 133.12,
+    "price_neto": 153967.392,
+    "price": 186300.54,
     "tes": "503"
   },
   {
@@ -10795,8 +10795,8 @@
     "code": "001664",
     "description": "P420-952 FAST BLUE X 1",
     "stock": "0131",
-    "price_neto": 83.664,
-    "price": 101.23,
+    "price_neto": 117087.768,
+    "price": 141676.2,
     "tes": "503"
   },
   {
@@ -10804,8 +10804,8 @@
     "code": "001665",
     "description": "P420-960 R/T BURGUNDY X 1",
     "stock": "0131",
-    "price_neto": 110.016,
-    "price": 133.12,
+    "price_neto": 153967.392,
+    "price": 186300.54,
     "tes": "503"
   },
   {
@@ -10831,8 +10831,8 @@
     "code": "001668",
     "description": "P420-975 BRONZE GREEN X 1",
     "stock": "0131",
-    "price_neto": 121.656,
-    "price": 147.2,
+    "price_neto": 170257.572,
+    "price": 206011.66,
     "tes": "503"
   },
   {
@@ -10849,8 +10849,8 @@
     "code": "001670",
     "description": "P420-978 BROWN X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10858,8 +10858,8 @@
     "code": "001671",
     "description": "P420-903 MEDIUM PALE YELLOW X 1",
     "stock": "0131",
-    "price_neto": 118.272,
-    "price": 143.11,
+    "price_neto": 165521.664,
+    "price": 200281.21,
     "tes": "503"
   },
   {
@@ -10867,8 +10867,8 @@
     "code": "001672",
     "description": "P420-982-E1C TRANSOXIDE YELLOW X 1(DISCONTINUADO)",
     "stock": "0902",
-    "price_neto": 123.768,
-    "price": 149.76,
+    "price_neto": 173213.316,
+    "price": 209588.11,
     "tes": "503"
   },
   {
@@ -10876,8 +10876,8 @@
     "code": "001673",
     "description": "P420-983 STRONG YELLOW X 1",
     "stock": "0131",
-    "price_neto": 118.248,
-    "price": 143.08,
+    "price_neto": 165488.076,
+    "price": 200240.57,
     "tes": "503"
   },
   {
@@ -10885,8 +10885,8 @@
     "code": "001674",
     "description": "P425-900-E3 SUPER WHITE X 3,5",
     "stock": "0131",
-    "price_neto": 222.019,
-    "price": 268.64,
+    "price_neto": 310715.5905,
+    "price": 375965.86,
     "tes": "503"
   },
   {
@@ -10894,8 +10894,8 @@
     "code": "001675",
     "description": "P425-921 H S CLARET X 1",
     "stock": "0131",
-    "price_neto": 139.056,
-    "price": 168.26,
+    "price_neto": 194608.872,
+    "price": 235476.74,
     "tes": "503"
   },
   {
@@ -10903,8 +10903,8 @@
     "code": "001676",
     "description": "P425-922 H S LAGOON BLUE X 1",
     "stock": "0131",
-    "price_neto": 139.056,
-    "price": 168.26,
+    "price_neto": 194608.872,
+    "price": 235476.74,
     "tes": "503"
   },
   {
@@ -10912,8 +10912,8 @@
     "code": "001677",
     "description": "P426-HE05 ORANGE FLASH X 1",
     "stock": "0131",
-    "price_neto": 132.192,
-    "price": 159.95,
+    "price_neto": 185002.704,
+    "price": 223853.27,
     "tes": "503"
   },
   {
@@ -10930,8 +10930,8 @@
     "code": "001680",
     "description": "P425-941 H S STRONG RED X 2,5 (DISCONTINUADO)",
     "stock": "0131",
-    "price_neto": 201.48,
-    "price": 243.79,
+    "price_neto": 281971.26,
+    "price": 341185.22,
     "tes": "503"
   },
   {
@@ -10939,8 +10939,8 @@
     "code": "001681",
     "description": "P425-948/E1 H S BLACK X 1",
     "stock": "0131",
-    "price_neto": 62.976,
-    "price": 76.2,
+    "price_neto": 88134.912,
+    "price": 106643.24,
     "tes": "503"
   },
   {
@@ -10948,8 +10948,8 @@
     "code": "001682",
     "description": "P425-950 H S JET BLACK X 1",
     "stock": "0131",
-    "price_neto": 137.904,
-    "price": 166.86,
+    "price_neto": 192996.648,
+    "price": 233525.94,
     "tes": "503"
   },
   {
@@ -10957,8 +10957,8 @@
     "code": "001683",
     "description": "P425-954 H S BLUE GREEN X 1",
     "stock": "0131",
-    "price_neto": 139.056,
-    "price": 168.26,
+    "price_neto": 194608.872,
+    "price": 235476.74,
     "tes": "503"
   },
   {
@@ -10966,8 +10966,8 @@
     "code": "001684",
     "description": "P425-957 H S FAST BLUE X 1",
     "stock": "0131",
-    "price_neto": 139.056,
-    "price": 168.26,
+    "price_neto": 194608.872,
+    "price": 235476.74,
     "tes": "503"
   },
   {
@@ -10975,8 +10975,8 @@
     "code": "001685",
     "description": "P425-971 H S BRILLANT RED X 1",
     "stock": "0131",
-    "price_neto": 149.832,
-    "price": 181.3,
+    "price_neto": 209689.884,
+    "price": 253724.76,
     "tes": "503"
   },
   {
@@ -10984,8 +10984,8 @@
     "code": "001686",
     "description": "P425-984/E1 H S BRIGHT ALUMINIUM X 1",
     "stock": "0131",
-    "price_neto": 137.928,
-    "price": 166.89,
+    "price_neto": 193030.236,
+    "price": 233566.59,
     "tes": "503"
   },
   {
@@ -10993,8 +10993,8 @@
     "code": "001687",
     "description": "P425-985 ALUMINIUM FINE X 1",
     "stock": "0131",
-    "price_neto": 137.904,
-    "price": 166.86,
+    "price_neto": 192996.648,
+    "price": 233525.94,
     "tes": "503"
   },
   {
@@ -11002,8 +11002,8 @@
     "code": "001688",
     "description": "P425-986 ALUMINIUM MEDIUM X 3,5",
     "stock": "0131",
-    "price_neto": 264.799,
-    "price": 320.41,
+    "price_neto": 370586.2005,
+    "price": 448409.3,
     "tes": "503"
   },
   {
@@ -11011,8 +11011,8 @@
     "code": "001689",
     "description": "P425-987 MEDIUM COARSE X 2,5",
     "stock": "0131",
-    "price_neto": 202.968,
-    "price": 245.59,
+    "price_neto": 284053.716,
+    "price": 343705,
     "tes": "503"
   },
   {
@@ -11020,8 +11020,8 @@
     "code": "001690",
     "description": "P425-988 ALUMINIUM CAORSE X 1",
     "stock": "0131",
-    "price_neto": 137.904,
-    "price": 166.86,
+    "price_neto": 192996.648,
+    "price": 233525.94,
     "tes": "503"
   },
   {
@@ -11029,8 +11029,8 @@
     "code": "001691",
     "description": "P425-989 ALUMINIUM VERY COARSE X 1",
     "stock": "0131",
-    "price_neto": 139.056,
-    "price": 168.26,
+    "price_neto": 194608.872,
+    "price": 235476.74,
     "tes": "503"
   },
   {
@@ -11038,8 +11038,8 @@
     "code": "001692",
     "description": "P425-998 H S COARSE SILVER DOLLAR ALUMINIUM X 1",
     "stock": "0131",
-    "price_neto": 139.056,
-    "price": 168.26,
+    "price_neto": 194608.872,
+    "price": 235476.74,
     "tes": "503"
   },
   {
@@ -11047,8 +11047,8 @@
     "code": "001693",
     "description": "P429-923 BRIGHT MAROON X 1",
     "stock": "0131",
-    "price_neto": 159.744,
-    "price": 193.29,
+    "price_neto": 223561.728,
+    "price": 270509.69,
     "tes": "503"
   },
   {
@@ -11056,8 +11056,8 @@
     "code": "001694",
     "description": "P429-937 PALE YELOW X 1",
     "stock": "0131",
-    "price_neto": 159.744,
-    "price": 193.29,
+    "price_neto": 223561.728,
+    "price": 270509.69,
     "tes": "503"
   },
   {
@@ -11065,8 +11065,8 @@
     "code": "001695",
     "description": "P429-976 H S RED VIOLET X 1",
     "stock": "0131",
-    "price_neto": 159.744,
-    "price": 193.29,
+    "price_neto": 223561.728,
+    "price": 270509.69,
     "tes": "503"
   },
   {
@@ -11074,8 +11074,8 @@
     "code": "001696",
     "description": "P190-376-E2 B INCOLORA DE MEZCLA X 2,5",
     "stock": "0131",
-    "price_neto": 159.456,
-    "price": 192.94,
+    "price_neto": 223158.672,
+    "price": 270021.99,
     "tes": "503"
   },
   {
@@ -11110,8 +11110,8 @@
     "code": "001701",
     "description": "ENVASE DE HOJALATA VACIO X20",
     "stock": "0122",
-    "price_neto": 11.242,
-    "price": 13.6,
+    "price_neto": 15963.64,
+    "price": 19316,
     "tes": "503"
   },
   {
@@ -11119,8 +11119,8 @@
     "code": "001703",
     "description": "P429-961 HS CLEAN MAGENTA X 1",
     "stock": "0131",
-    "price_neto": 148.584,
-    "price": 179.79,
+    "price_neto": 207943.308,
+    "price": 251611.4,
     "tes": "503"
   },
   {
@@ -11173,8 +11173,8 @@
     "code": "001716",
     "description": "CINTA  AUTOMOTOR RAPIFIX (570) 12MM",
     "stock": "0181",
-    "price_neto": 1.5745,
-    "price": 1.91,
+    "price_neto": 2235.79,
+    "price": 2705.31,
     "tes": "503"
   },
   {
@@ -11182,8 +11182,8 @@
     "code": "001717",
     "description": "CINTA  AUTOMOTOR RAPIFIX (570) 15MM",
     "stock": "0181",
-    "price_neto": 1.974,
-    "price": 2.39,
+    "price_neto": 2803.08,
+    "price": 3391.73,
     "tes": "503"
   },
   {
@@ -11191,8 +11191,8 @@
     "code": "001718",
     "description": "CINTA  AUTOMOTOR RAPIFIX (570) 18MM",
     "stock": "0181",
-    "price_neto": 2.35,
-    "price": 2.84,
+    "price_neto": 3337,
+    "price": 4037.77,
     "tes": "503"
   },
   {
@@ -11200,8 +11200,8 @@
     "code": "001719",
     "description": "CINTA  AUTOMOTOR RAPIFIX (570) 24MM",
     "stock": "0181",
-    "price_neto": 3.149,
-    "price": 3.81,
+    "price_neto": 4471.58,
+    "price": 5410.61,
     "tes": "503"
   },
   {
@@ -11209,8 +11209,8 @@
     "code": "001720",
     "description": "CINTA  AUTOMOTOR RAPIFIX (570) 36MM",
     "stock": "0181",
-    "price_neto": 4.7235,
-    "price": 5.72,
+    "price_neto": 6707.37,
+    "price": 8115.92,
     "tes": "503"
   },
   {
@@ -11218,8 +11218,8 @@
     "code": "001721",
     "description": "CINTA  AUTOMOTOR RAPIFIX (570) 48MM",
     "stock": "0181",
-    "price_neto": 6.298,
-    "price": 7.62,
+    "price_neto": 8943.16,
+    "price": 10821.22,
     "tes": "503"
   },
   {
@@ -11227,8 +11227,8 @@
     "code": "001722",
     "description": "CINTA  AUTOMOTOR RAPIFIX PREMIUM VERDE (560) 18MM",
     "stock": "0181",
-    "price_neto": 2.35,
-    "price": 2.84,
+    "price_neto": 3337,
+    "price": 4037.77,
     "tes": "503"
   },
   {
@@ -11236,8 +11236,8 @@
     "code": "001723",
     "description": "CINTA  AUTOMOTOR RAPIFIX PREMIUM VERDE (560) 48MM",
     "stock": "0181",
-    "price_neto": 6.251,
-    "price": 7.56,
+    "price_neto": 8876.42,
+    "price": 10740.47,
     "tes": "503"
   },
   {
@@ -11902,8 +11902,8 @@
     "code": "001894",
     "description": "LIJA ANTIEMPASTE OXIDO ALUMINIO RAPIFIX # 120",
     "stock": "0181",
-    "price_neto": 0.75,
-    "price": 0.91,
+    "price_neto": 1065,
+    "price": 1288.65,
     "tes": "503"
   },
   {
@@ -12622,8 +12622,8 @@
     "code": "002000",
     "description": "CL-500 BCO PLENO X 3,5",
     "stock": "0132",
-    "price_neto": 132.595,
-    "price": 160.44,
+    "price_neto": 185566.7025,
+    "price": 224535.71,
     "tes": "503"
   },
   {
@@ -12631,8 +12631,8 @@
     "code": "002001",
     "description": "CL-502 NEGRO PLENO X 1",
     "stock": "0132",
-    "price_neto": 73.7665,
-    "price": 89.26,
+    "price_neto": 103236.2167,
+    "price": 124915.82,
     "tes": "503"
   },
   {
@@ -12640,8 +12640,8 @@
     "code": "002002",
     "description": "CL-510 AZUL INT X 1",
     "stock": "0132",
-    "price_neto": 71.9335,
-    "price": 87.04,
+    "price_neto": 100670.9332,
+    "price": 121811.83,
     "tes": "503"
   },
   {
@@ -12649,8 +12649,8 @@
     "code": "002003",
     "description": "CL-512 AZUL VERDOSO X 1",
     "stock": "0132",
-    "price_neto": 77.362,
-    "price": 93.61,
+    "price_neto": 108268.119,
+    "price": 131004.42,
     "tes": "503"
   },
   {
@@ -12658,8 +12658,8 @@
     "code": "002004",
     "description": "CL-513 VERDE PROFUNDO X 1",
     "stock": "0902",
-    "price_neto": 105.138,
-    "price": 127.22,
+    "price_neto": 147140.631,
+    "price": 178040.16,
     "tes": "503"
   },
   {
@@ -12667,8 +12667,8 @@
     "code": "002005",
     "description": "CL-517 VIOLETA PURO X 1",
     "stock": "0132",
-    "price_neto": 96.021,
-    "price": 116.19,
+    "price_neto": 134381.3895,
+    "price": 162601.48,
     "tes": "503"
   },
   {
@@ -12676,8 +12676,8 @@
     "code": "002006",
     "description": "CL-530 AMARILLO OCRE X 1",
     "stock": "0132",
-    "price_neto": 74.0485,
-    "price": 89.6,
+    "price_neto": 103630.8758,
+    "price": 125393.36,
     "tes": "503"
   },
   {
@@ -12685,8 +12685,8 @@
     "code": "002007",
     "description": "CL-531 ROJO COLORADO X 1",
     "stock": "0132",
-    "price_neto": 71.9805,
-    "price": 87.1,
+    "price_neto": 100736.7098,
+    "price": 121891.42,
     "tes": "503"
   },
   {
@@ -12712,8 +12712,8 @@
     "code": "002010",
     "description": "CL-537 ROJO FUERTE X 1",
     "stock": "0902",
-    "price_neto": 118.611,
-    "price": 143.52,
+    "price_neto": 165996.0945,
+    "price": 200855.27,
     "tes": "503"
   },
   {
@@ -12721,8 +12721,8 @@
     "code": "002011",
     "description": "CL-539 ROJO PALIDO X 1",
     "stock": "0132",
-    "price_neto": 143.9845,
-    "price": 174.22,
+    "price_neto": 201506.3077,
+    "price": 243822.63,
     "tes": "503"
   },
   {
@@ -12730,8 +12730,8 @@
     "code": "002012",
     "description": "CL-542 NARANJA FUEGO X 1  (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 87.326,
-    "price": 105.66,
+    "price_neto": 122212.737,
+    "price": 147877.41,
     "tes": "503"
   },
   {
@@ -12739,8 +12739,8 @@
     "code": "002013",
     "description": "CL-544 AMARILLO MEDIO X 1 (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 130.9655,
-    "price": 158.47,
+    "price_neto": 183286.2172,
+    "price": 221776.32,
     "tes": "503"
   },
   {
@@ -12748,8 +12748,8 @@
     "code": "002014",
     "description": "CL-546 BORDO X 1",
     "stock": "0132",
-    "price_neto": 154.771,
-    "price": 187.27,
+    "price_neto": 216602.0145,
+    "price": 262088.44,
     "tes": "503"
   },
   {
@@ -12757,8 +12757,8 @@
     "code": "002015",
     "description": "CL-548 ROJO INT X 1",
     "stock": "0132",
-    "price_neto": 71.9805,
-    "price": 87.1,
+    "price_neto": 100736.7098,
+    "price": 121891.42,
     "tes": "503"
   },
   {
@@ -12766,8 +12766,8 @@
     "code": "002016",
     "description": "CL-549 ROSA X 1",
     "stock": "0132",
-    "price_neto": 103.2355,
-    "price": 124.91,
+    "price_neto": 144478.0823,
+    "price": 174818.48,
     "tes": "503"
   },
   {
@@ -12775,8 +12775,8 @@
     "code": "002017",
     "description": "CL-550 AZUL PURO X 1",
     "stock": "0132",
-    "price_neto": 91.509,
-    "price": 110.73,
+    "price_neto": 128066.8455,
+    "price": 154960.88,
     "tes": "503"
   },
   {
@@ -12793,8 +12793,8 @@
     "code": "002019",
     "description": "CL-553 VERDE PURO X 1",
     "stock": "0132",
-    "price_neto": 98.371,
-    "price": 119.03,
+    "price_neto": 137670.2145,
+    "price": 166580.96,
     "tes": "503"
   },
   {
@@ -12802,8 +12802,8 @@
     "code": "002020",
     "description": "CL-554 ROJO CORAL X 1",
     "stock": "0132",
-    "price_neto": 147.5095,
-    "price": 178.49,
+    "price_neto": 206439.5453,
+    "price": 249791.85,
     "tes": "503"
   },
   {
@@ -12811,8 +12811,8 @@
     "code": "002021",
     "description": "CL-555 ROJO FUEGO X 1",
     "stock": "0132",
-    "price_neto": 192.0185,
-    "price": 232.34,
+    "price_neto": 268729.8908,
+    "price": 325163.17,
     "tes": "503"
   },
   {
@@ -12820,8 +12820,8 @@
     "code": "002022",
     "description": "CL-556 AMARILLO LIMON X 1",
     "stock": "0132",
-    "price_neto": 142.128,
-    "price": 171.97,
+    "price_neto": 198908.136,
+    "price": 240678.84,
     "tes": "503"
   },
   {
@@ -12829,8 +12829,8 @@
     "code": "002023",
     "description": "CM-007 NEGRO INT X 1",
     "stock": "0132",
-    "price_neto": 109.5335,
-    "price": 132.54,
+    "price_neto": 153292.1333,
+    "price": 185483.48,
     "tes": "503"
   },
   {
@@ -12838,8 +12838,8 @@
     "code": "002024",
     "description": "CM-105 ALUMINIO MEDIO BRILL X 1",
     "stock": "0132",
-    "price_neto": 140.953,
-    "price": 170.55,
+    "price_neto": 197263.7235,
+    "price": 238689.11,
     "tes": "503"
   },
   {
@@ -12847,8 +12847,8 @@
     "code": "002025",
     "description": "CM-016 AZUL LUMINOSO BRILL X 1 (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 106.6195,
-    "price": 129.01,
+    "price_neto": 149213.9903,
+    "price": 180548.93,
     "tes": "503"
   },
   {
@@ -12856,8 +12856,8 @@
     "code": "002026",
     "description": "CM-019 AZUL OSCURO PROFUNDO X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -12865,8 +12865,8 @@
     "code": "002027",
     "description": "CM-202 PERLADO BCO FINO X 1",
     "stock": "0132",
-    "price_neto": 125.4195,
-    "price": 151.76,
+    "price_neto": 175524.5903,
+    "price": 212384.75,
     "tes": "503"
   },
   {
@@ -12874,8 +12874,8 @@
     "code": "002028",
     "description": "CM-203 PERLADO PLATA LUMINOSO X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -12883,8 +12883,8 @@
     "code": "002029",
     "description": "CM-100 ALUMINIO EXTRA FINO X 3,5",
     "stock": "0132",
-    "price_neto": 151.639,
-    "price": 183.48,
+    "price_neto": 212218.7805,
+    "price": 256784.72,
     "tes": "503"
   },
   {
@@ -12892,8 +12892,8 @@
     "code": "002030",
     "description": "CM-106 ALUMINIO MEDIO LUMINOSO X 1",
     "stock": "0132",
-    "price_neto": 140.953,
-    "price": 170.55,
+    "price_neto": 197263.7235,
+    "price": 238689.11,
     "tes": "503"
   },
   {
@@ -12901,8 +12901,8 @@
     "code": "002031",
     "description": "CM-103 ALUMINIO GRUESO LUMINOSO X 1",
     "stock": "0132",
-    "price_neto": 104.434,
-    "price": 126.37,
+    "price_neto": 146155.383,
+    "price": 176848.01,
     "tes": "503"
   },
   {
@@ -12910,8 +12910,8 @@
     "code": "002032",
     "description": "CM-102 ALUMINIO GRUESO X 3,5",
     "stock": "0132",
-    "price_neto": 197.087,
-    "price": 238.48,
+    "price_neto": 275823.2565,
+    "price": 333746.14,
     "tes": "503"
   },
   {
@@ -12919,8 +12919,8 @@
     "code": "002033",
     "description": "CM-002 NEGRO X 3,5",
     "stock": "0132",
-    "price_neto": 234.508,
-    "price": 283.75,
+    "price_neto": 328193.946,
+    "price": 397114.67,
     "tes": "503"
   },
   {
@@ -12928,8 +12928,8 @@
     "code": "002034",
     "description": "CM-062 VERDE OSCURO X 1",
     "stock": "0132",
-    "price_neto": 112.659,
-    "price": 136.32,
+    "price_neto": 157666.2705,
+    "price": 190776.19,
     "tes": "503"
   },
   {
@@ -12937,8 +12937,8 @@
     "code": "002035",
     "description": "CM-063 AMARILLO ESVERDEADO X 1",
     "stock": "0132",
-    "price_neto": 180.292,
-    "price": 218.15,
+    "price_neto": 252318.654,
+    "price": 305305.57,
     "tes": "503"
   },
   {
@@ -12946,8 +12946,8 @@
     "code": "002036",
     "description": "CM-064 ROJO X 1 (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 111.8365,
-    "price": 135.32,
+    "price_neto": 156515.1817,
+    "price": 189383.37,
     "tes": "503"
   },
   {
@@ -12955,8 +12955,8 @@
     "code": "002037",
     "description": "CM-065 AZUL BRILL X 1",
     "stock": "0132",
-    "price_neto": 133.903,
-    "price": 162.02,
+    "price_neto": 187397.2485,
+    "price": 226750.67,
     "tes": "503"
   },
   {
@@ -12964,8 +12964,8 @@
     "code": "002039",
     "description": "CM-068 MAGENTA OSCURO X 1",
     "stock": "0132",
-    "price_neto": 154.536,
-    "price": 186.99,
+    "price_neto": 216273.132,
+    "price": 261690.49,
     "tes": "503"
   },
   {
@@ -12973,8 +12973,8 @@
     "code": "002040",
     "description": "CM-107 ALUMINIO FINO BRILL X 1",
     "stock": "0132",
-    "price_neto": 138.133,
-    "price": 167.14,
+    "price_neto": 193317.1335,
+    "price": 233913.73,
     "tes": "503"
   },
   {
@@ -12982,8 +12982,8 @@
     "code": "002041",
     "description": "CM-206 PERLADO VIOLEA X 1",
     "stock": "0132",
-    "price_neto": 164.2885,
-    "price": 198.79,
+    "price_neto": 229921.7558,
+    "price": 278205.32,
     "tes": "503"
   },
   {
@@ -12991,8 +12991,8 @@
     "code": "002042",
     "description": "CM-207 B MATIZANTE X 1",
     "stock": "0132",
-    "price_neto": 78.3255,
-    "price": 94.77,
+    "price_neto": 109616.5373,
+    "price": 132636.01,
     "tes": "503"
   },
   {
@@ -13000,8 +13000,8 @@
     "code": "002043",
     "description": "CM-011 AZUL FTALO X 1",
     "stock": "0132",
-    "price_neto": 109.5335,
-    "price": 132.54,
+    "price_neto": 153292.1333,
+    "price": 185483.48,
     "tes": "503"
   },
   {
@@ -13009,8 +13009,8 @@
     "code": "002044",
     "description": "CM-010 AZUL ROJIZO X 1",
     "stock": "0132",
-    "price_neto": 164.312,
-    "price": 198.82,
+    "price_neto": 229954.644,
+    "price": 278245.12,
     "tes": "503"
   },
   {
@@ -13018,8 +13018,8 @@
     "code": "002045",
     "description": "CM-015 VIOLETA X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -13027,8 +13027,8 @@
     "code": "002046",
     "description": "CM-209 DORADO PERLADO X 1",
     "stock": "0132",
-    "price_neto": 194.251,
-    "price": 235.04,
+    "price_neto": 271854.2745,
+    "price": 328943.67,
     "tes": "503"
   },
   {
@@ -13036,8 +13036,8 @@
     "code": "002047",
     "description": "CM-200 PERLADO AZUL FINO X 1",
     "stock": "0132",
-    "price_neto": 157.215,
-    "price": 190.23,
+    "price_neto": 220022.3925,
+    "price": 266227.09,
     "tes": "503"
   },
   {
@@ -13045,8 +13045,8 @@
     "code": "002048",
     "description": "CM-201 PERLADO AZUL SUPER X 1",
     "stock": "0132",
-    "price_neto": 164.2885,
-    "price": 198.79,
+    "price_neto": 229921.7558,
+    "price": 278205.32,
     "tes": "503"
   },
   {
@@ -13054,8 +13054,8 @@
     "code": "002049",
     "description": "CM-212 DORADO SUPER PERLADO X 1",
     "stock": "0132",
-    "price_neto": 177.0725,
-    "price": 214.26,
+    "price_neto": 247812.9637,
+    "price": 299853.69,
     "tes": "503"
   },
   {
@@ -13063,8 +13063,8 @@
     "code": "002050",
     "description": "CM-213 PERLADO AMARILLO X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -13072,8 +13072,8 @@
     "code": "002051",
     "description": "CM-214 VERDE PERLADO X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -13081,8 +13081,8 @@
     "code": "002052",
     "description": "CM-060 BORDO X 1",
     "stock": "0132",
-    "price_neto": 164.312,
-    "price": 198.82,
+    "price_neto": 229954.644,
+    "price": 278245.12,
     "tes": "503"
   },
   {
@@ -13090,8 +13090,8 @@
     "code": "002053",
     "description": "CM-204 PERLADO ROJO FINO X 1",
     "stock": "0132",
-    "price_neto": 177.0725,
-    "price": 214.26,
+    "price_neto": 247812.9637,
+    "price": 299853.69,
     "tes": "503"
   },
   {
@@ -13099,8 +13099,8 @@
     "code": "002054",
     "description": "CM-205 PERLADO ROJO SUPER X 1",
     "stock": "0132",
-    "price_neto": 169.012,
-    "price": 204.5,
+    "price_neto": 236532.294,
+    "price": 286204.08,
     "tes": "503"
   },
   {
@@ -13108,8 +13108,8 @@
     "code": "002055",
     "description": "CM-001 BCO X 1",
     "stock": "0132",
-    "price_neto": 82.1795,
-    "price": 99.44,
+    "price_neto": 115010.2103,
+    "price": 139162.35,
     "tes": "503"
   },
   {
@@ -13117,8 +13117,8 @@
     "code": "002056",
     "description": "CM-042 ROJO TRANSP X 1",
     "stock": "0132",
-    "price_neto": 77.1035,
-    "price": 93.3,
+    "price_neto": 107906.3482,
+    "price": 130566.68,
     "tes": "503"
   },
   {
@@ -13135,8 +13135,8 @@
     "code": "002058",
     "description": "CM-074 ROJO FUERTE X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -13153,8 +13153,8 @@
     "code": "002060",
     "description": "CM-003 BCO NIEVE X 1",
     "stock": "0132",
-    "price_neto": 220.947,
-    "price": 267.35,
+    "price_neto": 309215.3265,
+    "price": 374150.55,
     "tes": "503"
   },
   {
@@ -13162,8 +13162,8 @@
     "code": "002061",
     "description": "CM-038 ROJO OXIDO X 1",
     "stock": "0132",
-    "price_neto": 76.4455,
-    "price": 92.5,
+    "price_neto": 106985.4772,
+    "price": 129452.43,
     "tes": "503"
   },
   {
@@ -13171,8 +13171,8 @@
     "code": "002062",
     "description": "CM-073 MARRON PERMANENTE X 1 (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 104.0345,
-    "price": 125.88,
+    "price_neto": 145596.2828,
+    "price": 176171.5,
     "tes": "503"
   },
   {
@@ -13180,8 +13180,8 @@
     "code": "002063",
     "description": "CM-033 AMARILLO TRANSP X 1",
     "stock": "0132",
-    "price_neto": 112.659,
-    "price": 136.32,
+    "price_neto": 157666.2705,
+    "price": 190776.19,
     "tes": "503"
   },
   {
@@ -13189,8 +13189,8 @@
     "code": "002064",
     "description": "CM-031 AMARILLO ORO X 1",
     "stock": "0132",
-    "price_neto": 208.821,
-    "price": 252.67,
+    "price_neto": 292244.9895,
+    "price": 353616.44,
     "tes": "503"
   },
   {
@@ -13234,8 +13234,8 @@
     "code": "002069",
     "description": "CM-017 VERDE BRILL X 1",
     "stock": "0132",
-    "price_neto": 109.792,
-    "price": 132.85,
+    "price_neto": 153653.904,
+    "price": 185921.22,
     "tes": "503"
   },
   {
@@ -13243,8 +13243,8 @@
     "code": "002070",
     "description": "CM-035 ROJO BRILL X 1",
     "stock": "0132",
-    "price_neto": 169.012,
-    "price": 204.5,
+    "price_neto": 236532.294,
+    "price": 286204.08,
     "tes": "503"
   },
   {
@@ -13261,8 +13261,8 @@
     "code": "002072",
     "description": "BP-04.01 CLEAR POLISTER BICAPA ACS X 3.500",
     "stock": "0132",
-    "price_neto": 121.072,
-    "price": 146.5,
+    "price_neto": 169440.264,
+    "price": 205022.72,
     "tes": "503"
   },
   {
@@ -13279,8 +13279,8 @@
     "code": "002074",
     "description": "BU-02.01 CLEARS BASE BLANCA P/PU ACS X 3.500",
     "stock": "0132",
-    "price_neto": 121.417,
-    "price": 146.91,
+    "price_neto": 169923.0915,
+    "price": 205606.94,
     "tes": "503"
   },
   {
@@ -13342,8 +13342,8 @@
     "code": "002083",
     "description": "P425-941/E3,5 H S STRONG RED X 3",
     "stock": "0131",
-    "price_neto": 258.727,
-    "price": 313.06,
+    "price_neto": 362088.4365,
+    "price": 438127.01,
     "tes": "503"
   },
   {
@@ -13414,8 +13414,8 @@
     "code": "002097",
     "description": "P420-905 YELLOW OXIDE X 1",
     "stock": "0131",
-    "price_neto": 73.944,
-    "price": 89.47,
+    "price_neto": 103484.628,
+    "price": 125216.4,
     "tes": "503"
   },
   {
@@ -13828,8 +13828,8 @@
     "code": "002169",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 3",
     "stock": "0149",
-    "price_neto": 114.24,
-    "price": 138.23,
+    "price_neto": 162220.8,
+    "price": 196287.17,
     "tes": "503"
   },
   {
@@ -13837,8 +13837,8 @@
     "code": "002170",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 4",
     "stock": "0149",
-    "price_neto": 132.72,
-    "price": 160.59,
+    "price_neto": 188462.4,
+    "price": 228039.5,
     "tes": "503"
   },
   {
@@ -13846,8 +13846,8 @@
     "code": "002171",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 5",
     "stock": "0149",
-    "price_neto": 164.64,
-    "price": 199.21,
+    "price_neto": 233788.8,
+    "price": 282884.45,
     "tes": "503"
   },
   {
@@ -13855,8 +13855,8 @@
     "code": "002172",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 6",
     "stock": "0149",
-    "price_neto": 193.2,
-    "price": 233.77,
+    "price_neto": 274344,
+    "price": 331956.24,
     "tes": "503"
   },
   {
@@ -13864,8 +13864,8 @@
     "code": "002173",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 7",
     "stock": "0149",
-    "price_neto": 248.64,
-    "price": 300.85,
+    "price_neto": 353068.8,
+    "price": 427213.25,
     "tes": "503"
   },
   {
@@ -13873,8 +13873,8 @@
     "code": "002174",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 8",
     "stock": "0149",
-    "price_neto": 272.16,
-    "price": 329.31,
+    "price_neto": 386467.2,
+    "price": 467625.31,
     "tes": "503"
   },
   {
@@ -13882,8 +13882,8 @@
     "code": "002175",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 9",
     "stock": "0149",
-    "price_neto": 389.76,
-    "price": 471.61,
+    "price_neto": 553459.2,
+    "price": 669685.63,
     "tes": "503"
   },
   {
@@ -13891,8 +13891,8 @@
     "code": "002176",
     "description": "ESCALERA DE ALUMINIO SIN FIN FAMILIAR 10",
     "stock": "0149",
-    "price_neto": 445.2,
-    "price": 538.69,
+    "price_neto": 632184,
+    "price": 764942.64,
     "tes": "503"
   },
   {
@@ -14422,8 +14422,8 @@
     "code": "002266",
     "description": "HOJA RECTA ALUMINIO SIN FIN 8 ESC",
     "stock": "0149",
-    "price_neto": 211.232,
-    "price": 255.59,
+    "price_neto": 299949.44,
+    "price": 362938.82,
     "tes": "503"
   },
   {
@@ -14431,8 +14431,8 @@
     "code": "002267",
     "description": "HOJA RECTA ALUMINIO SIN FIN 10 ESC",
     "stock": "0149",
-    "price_neto": 252.724,
-    "price": 305.8,
+    "price_neto": 358868.08,
+    "price": 434230.38,
     "tes": "503"
   },
   {
@@ -14440,8 +14440,8 @@
     "code": "002268",
     "description": "HOJA RECTA ALUMINIO SIN FIN 12 ESC",
     "stock": "0149",
-    "price_neto": 271.584,
-    "price": 328.62,
+    "price_neto": 385649.28,
+    "price": 466635.63,
     "tes": "503"
   },
   {
@@ -14449,8 +14449,8 @@
     "code": "002269",
     "description": "HOJA RECTA ALUMINIO SIN FIN 14 ESC",
     "stock": "0149",
-    "price_neto": 394.174,
-    "price": 476.95,
+    "price_neto": 559727.08,
+    "price": 677269.77,
     "tes": "503"
   },
   {
@@ -14458,8 +14458,8 @@
     "code": "002270",
     "description": "HOJA RECTA ALUMINIO SIN FIN 16 ESC",
     "stock": "0149",
-    "price_neto": 448.868,
-    "price": 543.13,
+    "price_neto": 637392.56,
+    "price": 771245,
     "tes": "503"
   },
   {
@@ -14467,8 +14467,8 @@
     "code": "002271",
     "description": "HOJA RECTA ALUMINIO SIN FIN 18 ESC",
     "stock": "0149",
-    "price_neto": 531.852,
-    "price": 643.54,
+    "price_neto": 755229.84,
+    "price": 913828.11,
     "tes": "503"
   },
   {
@@ -14476,8 +14476,8 @@
     "code": "002272",
     "description": "HOJA RECTA ALUMINIO SIN FIN 20 ESC",
     "stock": "0149",
-    "price_neto": 577.116,
-    "price": 698.31,
+    "price_neto": 819504.72,
+    "price": 991600.71,
     "tes": "503"
   },
   {
@@ -14485,8 +14485,8 @@
     "code": "002273",
     "description": "HOJA RECTA ALUMINIO SIN FIN 22 ESC",
     "stock": "0149",
-    "price_neto": 684.618,
-    "price": 828.39,
+    "price_neto": 972157.56,
+    "price": 1176310.65,
     "tes": "503"
   },
   {
@@ -14872,8 +14872,8 @@
     "code": "002327",
     "description": "FILM PARA AUTOMOTOR/OBRA RAPIFIX 4000MMX100M (795)",
     "stock": "0181",
-    "price_neto": 83.691,
-    "price": 101.27,
+    "price_neto": 118841.22,
+    "price": 143797.88,
     "tes": "503"
   },
   {
@@ -14980,8 +14980,8 @@
     "code": "002339",
     "description": "CINTA  AUTOMOTOR RAPIFIX AMARILLO (590) 18MM",
     "stock": "0181",
-    "price_neto": 2.1385,
-    "price": 2.59,
+    "price_neto": 3036.67,
+    "price": 3674.37,
     "tes": "503"
   },
   {
@@ -14989,8 +14989,8 @@
     "code": "002340",
     "description": "CINTA  AUTOMOTOR RAPIFIX AMARILLO (590) 48MM",
     "stock": "0181",
-    "price_neto": 5.734,
-    "price": 6.94,
+    "price_neto": 8142.28,
+    "price": 9852.16,
     "tes": "503"
   },
   {
@@ -15151,8 +15151,8 @@
     "code": "002361",
     "description": "LIJA AL AGUA CS RAPIFIX #   60",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15160,8 +15160,8 @@
     "code": "002362",
     "description": "LIJA AL AGUA CS RAPIFIX #   80",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15169,8 +15169,8 @@
     "code": "002363",
     "description": "LIJA AL AGUA CS RAPIFIX #  100",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15178,8 +15178,8 @@
     "code": "002364",
     "description": "LIJA AL AGUA CS RAPIFIX #  120",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15187,8 +15187,8 @@
     "code": "002365",
     "description": "LIJA AL AGUA CS RAPIFIX #  150",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15196,8 +15196,8 @@
     "code": "002366",
     "description": "LIJA AL AGUA CS RAPIFIX #  180",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15205,8 +15205,8 @@
     "code": "002367",
     "description": "LIJA AL AGUA CS RAPIFIX #  220",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15214,8 +15214,8 @@
     "code": "002368",
     "description": "LIJA AL AGUA CS RAPIFIX #  240",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15223,8 +15223,8 @@
     "code": "002369",
     "description": "LIJA AL AGUA CS RAPIFIX #  320",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15232,8 +15232,8 @@
     "code": "002370",
     "description": "LIJA AL AGUA CS RAPIFIX #  360",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15241,8 +15241,8 @@
     "code": "002371",
     "description": "LIJA AL AGUA CS RAPIFIX #  400",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15250,8 +15250,8 @@
     "code": "002372",
     "description": "LIJA AL AGUA CS RAPIFIX #  600",
     "stock": "0181",
-    "price_neto": 0.737,
-    "price": 0.89,
+    "price_neto": 1046.54,
+    "price": 1266.31,
     "tes": "503"
   },
   {
@@ -15259,8 +15259,8 @@
     "code": "002373",
     "description": "LIJA AL AGUA CS RAPIFIX # 1000",
     "stock": "0181",
-    "price_neto": 0.9045,
-    "price": 1.09,
+    "price_neto": 1284.39,
+    "price": 1554.11,
     "tes": "503"
   },
   {
@@ -15268,8 +15268,8 @@
     "code": "002374",
     "description": "LIJA AL AGUA CS RAPIFIX # 1500",
     "stock": "0181",
-    "price_neto": 0.9045,
-    "price": 1.09,
+    "price_neto": 1284.39,
+    "price": 1554.11,
     "tes": "503"
   },
   {
@@ -15277,8 +15277,8 @@
     "code": "002375",
     "description": "LIJA AL AGUA CS RAPIFIX # 2000",
     "stock": "0181",
-    "price_neto": 0.9045,
-    "price": 1.09,
+    "price_neto": 1284.39,
+    "price": 1554.11,
     "tes": "503"
   },
   {
@@ -15286,8 +15286,8 @@
     "code": "002376",
     "description": "LIJA AL AGUA CS RAPIFIX # 2500",
     "stock": "0181",
-    "price_neto": 0.9045,
-    "price": 1.09,
+    "price_neto": 1284.39,
+    "price": 1554.11,
     "tes": "503"
   },
   {
@@ -16546,8 +16546,8 @@
     "code": "002612",
     "description": "CM-108 ALUMINIO BRILL X 1",
     "stock": "0132",
-    "price_neto": 104.434,
-    "price": 126.37,
+    "price_neto": 146155.383,
+    "price": 176848.01,
     "tes": "503"
   },
   {
@@ -16843,8 +16843,8 @@
     "code": "002649",
     "description": "FONDO ALQUIDICO INTERPRIME 222 GRIS X 20",
     "stock": "0111",
-    "price_neto": 277.4925,
-    "price": 335.77,
+    "price_neto": 394039.35,
+    "price": 476787.61,
     "tes": "503"
   },
   {
@@ -16870,8 +16870,8 @@
     "code": "002655",
     "description": "P426-PP68-E033 ORANGE PEARL. X 0,330",
     "stock": "0131",
-    "price_neto": 49.975,
-    "price": 60.47,
+    "price_neto": 69940.0125,
+    "price": 84627.42,
     "tes": "503"
   },
   {
@@ -16924,8 +16924,8 @@
     "code": "002688",
     "description": "P429-967-E1C DEEP ANGLE BLACK X 1",
     "stock": "0131",
-    "price_neto": 148.584,
-    "price": 179.79,
+    "price_neto": 207943.308,
+    "price": 251611.4,
     "tes": "503"
   },
   {
@@ -16933,8 +16933,8 @@
     "code": "002696",
     "description": "P429-972-E1C BRIGHT AMBER X 1",
     "stock": "0131",
-    "price_neto": 148.584,
-    "price": 179.79,
+    "price_neto": 207943.308,
+    "price": 251611.4,
     "tes": "503"
   },
   {
@@ -16942,8 +16942,8 @@
     "code": "002698",
     "description": "P429-973-E1C HS BRIGHT ORANGE X 1",
     "stock": "0131",
-    "price_neto": 160.104,
-    "price": 193.73,
+    "price_neto": 224065.548,
+    "price": 271119.31,
     "tes": "503"
   },
   {
@@ -17392,8 +17392,8 @@
     "code": "002774",
     "description": "DYL06P SINTETICO ALUMINIO X 20",
     "stock": "0133",
-    "price_neto": 376.0936,
-    "price": 455.07,
+    "price_neto": 526342.9932,
+    "price": 636875.02,
     "tes": "503"
   },
   {
@@ -17554,8 +17554,8 @@
     "code": "002798",
     "description": "DYL01.11  ESMALTE PU BLANCO PLENO DELFLEET X 1",
     "stock": "0133",
-    "price_neto": 36.8085,
-    "price": 44.54,
+    "price_neto": 51513.4958,
+    "price": 62331.33,
     "tes": "503"
   },
   {
@@ -17563,8 +17563,8 @@
     "code": "002799",
     "description": "DYL01P.01 ESMALTE PU BLANCO PLENO DELFLEET X 3,500",
     "stock": "0133",
-    "price_neto": 133.2555,
-    "price": 161.24,
+    "price_neto": 186491.0723,
+    "price": 225654.2,
     "tes": "503"
   },
   {
@@ -17626,8 +17626,8 @@
     "code": "002808",
     "description": "P429-980-E1C SPEED RED X 1",
     "stock": "0131",
-    "price_neto": 159.744,
-    "price": 193.29,
+    "price_neto": 223561.728,
+    "price": 270509.69,
     "tes": "503"
   },
   {
@@ -17644,8 +17644,8 @@
     "code": "002810",
     "description": "P433-XR18-E033 AMETHIST DREAM X 0,330",
     "stock": "0131",
-    "price_neto": 100.25,
-    "price": 121.3,
+    "price_neto": 140299.875,
+    "price": 169762.85,
     "tes": "503"
   },
   {
@@ -17878,8 +17878,8 @@
     "code": "002848",
     "description": "ANDAMIO 1.85 MULTIUSO EQUUS",
     "stock": "0161",
-    "price_neto": 854,
-    "price": 1033.34,
+    "price_neto": 1212680,
+    "price": 1467342.8,
     "tes": "503"
   },
   {
@@ -17887,8 +17887,8 @@
     "code": "002849",
     "description": "GUANTES TACTIL POLI 21-103 -T09 X 2",
     "stock": "0143",
-    "price_neto": 1.584,
-    "price": 1.92,
+    "price_neto": 2249.28,
+    "price": 2721.63,
     "tes": "503"
   },
   {
@@ -17896,8 +17896,8 @@
     "code": "002850",
     "description": "GUANTES TACTIL POLI 21-103 -T10 X 2",
     "stock": "0143",
-    "price_neto": 1.584,
-    "price": 1.92,
+    "price_neto": 2249.28,
+    "price": 2721.63,
     "tes": "503"
   },
   {
@@ -18382,8 +18382,8 @@
     "code": "002927",
     "description": "GUANTES ANSELL NEOPRENO 29-865 T.10 X 2",
     "stock": "0143",
-    "price_neto": 18.774,
-    "price": 22.72,
+    "price_neto": 26659.08,
+    "price": 32257.49,
     "tes": "503"
   },
   {
@@ -18400,8 +18400,8 @@
     "code": "002929",
     "description": "GUANTES TACTIL FOAM 20-102/PONY 22-102 -T09 X 2",
     "stock": "0143",
-    "price_neto": 3.85,
-    "price": 4.66,
+    "price_neto": 5467,
+    "price": 6615.07,
     "tes": "503"
   },
   {
@@ -18409,8 +18409,8 @@
     "code": "002930",
     "description": "GUANTES TACTIL FOAM 20-102/PONY 22-102 -T10 X 2",
     "stock": "0143",
-    "price_neto": 3.85,
-    "price": 4.66,
+    "price_neto": 5467,
+    "price": 6615.07,
     "tes": "503"
   },
   {
@@ -18418,8 +18418,8 @@
     "code": "002931",
     "description": "GUANTES ANSELL NEOPRENO 29-865 T.11 X 2",
     "stock": "0143",
-    "price_neto": 18.774,
-    "price": 22.72,
+    "price_neto": 26659.08,
+    "price": 32257.49,
     "tes": "503"
   },
   {
@@ -18841,18 +18841,18 @@
     "code": "002978",
     "description": "EQUIPO PARA PINTAR ADIABATIC EC.2000",
     "stock": "0104",
-    "price_neto": 707335.2118,
+    "price_neto": 774548.06,
     "price": 855875.61,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "002979",
     "code": "002979",
     "description": "EQUIPO PARA PINTAR ADIABATIC EC.3000",
     "stock": "0104",
-    "price_neto": 973175.6004,
+    "price_neto": 1065649.3,
     "price": 1177542.48,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "002981",
@@ -19111,8 +19111,8 @@
     "code": "003016",
     "description": "ANTEOJO ROGUANT LIBUS ECOLINE INCOLORO(200452)",
     "stock": "0143",
-    "price_neto": 3.96,
-    "price": 4.79,
+    "price_neto": 5623.2,
+    "price": 6804.07,
     "tes": "503"
   },
   {
@@ -19120,8 +19120,8 @@
     "code": "003017",
     "description": "ANTEOJO ROGUANT LIBUS ECOLINE GRIS(200450)",
     "stock": "0143",
-    "price_neto": 3.96,
-    "price": 4.79,
+    "price_neto": 5623.2,
+    "price": 6804.07,
     "tes": "503"
   },
   {
@@ -19129,8 +19129,8 @@
     "code": "003018",
     "description": "ANTEOJO ROGUANT KORT GRIS HC(207602)(LIBUS ARGON)",
     "stock": "0143",
-    "price_neto": 6.38,
-    "price": 7.72,
+    "price_neto": 9059.6,
+    "price": 10962.12,
     "tes": "503"
   },
   {
@@ -19138,8 +19138,8 @@
     "code": "003019",
     "description": "ANTEOJO ROGUANT KORT INCOLORO HC(207598) (LIBUS ARGON)",
     "stock": "0143",
-    "price_neto": 6.38,
-    "price": 7.72,
+    "price_neto": 9059.6,
+    "price": 10962.12,
     "tes": "503"
   },
   {
@@ -19147,8 +19147,8 @@
     "code": "003024",
     "description": "CM-112 ALUMINIO GROSSL BRILHANTE X 1",
     "stock": "0132",
-    "price_neto": 38.1405,
-    "price": 46.15,
+    "price_neto": 53377.6298,
+    "price": 64586.93,
     "tes": "503"
   },
   {
@@ -19156,8 +19156,8 @@
     "code": "003030",
     "description": "CM-117 ALUMINIO FINO LUMINOSO X 1",
     "stock": "0132",
-    "price_neto": 52.123,
-    "price": 63.07,
+    "price_neto": 72946.1385,
+    "price": 88264.83,
     "tes": "503"
   },
   {
@@ -19165,8 +19165,8 @@
     "code": "003031",
     "description": "BP-10.01 CLEARS BASE BLANCA BICAPA ACS X 3.500",
     "stock": "0132",
-    "price_neto": 153.203,
-    "price": 185.38,
+    "price_neto": 214407.5985,
+    "price": 259433.19,
     "tes": "503"
   },
   {
@@ -19174,8 +19174,8 @@
     "code": "003032",
     "description": "ANTEOJO ROGUANT ELVEX AVION SG-18C-ARG",
     "stock": "0902",
-    "price_neto": 11.418,
-    "price": 13.82,
+    "price_neto": 16213.56,
+    "price": 19618.41,
     "tes": "503"
   },
   {
@@ -19183,8 +19183,8 @@
     "code": "003033",
     "description": "ANTEOJO ROGUANT ELVEX AVION SG-18G-ARG",
     "stock": "0143",
-    "price_neto": 11.418,
-    "price": 13.82,
+    "price_neto": 16213.56,
+    "price": 19618.41,
     "tes": "503"
   },
   {
@@ -19237,8 +19237,8 @@
     "code": "003043",
     "description": "DRAGER-MASCARILLA X-PLORE 1350 N95",
     "stock": "0143",
-    "price_neto": 3.234,
-    "price": 3.91,
+    "price_neto": 4592.28,
+    "price": 5556.66,
     "tes": "503"
   },
   {
@@ -19246,8 +19246,8 @@
     "code": "003044",
     "description": "DRAGER-MASCARILLA X-PLORE 1350 N95 VALVULA",
     "stock": "0143",
-    "price_neto": 4.972,
-    "price": 6.02,
+    "price_neto": 7060.24,
+    "price": 8542.89,
     "tes": "503"
   },
   {
@@ -19255,8 +19255,8 @@
     "code": "003045",
     "description": "CM-076 ROJO BRILL X 1",
     "stock": "0132",
-    "price_neto": 169.012,
-    "price": 204.5,
+    "price_neto": 236532.294,
+    "price": 286204.08,
     "tes": "503"
   },
   {
@@ -19264,8 +19264,8 @@
     "code": "003046",
     "description": "DRAGER-SEMIMASCARA X-PLORE 3300",
     "stock": "0143",
-    "price_neto": 68.292,
-    "price": 82.63,
+    "price_neto": 96974.64,
+    "price": 117339.31,
     "tes": "503"
   },
   {
@@ -19273,8 +19273,8 @@
     "code": "003047",
     "description": "DRAGER-SEMIMASCARA X-PLORE 3500",
     "stock": "0143",
-    "price_neto": 119.32,
-    "price": 144.38,
+    "price_neto": 169434.4,
+    "price": 205015.62,
     "tes": "503"
   },
   {
@@ -19282,8 +19282,8 @@
     "code": "003048",
     "description": "CM-110 ALUMINIO FINO X 1",
     "stock": "0132",
-    "price_neto": 46.2245,
-    "price": 55.93,
+    "price_neto": 64691.1877,
+    "price": 78276.34,
     "tes": "503"
   },
   {
@@ -19291,8 +19291,8 @@
     "code": "003049",
     "description": "GUANTES TACTIL KELY 26-109 T09 X 2",
     "stock": "0143",
-    "price_neto": 9.676,
-    "price": 11.71,
+    "price_neto": 13739.92,
+    "price": 16625.3,
     "tes": "503"
   },
   {
@@ -19300,8 +19300,8 @@
     "code": "003050",
     "description": "GUANTES TACTIL KELY 26-109 T10 X 2",
     "stock": "0143",
-    "price_neto": 9.676,
-    "price": 11.71,
+    "price_neto": 13739.92,
+    "price": 16625.3,
     "tes": "503"
   },
   {
@@ -19426,8 +19426,8 @@
     "code": "003066",
     "description": "DRAGER-FILTRO A1 P/VAPORES ORGANICOS",
     "stock": "0143",
-    "price_neto": 28.987,
-    "price": 35.07,
+    "price_neto": 41161.54,
+    "price": 49805.46,
     "tes": "503"
   },
   {
@@ -19435,8 +19435,8 @@
     "code": "003069",
     "description": "CM-116 ALUMINIO MEDIO X 1",
     "stock": "0132",
-    "price_neto": 52.1465,
-    "price": 63.1,
+    "price_neto": 72979.0268,
+    "price": 88304.62,
     "tes": "503"
   },
   {
@@ -19489,8 +19489,8 @@
     "code": "003081",
     "description": "CINTA ANTIDESLIZANTE RAPIFIX (2200) 25MM X 5MTS",
     "stock": "0181",
-    "price_neto": 7,
-    "price": 8.47,
+    "price_neto": 9940,
+    "price": 12027.4,
     "tes": "503"
   },
   {
@@ -19651,8 +19651,8 @@
     "code": "003106",
     "description": "DRAGER-RETENEDOR P/FILTRO PAD P2",
     "stock": "0143",
-    "price_neto": 10.878,
-    "price": 13.16,
+    "price_neto": 15446.76,
+    "price": 18690.58,
     "tes": "503"
   },
   {
@@ -19660,8 +19660,8 @@
     "code": "003108",
     "description": "DRAGER-PREFILTRO PAD P2 (202600)",
     "stock": "0143",
-    "price_neto": 10.962,
-    "price": 13.26,
+    "price_neto": 15566.04,
+    "price": 18834.91,
     "tes": "503"
   },
   {
@@ -19975,8 +19975,8 @@
     "code": "003154",
     "description": "CINTA DOBLE FAZ RAPIFIX (380) 18MM",
     "stock": "0181",
-    "price_neto": 7.2025,
-    "price": 8.72,
+    "price_neto": 10227.55,
+    "price": 12375.34,
     "tes": "503"
   },
   {
@@ -20335,8 +20335,8 @@
     "code": "003221",
     "description": "CM-008 PRETO AZULADO X 1",
     "stock": "0132",
-    "price_neto": 83.0255,
-    "price": 100.46,
+    "price_neto": 116194.1872,
+    "price": 140594.97,
     "tes": "503"
   },
   {
@@ -20344,8 +20344,8 @@
     "code": "003222",
     "description": "CM-070 AZUL MARINO X 1",
     "stock": "0132",
-    "price_neto": 73.7665,
-    "price": 89.26,
+    "price_neto": 103236.2167,
+    "price": 124915.82,
     "tes": "503"
   },
   {
@@ -20569,18 +20569,18 @@
     "code": "003256",
     "description": "PISTOLA PARA PINTAR ADIABATIC HVLP (PI-H827-14) (PI-H881-14)",
     "stock": "0104",
-    "price_neto": 3147.5249,
-    "price": 3808.51,
-    "tes": "503"
+    "price_neto": 4894187.62,
+    "price": 5408077.32,
+    "tes": "501"
   },
   {
     "id": "003257",
     "code": "003257",
     "description": "PISTOLA PARA PINTAR ADIABATIC ALTA PRESION (PI-S701-17)",
     "stock": "0104",
-    "price_neto": 159.4415,
-    "price": 192.92,
-    "tes": "503"
+    "price_neto": 247920.64,
+    "price": 273952.31,
+    "tes": "501"
   },
   {
     "id": "003258",
@@ -20614,27 +20614,27 @@
     "code": "003263",
     "description": "PISTOLA PARA PINTAR ADIABATIC TAZA AB.PROF.C2 PLUS P/EC2000",
     "stock": "0104",
-    "price_neto": 418262.3685,
+    "price_neto": 458006.7565,
     "price": 506097.47,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "003264",
     "code": "003264",
     "description": "PISTOLA PARA PINTAR ADIABATIC TAZA AB.PROF.C5 PLUS P/EC3000",
     "stock": "0104",
-    "price_neto": 460081.7479,
+    "price_neto": 503799.923,
     "price": 556698.91,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "003265",
     "code": "003265",
     "description": "PISTOLA DE GRAVEDAD PARA PINTAR ADIABATIC TAZA DE PLASTICO",
     "stock": "0104",
-    "price_neto": 427872.8334,
+    "price_neto": 468530.433,
     "price": 517726.13,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "003267",
@@ -20659,8 +20659,8 @@
     "code": "003269",
     "description": "CR-303 BRANCO NEVE REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 101.8255,
-    "price": 123.21,
+    "price_neto": 142504.7872,
+    "price": 172430.79,
     "tes": "503"
   },
   {
@@ -20677,8 +20677,8 @@
     "code": "003271",
     "description": "P41.04 PRIMER 2K ALTOS SOLIDOS ACS X 0.720",
     "stock": "0132",
-    "price_neto": 25.6855,
-    "price": 31.08,
+    "price_neto": 35946.8573,
+    "price": 43495.7,
     "tes": "503"
   },
   {
@@ -20686,8 +20686,8 @@
     "code": "003272",
     "description": "A242 MASILLA ACR.FINA BEIGE X 0,200",
     "stock": "0134",
-    "price_neto": 15.096,
-    "price": 18.27,
+    "price_neto": 21126.852,
+    "price": 25563.49,
     "tes": "503"
   },
   {
@@ -20695,8 +20695,8 @@
     "code": "003273",
     "description": "END010.32 CATALIZADOR NORMAL ACS X 0.180",
     "stock": "0132",
-    "price_neto": 8.4035,
-    "price": 10.17,
+    "price_neto": 11760.6982,
+    "price": 14230.44,
     "tes": "503"
   },
   {
@@ -20731,8 +20731,8 @@
     "code": "003277",
     "description": "CR-309 PRETO REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 66.1525,
-    "price": 80.04,
+    "price_neto": 92580.4238,
+    "price": 112022.31,
     "tes": "503"
   },
   {
@@ -20776,8 +20776,8 @@
     "code": "003296",
     "description": "CR-311 AZUL ESVERDEADO REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 55.554,
-    "price": 67.22,
+    "price_neto": 77747.823,
+    "price": 94074.87,
     "tes": "503"
   },
   {
@@ -21217,8 +21217,8 @@
     "code": "003377",
     "description": "ZM INTERZONE 954 GREY C/PARTE B (16+4) X 20",
     "stock": "0111",
-    "price_neto": 645.627,
-    "price": 781.21,
+    "price_neto": 916790.34,
+    "price": 1109316.31,
     "tes": "503"
   },
   {
@@ -21523,8 +21523,8 @@
     "code": "003419",
     "description": "GUANTES TACTIL POLI 21-103 -T07 X 2",
     "stock": "0143",
-    "price_neto": 1.584,
-    "price": 1.92,
+    "price_neto": 2249.28,
+    "price": 2721.63,
     "tes": "503"
   },
   {
@@ -21532,8 +21532,8 @@
     "code": "003420",
     "description": "GUANTES TACTIL POLI 21-103 -T08 X 2",
     "stock": "0143",
-    "price_neto": 1.584,
-    "price": 1.92,
+    "price_neto": 2249.28,
+    "price": 2721.63,
     "tes": "503"
   },
   {
@@ -21649,8 +21649,8 @@
     "code": "003438",
     "description": "REGRETA METALICA - 031309-0163",
     "stock": "0134",
-    "price_neto": 10.556,
-    "price": 12.77,
+    "price_neto": 14773.122,
+    "price": 17875.48,
     "tes": "503"
   },
   {
@@ -22162,8 +22162,8 @@
     "code": "003503",
     "description": "COPA Y TAPA DOX251V PLASTICA P/MEZCLA PPG",
     "stock": "0134",
-    "price_neto": 2.574,
-    "price": 3.11,
+    "price_neto": 3602.313,
+    "price": 4358.8,
     "tes": "503"
   },
   {
@@ -22171,8 +22171,8 @@
     "code": "003504",
     "description": "TAPA P/COPA PLASTICA DE MEZCLADO PPG - DOX251L",
     "stock": "0134",
-    "price_neto": 1.352,
-    "price": 1.64,
+    "price_neto": 1892.124,
+    "price": 2289.47,
     "tes": "503"
   },
   {
@@ -22189,8 +22189,8 @@
     "code": "003510",
     "description": "SIGMAPRIME200 (BAS16+HRD4) X 20",
     "stock": "0162",
-    "price_neto": 428,
-    "price": 517.88,
+    "price_neto": 598986,
+    "price": 724773.06,
     "tes": "503"
   },
   {
@@ -22198,8 +22198,8 @@
     "code": "003511",
     "description": "SIGMAFAST 278 RAL7035 (BAS15+HRD5) X 20",
     "stock": "0162",
-    "price_neto": 459.2,
-    "price": 555.63,
+    "price_neto": 642650.4,
+    "price": 777606.98,
     "tes": "503"
   },
   {
@@ -22207,8 +22207,8 @@
     "code": "003512",
     "description": "SIGMADUR 550 RAL9001 (BAS17,6+HRD2,4) X 20",
     "stock": "0162",
-    "price_neto": 594,
-    "price": 718.74,
+    "price_neto": 831303,
+    "price": 1005876.63,
     "tes": "503"
   },
   {
@@ -22216,8 +22216,8 @@
     "code": "003513",
     "description": "DILUYENTE 91-92 EPOXI X 20",
     "stock": "0162",
-    "price_neto": 262,
-    "price": 317.02,
+    "price_neto": 366669,
+    "price": 443669.49,
     "tes": "503"
   },
   {
@@ -22225,8 +22225,8 @@
     "code": "003514",
     "description": "DILUYENTE 21-06 POLIURETANICO X 20",
     "stock": "0162",
-    "price_neto": 258.8,
-    "price": 313.15,
+    "price_neto": 362190.6,
+    "price": 438250.63,
     "tes": "503"
   },
   {
@@ -22234,8 +22234,8 @@
     "code": "003516",
     "description": "DIL021.16 CATALIZADOR WASH PRIMER WP21 X 0.300",
     "stock": "0132",
-    "price_neto": 8.183,
-    "price": 9.9,
+    "price_neto": 11452.1085,
+    "price": 13857.05,
     "tes": "503"
   },
   {
@@ -22243,8 +22243,8 @@
     "code": "003517",
     "description": "WP21.11 WASH PRIMER FOSFATIZANTE VINILICO X 0.600",
     "stock": "0132",
-    "price_neto": 14.28,
-    "price": 17.28,
+    "price_neto": 19984.86,
+    "price": 24181.68,
     "tes": "503"
   },
   {
@@ -22252,8 +22252,8 @@
     "code": "003519",
     "description": "P433-XR10-E033 - CRYSTAL SILVER X 0,330",
     "stock": "0131",
-    "price_neto": 107.025,
-    "price": 129.5,
+    "price_neto": 149781.4875,
+    "price": 181235.6,
     "tes": "503"
   },
   {
@@ -22261,8 +22261,8 @@
     "code": "003520",
     "description": "P433-XR11-E033 - SUNBEAM GOLD X 0,330",
     "stock": "0131",
-    "price_neto": 94.825,
-    "price": 114.74,
+    "price_neto": 132707.5875,
+    "price": 160576.18,
     "tes": "503"
   },
   {
@@ -22270,8 +22270,8 @@
     "code": "003521",
     "description": "P433-XR12-E033 - RADIANT RED X 0,330",
     "stock": "0131",
-    "price_neto": 96.475,
-    "price": 116.73,
+    "price_neto": 135016.7625,
+    "price": 163370.28,
     "tes": "503"
   },
   {
@@ -22279,8 +22279,8 @@
     "code": "003522",
     "description": "P433-XR13-E033 - GALAXY BLUE X 0,330",
     "stock": "0131",
-    "price_neto": 104.475,
-    "price": 126.41,
+    "price_neto": 146212.7625,
+    "price": 176917.44,
     "tes": "503"
   },
   {
@@ -22288,8 +22288,8 @@
     "code": "003523",
     "description": "P433-XR14-E033 - STELLAR GREEN X 0,330",
     "stock": "0131",
-    "price_neto": 103.925,
-    "price": 125.75,
+    "price_neto": 145443.0375,
+    "price": 175986.08,
     "tes": "503"
   },
   {
@@ -22297,8 +22297,8 @@
     "code": "003524",
     "description": "P433-XR15-E033 - SOLARIS RED X 0,330",
     "stock": "0131",
-    "price_neto": 104.375,
-    "price": 126.29,
+    "price_neto": 146072.8125,
+    "price": 176748.1,
     "tes": "503"
   },
   {
@@ -22306,8 +22306,8 @@
     "code": "003525",
     "description": "P433-XR16-E033 - FIRESIDE COPPER X 0,330",
     "stock": "0131",
-    "price_neto": 104.6,
-    "price": 126.57,
+    "price_neto": 146387.7,
+    "price": 177129.12,
     "tes": "503"
   },
   {
@@ -22360,8 +22360,8 @@
     "code": "003534",
     "description": "CR-315 VIOLETA REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 67.539,
-    "price": 81.72,
+    "price_neto": 94520.8305,
+    "price": 114370.2,
     "tes": "503"
   },
   {
@@ -22495,8 +22495,8 @@
     "code": "003561",
     "description": "CR-332 AMARELO REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 55.1545,
-    "price": 66.74,
+    "price_neto": 77188.7228,
+    "price": 93398.35,
     "tes": "503"
   },
   {
@@ -22612,8 +22612,8 @@
     "code": "003602",
     "description": "CINTA ANTIDESLIZANTE RAPIFIX (2200) 50MM X 5MTS",
     "stock": "0181",
-    "price_neto": 13.975,
-    "price": 16.91,
+    "price_neto": 19844.5,
+    "price": 24011.85,
     "tes": "503"
   },
   {
@@ -22711,18 +22711,18 @@
     "code": "003649",
     "description": "EQUIPO PARA PINTAR ADIABATIC EC.2000 - P.GRAVEDAD",
     "stock": "0104",
-    "price_neto": 707335.2118,
+    "price_neto": 774548.06,
     "price": 855875.61,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "003650",
     "code": "003650",
     "description": "EQUIPO PARA PINTAR ADIABATIC EC.3000 - P.GRAVEDAD",
     "stock": "0104",
-    "price_neto": 973175.6004,
+    "price_neto": 1065649.3,
     "price": 1177542.48,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "003687",
@@ -22963,8 +22963,8 @@
     "code": "003765",
     "description": "DRAGER-MASCARA X-PLORE 5500",
     "stock": "0143",
-    "price_neto": 586.047,
-    "price": 709.12,
+    "price_neto": 832186.74,
+    "price": 1006945.96,
     "tes": "503"
   },
   {
@@ -23026,9 +23026,9 @@
     "code": "003775",
     "description": "PULIDORA 3D ROTATIVA C/BACKING PLATE (L-36)",
     "stock": "0191",
-    "price_neto": 274381.7308,
+    "price_neto": 300454.203,
     "price": 332001.89,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "003776",
@@ -23215,8 +23215,8 @@
     "code": "003799",
     "description": "MINI ANDAMIO EQUUS",
     "stock": "0161",
-    "price_neto": 372,
-    "price": 450.12,
+    "price_neto": 528240,
+    "price": 639170.4,
     "tes": "503"
   },
   {
@@ -23224,8 +23224,8 @@
     "code": "003800",
     "description": "CR-338 VERMEHO OXIDO REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 63.0035,
-    "price": 76.23,
+    "price_neto": 88173.3982,
+    "price": 106689.81,
     "tes": "503"
   },
   {
@@ -23233,8 +23233,8 @@
     "code": "003801",
     "description": "CR-377 ESVERDEADO REDUZIDO X 1",
     "stock": "0132",
-    "price_neto": 57.2695,
-    "price": 69.3,
+    "price_neto": 80148.6653,
+    "price": 96979.88,
     "tes": "503"
   },
   {
@@ -23269,8 +23269,8 @@
     "code": "003808",
     "description": "CX-10 3B EFEITO PRATA CRISTAL X 0 33",
     "stock": "0132",
-    "price_neto": 122.647,
-    "price": 148.4,
+    "price_neto": 171644.4765,
+    "price": 207689.82,
     "tes": "503"
   },
   {
@@ -23296,8 +23296,8 @@
     "code": "003815",
     "description": "CX-11 3B EFEITO OURO X 0 33",
     "stock": "0132",
-    "price_neto": 112.749,
-    "price": 136.43,
+    "price_neto": 157792.2255,
+    "price": 190928.59,
     "tes": "503"
   },
   {
@@ -23449,8 +23449,8 @@
     "code": "003838",
     "description": "CX-12 3B EFEITO VERMELHO RUBI X 0 33",
     "stock": "0132",
-    "price_neto": 114.1945,
-    "price": 138.18,
+    "price_neto": 159815.2028,
+    "price": 193376.4,
     "tes": "503"
   },
   {
@@ -23458,8 +23458,8 @@
     "code": "003842",
     "description": "CX-13 3B EFEITO AZUL UNIVERSO X 0 33",
     "stock": "0132",
-    "price_neto": 122.745,
-    "price": 148.52,
+    "price_neto": 171781.6275,
+    "price": 207855.77,
     "tes": "503"
   },
   {
@@ -24808,8 +24808,8 @@
     "code": "004018",
     "description": "CL-559 AMARILLO ROJIZO X 1",
     "stock": "0132",
-    "price_neto": 146.7105,
-    "price": 177.52,
+    "price_neto": 205321.3447,
+    "price": 248438.83,
     "tes": "503"
   },
   {
@@ -24934,8 +24934,8 @@
     "code": "004032",
     "description": "CL-561 NARANJA X 1",
     "stock": "0132",
-    "price_neto": 122.5055,
-    "price": 148.23,
+    "price_neto": 171446.4472,
+    "price": 207450.2,
     "tes": "503"
   },
   {
@@ -24943,8 +24943,8 @@
     "code": "004033",
     "description": "CL-560 BASE MATEANTE X1",
     "stock": "0132",
-    "price_neto": 35.767,
-    "price": 43.28,
+    "price_neto": 50055.9165,
+    "price": 60567.66,
     "tes": "503"
   },
   {
@@ -25114,8 +25114,8 @@
     "code": "004056",
     "description": "CM-071 GRAFITO X 1 (DISCONTINUADO)",
     "stock": "0132",
-    "price_neto": 76.3515,
-    "price": 92.39,
+    "price_neto": 106853.9242,
+    "price": 129293.25,
     "tes": "503"
   },
   {
@@ -25123,8 +25123,8 @@
     "code": "004057",
     "description": "BARANDAS P/ANDAMIO MULTIUSO EQUUS",
     "stock": "0161",
-    "price_neto": 446,
-    "price": 539.66,
+    "price_neto": 633320,
+    "price": 766317.2,
     "tes": "503"
   },
   {
@@ -25222,8 +25222,8 @@
     "code": "004075",
     "description": "CM-077 AMARILLO VERDOSO X 1",
     "stock": "0132",
-    "price_neto": 152.8675,
-    "price": 184.97,
+    "price_neto": 213938.0663,
+    "price": 258865.06,
     "tes": "503"
   },
   {
@@ -25231,8 +25231,8 @@
     "code": "004076",
     "description": "CM-078 NARANJA LIMPIO X 1",
     "stock": "0132",
-    "price_neto": 156.651,
-    "price": 189.55,
+    "price_neto": 219233.0745,
+    "price": 265272.02,
     "tes": "503"
   },
   {
@@ -25240,8 +25240,8 @@
     "code": "004077",
     "description": "CM-118 DOLAR ALUMINIO X 1",
     "stock": "0132",
-    "price_neto": 92.0495,
-    "price": 111.38,
+    "price_neto": 128823.2753,
+    "price": 155876.16,
     "tes": "503"
   },
   {
@@ -25303,8 +25303,8 @@
     "code": "004089",
     "description": "CX-14 3B EFEITO VERDE LUMINOSO X 0 33",
     "stock": "0132",
-    "price_neto": 119.1925,
-    "price": 144.22,
+    "price_neto": 166809.9037,
+    "price": 201839.98,
     "tes": "503"
   },
   {
@@ -25357,8 +25357,8 @@
     "code": "004115",
     "description": "DILUYENTE 20-05 X 20",
     "stock": "0162",
-    "price_neto": 158,
-    "price": 191.18,
+    "price_neto": 221121,
+    "price": 267556.41,
     "tes": "503"
   },
   {
@@ -25366,8 +25366,8 @@
     "code": "004116",
     "description": "SIGMATHERM 500 X 5",
     "stock": "0162",
-    "price_neto": 115.1,
-    "price": 139.27,
+    "price_neto": 161082.45,
+    "price": 194909.76,
     "tes": "503"
   },
   {
@@ -25375,8 +25375,8 @@
     "code": "004117",
     "description": "SIGMASHIELD 880 BAS GREY (BAS15+HRD5) X 20",
     "stock": "0162",
-    "price_neto": 466.99,
-    "price": 565.06,
+    "price_neto": 653552.505,
+    "price": 790798.53,
     "tes": "503"
   },
   {
@@ -25474,8 +25474,8 @@
     "code": "004145",
     "description": "ESTABILIZADORES ANDAMIO MULTIUSO EQUUS",
     "stock": "0161",
-    "price_neto": 424,
-    "price": 513.04,
+    "price_neto": 602080,
+    "price": 728516.8,
     "tes": "503"
   },
   {
@@ -25483,9 +25483,9 @@
     "code": "004147",
     "description": "PULIDORA 3D ROTO ORBITAL (L-35)",
     "stock": "0191",
-    "price_neto": 292229.8662,
+    "price_neto": 319998.315,
     "price": 353598.14,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "004149",
@@ -25870,8 +25870,8 @@
     "code": "004196",
     "description": "FILM PARA ENMASCARAMIENTO 125X4 (FPM0001)",
     "stock": "0134",
-    "price_neto": 85.6655,
-    "price": 103.66,
+    "price_neto": 119888.8672,
+    "price": 145065.53,
     "tes": "503"
   },
   {
@@ -25933,8 +25933,8 @@
     "code": "004213",
     "description": "T402 TRACE WHITE X 0.500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -25942,8 +25942,8 @@
     "code": "004214",
     "description": "T403 MICRO WHITE X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -25951,8 +25951,8 @@
     "code": "004215",
     "description": "T405 GRAPHITE BLACK X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -25960,8 +25960,8 @@
     "code": "004216",
     "description": "T409 DEEP BLACK  X 2",
     "stock": "0169",
-    "price_neto": 123.4684,
-    "price": 149.4,
+    "price_neto": 172794.0258,
+    "price": 209080.77,
     "tes": "503"
   },
   {
@@ -25969,8 +25969,8 @@
     "code": "004217",
     "description": "T411 BLUE X 1",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -25978,8 +25978,8 @@
     "code": "004218",
     "description": "T412.E1 TRANSPARENT BLUE X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -25987,8 +25987,8 @@
     "code": "004219",
     "description": "T414 RICH BLUE X 2",
     "stock": "0169",
-    "price_neto": 236.8938,
-    "price": 286.64,
+    "price_neto": 331532.8731,
+    "price": 401154.78,
     "tes": "503"
   },
   {
@@ -25996,8 +25996,8 @@
     "code": "004220",
     "description": "T421 OLIVE X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26005,8 +26005,8 @@
     "code": "004221",
     "description": "T425 PERMANENT YELLOW X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26014,8 +26014,8 @@
     "code": "004223",
     "description": "T427 YELLOW X 1",
     "stock": "0169",
-    "price_neto": 140.1906,
-    "price": 169.63,
+    "price_neto": 196196.7447,
+    "price": 237398.06,
     "tes": "503"
   },
   {
@@ -26023,8 +26023,8 @@
     "code": "004224",
     "description": "T429 TRANSPARENT GOLDEN YELLOW X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26032,8 +26032,8 @@
     "code": "004225",
     "description": "T430 HIGH STRENGH TRANSPARENT GREEN X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26041,8 +26041,8 @@
     "code": "004226",
     "description": "T431 HIGH STRENGH PHTALO GREEN X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26050,8 +26050,8 @@
     "code": "004227",
     "description": "T432 TRANSPARENT RED X 1",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -26059,8 +26059,8 @@
     "code": "004228",
     "description": "T4321 ENVIROBASE HC YELLO X 0,500",
     "stock": "0169",
-    "price_neto": 67.9778,
-    "price": 82.25,
+    "price_neto": 95134.9311,
+    "price": 115113.27,
     "tes": "503"
   },
   {
@@ -26068,8 +26068,8 @@
     "code": "004229",
     "description": "T436 RED OXIDE X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26077,8 +26077,8 @@
     "code": "004230",
     "description": "T438 ROSE X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26086,8 +26086,8 @@
     "code": "004231",
     "description": "T4342 HC MAGENTA X 0,500",
     "stock": "0169",
-    "price_neto": 136.0282,
-    "price": 164.59,
+    "price_neto": 190371.4659,
+    "price": 230349.47,
     "tes": "503"
   },
   {
@@ -26095,8 +26095,8 @@
     "code": "004232",
     "description": "T4343 ENVIROBASE HC ORGAN X 0,500",
     "stock": "0169",
-    "price_neto": 100.9624,
-    "price": 122.16,
+    "price_neto": 141296.8788,
+    "price": 170969.22,
     "tes": "503"
   },
   {
@@ -26104,8 +26104,8 @@
     "code": "004233",
     "description": "T441 CARMINE X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26113,8 +26113,8 @@
     "code": "004234",
     "description": "T442 BROWN X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26122,8 +26122,8 @@
     "code": "004235",
     "description": "T444 BORDEAUX X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26131,8 +26131,8 @@
     "code": "004236",
     "description": "T447 BRIGHT RED X 1",
     "stock": "0169",
-    "price_neto": 137.1656,
-    "price": 165.97,
+    "price_neto": 191963.2572,
+    "price": 232275.54,
     "tes": "503"
   },
   {
@@ -26140,8 +26140,8 @@
     "code": "004237",
     "description": "T451 EXTRA FINE WHITE PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26149,8 +26149,8 @@
     "code": "004238",
     "description": "T452 FINE WHITE PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26158,8 +26158,8 @@
     "code": "004239",
     "description": "T453 WHITE PEARL X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26167,8 +26167,8 @@
     "code": "004240",
     "description": "T454 BRIGHT RED PEARL X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26176,8 +26176,8 @@
     "code": "004241",
     "description": "T456 BLUE PEARL X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26185,8 +26185,8 @@
     "code": "004242",
     "description": "T457 GREEN PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26194,8 +26194,8 @@
     "code": "004243",
     "description": "T461.E0.5 GOLDEN YELLOW PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1714,
-    "price": 82.49,
+    "price_neto": 95405.8743,
+    "price": 115441.11,
     "tes": "503"
   },
   {
@@ -26203,8 +26203,8 @@
     "code": "004244",
     "description": "T462.E1 FINE RED PEARL X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26212,8 +26212,8 @@
     "code": "004245",
     "description": "T471 EXTRA FINE METALLIC X 2",
     "stock": "0169",
-    "price_neto": 214.412,
-    "price": 259.44,
+    "price_neto": 300069.594,
+    "price": 363084.21,
     "tes": "503"
   },
   {
@@ -26221,8 +26221,8 @@
     "code": "004246",
     "description": "T472 FINE LENTICULAR METALLIC X 2",
     "stock": "0169",
-    "price_neto": 212.5002,
-    "price": 257.13,
+    "price_neto": 297394.0299,
+    "price": 359846.78,
     "tes": "503"
   },
   {
@@ -26230,8 +26230,8 @@
     "code": "004247",
     "description": "T473.E2 MEDIUM METALLIC X 2",
     "stock": "0169",
-    "price_neto": 192.8014,
-    "price": 233.29,
+    "price_neto": 269825.5593,
+    "price": 326488.93,
     "tes": "503"
   },
   {
@@ -26239,8 +26239,8 @@
     "code": "004248",
     "description": "T474 FINE METALLIC X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26248,8 +26248,8 @@
     "code": "004249",
     "description": "T476 COARSE LENTICULAR METALLIC X 2",
     "stock": "0169",
-    "price_neto": 214.412,
-    "price": 259.44,
+    "price_neto": 300069.594,
+    "price": 363084.21,
     "tes": "503"
   },
   {
@@ -26356,8 +26356,8 @@
     "code": "004264",
     "description": "T477.E1 EXTRA COARSE METALLIC X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26365,8 +26365,8 @@
     "code": "004265",
     "description": "D837P.10 DESENGRASANTE SPIRIT WIPE PPG X 4",
     "stock": "0134",
-    "price_neto": 77.625,
-    "price": 93.93,
+    "price_neto": 108636.1875,
+    "price": 131449.79,
     "tes": "503"
   },
   {
@@ -26374,8 +26374,8 @@
     "code": "004267",
     "description": "T479 COARSE SILVER DOLLAR ALUMINIUM X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26383,8 +26383,8 @@
     "code": "004268",
     "description": "T491 MATTING BASE X 1",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -26392,8 +26392,8 @@
     "code": "004269",
     "description": "T4000 CRISTAL SILVER X 0,500",
     "stock": "0169",
-    "price_neto": 242.8402,
-    "price": 293.84,
+    "price_neto": 339854.8599,
+    "price": 411224.38,
     "tes": "503"
   },
   {
@@ -26401,8 +26401,8 @@
     "code": "004270",
     "description": "T4001 ENVIROBASE TINTER BASE ACUOSA X 0,500",
     "stock": "0169",
-    "price_neto": 224.8708,
-    "price": 272.09,
+    "price_neto": 314706.6846,
+    "price": 380795.09,
     "tes": "503"
   },
   {
@@ -26410,8 +26410,8 @@
     "code": "004271",
     "description": "T4003 GALAXY BLUE X 0,500",
     "stock": "0169",
-    "price_neto": 242.8402,
-    "price": 293.84,
+    "price_neto": 339854.8599,
+    "price": 411224.38,
     "tes": "503"
   },
   {
@@ -26419,8 +26419,8 @@
     "code": "004272",
     "description": "T4004 STELLAR GREEN X 0,500",
     "stock": "0169",
-    "price_neto": 242.8402,
-    "price": 293.84,
+    "price_neto": 339854.8599,
+    "price": 411224.38,
     "tes": "503"
   },
   {
@@ -26428,8 +26428,8 @@
     "code": "004273",
     "description": "T4032 ENVIROBASE TINTER BARNIZ X 0,250",
     "stock": "0169",
-    "price_neto": 133.2128,
-    "price": 161.19,
+    "price_neto": 186431.3136,
+    "price": 225581.89,
     "tes": "503"
   },
   {
@@ -26437,8 +26437,8 @@
     "code": "004274",
     "description": "T4034 ENVIROBASE TINTER BARNIZ X 0,250",
     "stock": "0169",
-    "price_neto": 133.2128,
-    "price": 161.19,
+    "price_neto": 186431.3136,
+    "price": 225581.89,
     "tes": "503"
   },
   {
@@ -26446,8 +26446,8 @@
     "code": "004275",
     "description": "T4040 ORANGE FLASH X 0,500",
     "stock": "0169",
-    "price_neto": 256.6674,
-    "price": 310.57,
+    "price_neto": 359206.0263,
+    "price": 434639.29,
     "tes": "503"
   },
   {
@@ -26455,8 +26455,8 @@
     "code": "004276",
     "description": "T4700 LIQUID METAL  X 0,250",
     "stock": "0169",
-    "price_neto": 135.4351,
-    "price": 163.88,
+    "price_neto": 189541.4225,
+    "price": 229345.12,
     "tes": "503"
   },
   {
@@ -26464,8 +26464,8 @@
     "code": "004277",
     "description": "T4705 ENVIROBASE HP LIQUID METAL II X 0,500",
     "stock": "0169",
-    "price_neto": 133.2754,
-    "price": 161.26,
+    "price_neto": 186518.9223,
+    "price": 225687.9,
     "tes": "503"
   },
   {
@@ -26473,8 +26473,8 @@
     "code": "004278",
     "description": "T400/E2 WHITE X 2",
     "stock": "0169",
-    "price_neto": 197.835,
-    "price": 239.38,
+    "price_neto": 276870.0825,
+    "price": 335012.8,
     "tes": "503"
   },
   {
@@ -26482,8 +26482,8 @@
     "code": "004279",
     "description": "T404 TRACE BLUE BLACK X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26491,8 +26491,8 @@
     "code": "004280",
     "description": "T406 BLUE BLACK X 1",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26500,8 +26500,8 @@
     "code": "004281",
     "description": "T407 JET BLACK X 2",
     "stock": "0169",
-    "price_neto": 197.835,
-    "price": 239.38,
+    "price_neto": 276870.0825,
+    "price": 335012.8,
     "tes": "503"
   },
   {
@@ -26509,8 +26509,8 @@
     "code": "004282",
     "description": "T413 BRIGHT BLUE X 1",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -26518,8 +26518,8 @@
     "code": "004283",
     "description": "T415 TRACE BLUE X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26527,8 +26527,8 @@
     "code": "004284",
     "description": "T420 HIGH STRENGH BLUE X 1",
     "stock": "0169",
-    "price_neto": 172.4734,
-    "price": 208.69,
+    "price_neto": 241376.5233,
+    "price": 292065.59,
     "tes": "503"
   },
   {
@@ -26536,8 +26536,8 @@
     "code": "004285",
     "description": "T422 YELLOW OXIDE X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26545,8 +26545,8 @@
     "code": "004286",
     "description": "T423 TRACE YELLOW OXIDE X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26554,8 +26554,8 @@
     "code": "004287",
     "description": "T426 WARM YELLOW X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26563,8 +26563,8 @@
     "code": "004288",
     "description": "T4281 ENVIROBASE HP SOLID X 0,500",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26572,8 +26572,8 @@
     "code": "004289",
     "description": "T4311 ENVIROBASE HC GREEN X 0,500",
     "stock": "0169",
-    "price_neto": 77.44,
-    "price": 93.7,
+    "price_neto": 108377.28,
+    "price": 131136.51,
     "tes": "503"
   },
   {
@@ -26581,8 +26581,8 @@
     "code": "004290",
     "description": "T433 BRILLIANT ORANGE X 0,500",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26590,8 +26590,8 @@
     "code": "004291",
     "description": "T435 SALMON RED X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26599,8 +26599,8 @@
     "code": "004292",
     "description": "T4341 HC TRANSOXIDE RED X 0,500",
     "stock": "0169",
-    "price_neto": 69.1152,
-    "price": 83.63,
+    "price_neto": 96726.7224,
+    "price": 117039.33,
     "tes": "503"
   },
   {
@@ -26608,8 +26608,8 @@
     "code": "004293",
     "description": "T440 TRACE RED OXIDE X 0,500",
     "stock": "0169",
-    "price_neto": 52.8044,
-    "price": 63.89,
+    "price_neto": 73899.7578,
+    "price": 89418.71,
     "tes": "503"
   },
   {
@@ -26617,8 +26617,8 @@
     "code": "004294",
     "description": "T443 VIOLET X 1",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -26626,8 +26626,8 @@
     "code": "004295",
     "description": "T445 TRANSPARENT MAGENTA X 0,500",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -26635,8 +26635,8 @@
     "code": "004296",
     "description": "T448 RUSSET X 1",
     "stock": "0169",
-    "price_neto": 113.3044,
-    "price": 137.1,
+    "price_neto": 158569.5078,
+    "price": 191869.1,
     "tes": "503"
   },
   {
@@ -26644,8 +26644,8 @@
     "code": "004297",
     "description": "T455 FINE BLUE PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26653,8 +26653,8 @@
     "code": "004298",
     "description": "T458.E0.5 BLUE - GREEN PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26662,8 +26662,8 @@
     "code": "004299",
     "description": "T459 COPPER PEARL X 1",
     "stock": "0169",
-    "price_neto": 137.3108,
-    "price": 166.15,
+    "price_neto": 192166.4646,
+    "price": 232521.42,
     "tes": "503"
   },
   {
@@ -26680,8 +26680,8 @@
     "code": "004301",
     "description": "T460 YELLOW PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1714,
-    "price": 82.49,
+    "price_neto": 95405.8743,
+    "price": 115441.11,
     "tes": "503"
   },
   {
@@ -26689,8 +26689,8 @@
     "code": "004302",
     "description": "T465.E0.5 RED PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26698,8 +26698,8 @@
     "code": "004303",
     "description": "T466 ORANGE PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26707,8 +26707,8 @@
     "code": "004304",
     "description": "T468 VIOLET PEARL X 0,500",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26716,8 +26716,8 @@
     "code": "004305",
     "description": "T475.E2 MEDIUM LENTICULAR METALLIC X 2",
     "stock": "0169",
-    "price_neto": 229.1498,
-    "price": 277.27,
+    "price_neto": 320695.1451,
+    "price": 388041.13,
     "tes": "503"
   },
   {
@@ -26725,8 +26725,8 @@
     "code": "004306",
     "description": "T489 MEDIUM ALUMINIUM GOLD X 0,500",
     "stock": "0169",
-    "price_neto": 88.33,
-    "price": 106.88,
+    "price_neto": 123617.835,
+    "price": 149577.58,
     "tes": "503"
   },
   {
@@ -26734,8 +26734,8 @@
     "code": "004307",
     "description": "T490.E1 TINTED CLEAR ADDITIVE X 1",
     "stock": "0169",
-    "price_neto": 68.1472,
-    "price": 82.46,
+    "price_neto": 95372.0064,
+    "price": 115400.13,
     "tes": "503"
   },
   {
@@ -26743,8 +26743,8 @@
     "code": "004308",
     "description": "T4002 RADIANT RED X 0,500",
     "stock": "0169",
-    "price_neto": 242.8402,
-    "price": 293.84,
+    "price_neto": 339854.8599,
+    "price": 411224.38,
     "tes": "503"
   },
   {
@@ -26752,8 +26752,8 @@
     "code": "004309",
     "description": "T4005 SOLARIS RED X 0,500",
     "stock": "0169",
-    "price_neto": 242.8402,
-    "price": 293.84,
+    "price_neto": 339854.8599,
+    "price": 411224.38,
     "tes": "503"
   },
   {
@@ -26761,8 +26761,8 @@
     "code": "004310",
     "description": "T4006 FIRESIDE COPPER X 0,500",
     "stock": "0169",
-    "price_neto": 242.8402,
-    "price": 293.84,
+    "price_neto": 339854.8599,
+    "price": 411224.38,
     "tes": "503"
   },
   {
@@ -26770,8 +26770,8 @@
     "code": "004311",
     "description": "T4008 ENVIROBASE TINTER BARNIZ X0,250",
     "stock": "0169",
-    "price_neto": 124.4448,
-    "price": 150.58,
+    "price_neto": 174160.4976,
+    "price": 210734.2,
     "tes": "503"
   },
   {
@@ -26779,8 +26779,8 @@
     "code": "004312",
     "description": "T497 LIMPIADOR DE PISTOLAS AL AGUA X 5",
     "stock": "0169",
-    "price_neto": 65.2916,
-    "price": 79,
+    "price_neto": 91375.5942,
+    "price": 110564.47,
     "tes": "503"
   },
   {
@@ -26869,8 +26869,8 @@
     "code": "004327",
     "description": "DCH3085 CATALIZADOR NORMAL TEMPERATURA MEDIA P/ DC3000/4000 X 1",
     "stock": "0134",
-    "price_neto": 85.56,
-    "price": 103.53,
+    "price_neto": 119741.22,
+    "price": 144886.88,
     "tes": "503"
   },
   {
@@ -26932,8 +26932,8 @@
     "code": "004340",
     "description": "T4007 COSMIC TURQUOISE ENVIROBASE X 0,250",
     "stock": "0169",
-    "price_neto": 124.4448,
-    "price": 150.58,
+    "price_neto": 174160.4976,
+    "price": 210734.2,
     "tes": "503"
   },
   {
@@ -27958,8 +27958,8 @@
     "code": "004586",
     "description": "SIGMARINE 28 GREY X 20",
     "stock": "0162",
-    "price_neto": 267.54,
-    "price": 323.72,
+    "price_neto": 374422.23,
+    "price": 453050.9,
     "tes": "503"
   },
   {
@@ -28084,8 +28084,8 @@
     "code": "004641",
     "description": "SELLADOR POLIURETANO NODULO NODUPOL 46 BLANCO X 0,300",
     "stock": "0136",
-    "price_neto": 16.023,
-    "price": 19.39,
+    "price_neto": 22752.66,
+    "price": 27530.72,
     "tes": "503"
   },
   {
@@ -28093,8 +28093,8 @@
     "code": "004642",
     "description": "SELLADOR POLIURETANO NODULO NODUPOL 46 GRIS X 0,300",
     "stock": "0136",
-    "price_neto": 16.023,
-    "price": 19.39,
+    "price_neto": 22752.66,
+    "price": 27530.72,
     "tes": "503"
   },
   {
@@ -28102,8 +28102,8 @@
     "code": "004643",
     "description": "SELLADOR POLIURETANO NODULO NODUPOL 46 NEGRO X 0,300",
     "stock": "0136",
-    "price_neto": 16.023,
-    "price": 19.39,
+    "price_neto": 22752.66,
+    "price": 27530.72,
     "tes": "503"
   },
   {
@@ -28111,8 +28111,8 @@
     "code": "004644",
     "description": "SELLADOR POLIURETANO NODULO NODUPOL 46 BLANCO X 0,600",
     "stock": "0136",
-    "price_neto": 19.992,
-    "price": 24.19,
+    "price_neto": 28388.64,
+    "price": 34350.25,
     "tes": "503"
   },
   {
@@ -28120,8 +28120,8 @@
     "code": "004645",
     "description": "SELLADOR POLIURETANO NODULO NODUPOL 46 GRIS X 0,600",
     "stock": "0136",
-    "price_neto": 19.992,
-    "price": 24.19,
+    "price_neto": 28388.64,
+    "price": 34350.25,
     "tes": "503"
   },
   {
@@ -28129,8 +28129,8 @@
     "code": "004646",
     "description": "SELLADOR POLIURETANO NODULO NODUPOL 46 NEGRO X 0,600",
     "stock": "0136",
-    "price_neto": 19.992,
-    "price": 24.19,
+    "price_neto": 28388.64,
+    "price": 34350.25,
     "tes": "503"
   },
   {
@@ -28687,8 +28687,8 @@
     "code": "004800",
     "description": "D800.10 BARNIZ CONCEPT 2020 DELTRON X 5,000",
     "stock": "0134",
-    "price_neto": 160.785,
-    "price": 194.55,
+    "price_neto": 225018.6075,
+    "price": 272272.52,
     "tes": "503"
   },
   {
@@ -28777,8 +28777,8 @@
     "code": "004817",
     "description": "P425-987 MEDIUM COARSE X 3,5",
     "stock": "0131",
-    "price_neto": 224.802,
-    "price": 272.01,
+    "price_neto": 314610.399,
+    "price": 380678.58,
     "tes": "503"
   },
   {
@@ -28804,8 +28804,8 @@
     "code": "004822",
     "description": "CINTA EMBALAJE RAPIFIX TRANSPARENTE (350) 24MM",
     "stock": "0181",
-    "price_neto": 1.035,
-    "price": 1.25,
+    "price_neto": 1469.7,
+    "price": 1778.34,
     "tes": "503"
   },
   {
@@ -28813,8 +28813,8 @@
     "code": "004823",
     "description": "CINTA EMBALAJE RAPIFIX TRANSPARENTE (350) 36MM",
     "stock": "0181",
-    "price_neto": 1.5525,
-    "price": 1.88,
+    "price_neto": 2204.55,
+    "price": 2667.51,
     "tes": "503"
   },
   {
@@ -28822,8 +28822,8 @@
     "code": "004824",
     "description": "CINTA EMBALAJE RAPIFIX TRANSPARENTE (350) 48MM",
     "stock": "0181",
-    "price_neto": 1.9575,
-    "price": 2.37,
+    "price_neto": 2779.65,
+    "price": 3363.38,
     "tes": "503"
   },
   {
@@ -29668,8 +29668,8 @@
     "code": "004942",
     "description": "BP-01A.01 BASE TRANSPARENTE POLIESTER X 3,500",
     "stock": "0132",
-    "price_neto": 77.372,
-    "price": 93.62,
+    "price_neto": 108282.114,
+    "price": 131021.36,
     "tes": "503"
   },
   {
@@ -29938,8 +29938,8 @@
     "code": "005001",
     "description": "DX101 PASTA DE LIJADO X 0,325",
     "stock": "0134",
-    "price_neto": 31.368,
-    "price": 37.96,
+    "price_neto": 43899.516,
+    "price": 53118.41,
     "tes": "503"
   },
   {
@@ -29983,8 +29983,8 @@
     "code": "005009",
     "description": "ANTEOJO ROGUANT SPHEREXSG-51M ELVEX (200416)",
     "stock": "0143",
-    "price_neto": 12.848,
-    "price": 15.55,
+    "price_neto": 18244.16,
+    "price": 22075.43,
     "tes": "503"
   },
   {
@@ -29992,8 +29992,8 @@
     "code": "005012",
     "description": "D8731/E0.4  DIFUMINANTE EN AEROSOL PU X 0,400 (D8730/E0.4)",
     "stock": "0134",
-    "price_neto": 25.427,
-    "price": 30.77,
+    "price_neto": 35585.0865,
+    "price": 43057.95,
     "tes": "503"
   },
   {
@@ -30100,8 +30100,8 @@
     "code": "005038",
     "description": "T494.63 DILUYENTE MEDIO P/BASE AGUA/PRIMER ACUOSO X 2",
     "stock": "0169",
-    "price_neto": 21.9915,
-    "price": 26.61,
+    "price_neto": 30777.1042,
+    "price": 37240.3,
     "tes": "503"
   },
   {
@@ -30190,8 +30190,8 @@
     "code": "005048",
     "description": "D8421 AEROSOL 1K PRIMER (G5) X 0.400",
     "stock": "0134",
-    "price_neto": 28.1295,
-    "price": 34.04,
+    "price_neto": 39367.2353,
+    "price": 47634.35,
     "tes": "503"
   },
   {
@@ -30199,8 +30199,8 @@
     "code": "005049",
     "description": "D8416/E.04 AEROSOL 1K PRIMER WHITE (G1) X 0,400",
     "stock": "0134",
-    "price_neto": 32.101,
-    "price": 38.84,
+    "price_neto": 44925.3495,
+    "price": 54359.67,
     "tes": "503"
   },
   {
@@ -30208,8 +30208,8 @@
     "code": "005052",
     "description": "D8424/E.04 AEROSOL 1K PRIMER GREY (G6) X 0,400",
     "stock": "0134",
-    "price_neto": 28.1295,
-    "price": 34.04,
+    "price_neto": 39367.2353,
+    "price": 47634.35,
     "tes": "503"
   },
   {
@@ -30217,8 +30217,8 @@
     "code": "005053",
     "description": "DC4000.04 BARNIZ RAPIDO PREMIUN DE ALTO SOLIDO DELTRON X 0,720",
     "stock": "0134",
-    "price_neto": 26.128,
-    "price": 31.61,
+    "price_neto": 36566.136,
+    "price": 44245.02,
     "tes": "503"
   },
   {
@@ -30226,8 +30226,8 @@
     "code": "005054",
     "description": "DCH3070 CATALIZADOR RAPIDO BAJA TEMPERATURA DELTRON P/DC3000/4000 X 0,237",
     "stock": "0902",
-    "price_neto": 36.5967,
-    "price": 44.28,
+    "price_neto": 51217.0816,
+    "price": 61972.67,
     "tes": "503"
   },
   {
@@ -30235,8 +30235,8 @@
     "code": "005055",
     "description": "D8010 PRIMER PU BLANCO GREYMATIC DELTRON X 3,000",
     "stock": "0134",
-    "price_neto": 128.43,
-    "price": 155.4,
+    "price_neto": 179737.785,
+    "price": 217482.72,
     "tes": "503"
   },
   {
@@ -30244,8 +30244,8 @@
     "code": "005056",
     "description": "D8017 PRIMER HS 2K GRIS OSCURO DELTRON X 3,000",
     "stock": "0134",
-    "price_neto": 122.6025,
-    "price": 148.35,
+    "price_neto": 171582.1987,
+    "price": 207614.46,
     "tes": "503"
   },
   {
@@ -30253,8 +30253,8 @@
     "code": "005057",
     "description": "DC4000FYL BARNIZ RAPIDO PREMIUN DE ALTOS SOLIDOS DELTRON X 3,785",
     "stock": "0134",
-    "price_neto": 124.3125,
-    "price": 150.42,
+    "price_neto": 173975.3437,
+    "price": 210510.17,
     "tes": "503"
   },
   {
@@ -30262,8 +30262,8 @@
     "code": "005058",
     "description": "ECA83.900 DILUYENTE REDUCTOR PARA BARNIZ EC800 EHP X 0.946",
     "stock": "0169",
-    "price_neto": 53.9325,
-    "price": 65.26,
+    "price_neto": 75478.5338,
+    "price": 91329.03,
     "tes": "503"
   },
   {
@@ -30271,8 +30271,8 @@
     "code": "005060",
     "description": "D8426 AEROSOL 1K PRIMER DARK GREY (G7) X 0,400",
     "stock": "0134",
-    "price_neto": 28.1295,
-    "price": 34.04,
+    "price_neto": 39367.2353,
+    "price": 47634.35,
     "tes": "503"
   },
   {
@@ -30325,8 +30325,8 @@
     "code": "005080",
     "description": "D8540AL TRANSPARENT SEALER X 1",
     "stock": "0134",
-    "price_neto": 89.861,
-    "price": 108.73,
+    "price_neto": 125760.4695,
+    "price": 152170.17,
     "tes": "503"
   },
   {
@@ -30334,8 +30334,8 @@
     "code": "005081",
     "description": "A6520BK MASILLA IVIPLAST 66 X 1,500",
     "stock": "0134",
-    "price_neto": 56.005,
-    "price": 67.77,
+    "price_neto": 78378.9975,
+    "price": 94838.59,
     "tes": "503"
   },
   {
@@ -30343,8 +30343,8 @@
     "code": "005082",
     "description": "A722/E1.5K MASSA POLIESTER UNIVERSAL STOPPER X 1,550",
     "stock": "0134",
-    "price_neto": 32.154,
-    "price": 38.91,
+    "price_neto": 44999.523,
+    "price": 54449.42,
     "tes": "503"
   },
   {
@@ -30352,8 +30352,8 @@
     "code": "005083",
     "description": "D8460 DESENGRASANTE PARA PLASTICOS X 1",
     "stock": "0134",
-    "price_neto": 30.452,
-    "price": 36.85,
+    "price_neto": 42617.574,
+    "price": 51567.26,
     "tes": "503"
   },
   {
@@ -30361,8 +30361,8 @@
     "code": "005084",
     "description": "PPG-6403.04 PROMOTOR ADHERENCIA P/ PLASTICO X 0,900(EXSU49030)",
     "stock": "0134",
-    "price_neto": 24.84,
-    "price": 30.06,
+    "price_neto": 34763.58,
+    "price": 42063.93,
     "tes": "503"
   },
   {
@@ -31063,8 +31063,8 @@
     "code": "005174",
     "description": "EPOXI MASTIC INTERSEAL 670 HS GRIS X 20",
     "stock": "0111",
-    "price_neto": 575.883,
-    "price": 696.82,
+    "price_neto": 817753.86,
+    "price": 989482.17,
     "tes": "503"
   },
   {
@@ -31072,8 +31072,8 @@
     "code": "005176",
     "description": "CEILCOTE 242 FLAKELINE CINZA X 19,64(110NCA00918)",
     "stock": "0111",
-    "price_neto": 1066.328,
-    "price": 1290.26,
+    "price_neto": 1514185.76,
+    "price": 1832164.77,
     "tes": "503"
   },
   {
@@ -31081,8 +31081,8 @@
     "code": "005177",
     "description": "CEILCOTE #2 HARDENER PART. B X 0,36(110NCA00204)",
     "stock": "0111",
-    "price_neto": 65.1235,
-    "price": 78.8,
+    "price_neto": 92475.37,
+    "price": 111895.2,
     "tes": "503"
   },
   {
@@ -31090,8 +31090,8 @@
     "code": "005178",
     "description": "CEILCOTE 380 PRIMER PART. A X 19,64(110NCA06118)",
     "stock": "0111",
-    "price_neto": 1067.7425,
-    "price": 1291.97,
+    "price_neto": 1516194.35,
+    "price": 1834595.16,
     "tes": "503"
   },
   {
@@ -31243,8 +31243,8 @@
     "code": "005209",
     "description": "D8238/E1 CATALIZADOR P/ D8115/D8117/D8501/D8507(DP4000) X 1",
     "stock": "0134",
-    "price_neto": 76.429,
-    "price": 92.48,
+    "price_neto": 106962.3855,
+    "price": 129424.49,
     "tes": "503"
   },
   {
@@ -31270,8 +31270,8 @@
     "code": "005212",
     "description": "DC3000.04 BARNIZ RAPIDO DE ALTO SOLIDO X 0,720",
     "stock": "0134",
-    "price_neto": 25.438,
-    "price": 30.78,
+    "price_neto": 35600.481,
+    "price": 43076.58,
     "tes": "503"
   },
   {
@@ -31279,8 +31279,8 @@
     "code": "005213",
     "description": "DC3000FYL BARNIZ RAPIDO DE ALTO SOLIDO X 3,785",
     "stock": "0134",
-    "price_neto": 114.5925,
-    "price": 138.66,
+    "price_neto": 160372.2038,
+    "price": 194050.37,
     "tes": "503"
   },
   {
@@ -32557,8 +32557,8 @@
     "code": "005467",
     "description": "EPOXI INTERSEAL 1509 GRIS N6,5 X 7,2",
     "stock": "0111",
-    "price_neto": 171.8325,
-    "price": 207.92,
+    "price_neto": 244002.15,
+    "price": 295242.6,
     "tes": "503"
   },
   {
@@ -32566,8 +32566,8 @@
     "code": "005468",
     "description": "EPOXI INTERSEAL 1509 GRIS N6,5 X 40",
     "stock": "0111",
-    "price_neto": 793.17,
-    "price": 959.74,
+    "price_neto": 1126301.4,
+    "price": 1362824.69,
     "tes": "503"
   },
   {
@@ -34105,8 +34105,8 @@
     "code": "005670",
     "description": "D807P.48 DILUYENTE MEDIO PU/POLIESTER PPG X 200",
     "stock": "0134",
-    "price_neto": 2275.0285,
-    "price": 2752.78,
+    "price_neto": 3183902.3857,
+    "price": 3852521.89,
     "tes": "503"
   },
   {
@@ -34114,9 +34114,9 @@
     "code": "005671",
     "description": "MAQUINA DUO MIX (98-0015 )",
     "stock": "0163",
-    "price_neto": 35631305.2118,
+    "price_neto": 39017085.345,
     "price": 43113879.31,
-    "tes": "503"
+    "tes": "501"
   },
   {
     "id": "005672",
@@ -34132,8 +34132,8 @@
     "code": "005676",
     "description": "DISCO LIJA OXIDO ALUMINIO RAPIFIX 6A AMARILLO 150MM   #80",
     "stock": "0181",
-    "price_neto": 0.625,
-    "price": 0.76,
+    "price_neto": 887.5,
+    "price": 1073.88,
     "tes": "503"
   },
   {
@@ -34141,8 +34141,8 @@
     "code": "005677",
     "description": "DISCO LIJA OXIDO ALUMINIO RAPIFIX 6A AMARILLO 150MM  #120",
     "stock": "0181",
-    "price_neto": 0.625,
-    "price": 0.76,
+    "price_neto": 887.5,
+    "price": 1073.88,
     "tes": "503"
   },
   {
@@ -34150,8 +34150,8 @@
     "code": "005678",
     "description": "DISCO LIJA OXIDO ALUMINIO RAPIFIX 6A AMARILLO 150MM  #150",
     "stock": "0181",
-    "price_neto": 0.625,
-    "price": 0.76,
+    "price_neto": 887.5,
+    "price": 1073.88,
     "tes": "503"
   },
   {
@@ -34159,8 +34159,8 @@
     "code": "005679",
     "description": "DISCO LIJA OXIDO ALUMINIO RAPIFIX 6A AMARILLO 150MM  #180",
     "stock": "0181",
-    "price_neto": 0.625,
-    "price": 0.76,
+    "price_neto": 887.5,
+    "price": 1073.88,
     "tes": "503"
   },
   {
@@ -34168,8 +34168,8 @@
     "code": "005680",
     "description": "DISCO LIJA OXIDO ALUMINIO RAPIFIX 6A AMARILLO 150MM  #220",
     "stock": "0181",
-    "price_neto": 0.625,
-    "price": 0.76,
+    "price_neto": 887.5,
+    "price": 1073.88,
     "tes": "503"
   },
   {
@@ -34177,8 +34177,8 @@
     "code": "005681",
     "description": "DISCO LIJA OXIDO ALUMINIO RAPIFIX 6A AMARILLO 150MM  #240",
     "stock": "0181",
-    "price_neto": 0.625,
-    "price": 0.76,
+    "price_neto": 887.5,
+    "price": 1073.88,
     "tes": "503"
   },
   {
@@ -34204,8 +34204,8 @@
     "code": "005702",
     "description": "D740/E3.5 BLACK X 3,5",
     "stock": "0134",
-    "price_neto": 355.3235,
-    "price": 429.94,
+    "price_neto": 497275.2383,
+    "price": 601703.04,
     "tes": "503"
   },
   {
@@ -34213,8 +34213,8 @@
     "code": "005703",
     "description": "D7410AL DELTRON BC BRIGHT BLUE X 1",
     "stock": "0134",
-    "price_neto": 131.7855,
-    "price": 159.46,
+    "price_neto": 184433.8073,
+    "price": 223164.91,
     "tes": "503"
   },
   {
@@ -34222,8 +34222,8 @@
     "code": "005704",
     "description": "D7440AL WARM YELLOW X 1",
     "stock": "0134",
-    "price_neto": 186.102,
-    "price": 225.18,
+    "price_neto": 260449.749,
+    "price": 315144.2,
     "tes": "503"
   },
   {
@@ -34231,8 +34231,8 @@
     "code": "005705",
     "description": "D7460AL DELTRON BC MAGENTA X 1",
     "stock": "0134",
-    "price_neto": 200.067,
-    "price": 242.08,
+    "price_neto": 279993.7665,
+    "price": 338792.46,
     "tes": "503"
   },
   {
@@ -34240,8 +34240,8 @@
     "code": "005706",
     "description": "D7480AL DELTRON BC TRANSPARENT MAROON X 1",
     "stock": "0134",
-    "price_neto": 200.067,
-    "price": 242.08,
+    "price_neto": 279993.7665,
+    "price": 338792.46,
     "tes": "503"
   },
   {
@@ -34249,8 +34249,8 @@
     "code": "005707",
     "description": "D7490AL DELTRON BC MARRON X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34258,8 +34258,8 @@
     "code": "005708",
     "description": "D7500AL DELTRON BC OLIVE X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34267,8 +34267,8 @@
     "code": "005709",
     "description": "D751/E1 DELTRON BC PERLA BLANCA X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34276,8 +34276,8 @@
     "code": "005710",
     "description": "D752/E1 DELTRON BC ROJO X 1",
     "stock": "0134",
-    "price_neto": 166.698,
-    "price": 201.7,
+    "price_neto": 233293.851,
+    "price": 282285.56,
     "tes": "503"
   },
   {
@@ -34285,8 +34285,8 @@
     "code": "005711",
     "description": "D753/E3.5 DELTRON BC BASECOAT WHITE X 3,5",
     "stock": "0134",
-    "price_neto": 217.9765,
-    "price": 263.75,
+    "price_neto": 305058.1118,
+    "price": 369120.32,
     "tes": "503"
   },
   {
@@ -34294,8 +34294,8 @@
     "code": "005712",
     "description": "D754/E1 DELTRON BC AZUL TRANSPARENTE X 1",
     "stock": "0134",
-    "price_neto": 131.7855,
-    "price": 159.46,
+    "price_neto": 184433.8073,
+    "price": 223164.91,
     "tes": "503"
   },
   {
@@ -34303,8 +34303,8 @@
     "code": "005713",
     "description": "D756/E1 DELTRON BC BLUE BLACK X 1",
     "stock": "0134",
-    "price_neto": 131.7855,
-    "price": 159.46,
+    "price_neto": 184433.8073,
+    "price": 223164.91,
     "tes": "503"
   },
   {
@@ -34312,8 +34312,8 @@
     "code": "005714",
     "description": "D7570AL DELTRON BC RUBY X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34321,8 +34321,8 @@
     "code": "005715",
     "description": "D759/E1 DELTRON BC BASE MATEANTE X 1",
     "stock": "0134",
-    "price_neto": 118.482,
-    "price": 143.36,
+    "price_neto": 165815.559,
+    "price": 200636.83,
     "tes": "503"
   },
   {
@@ -34330,8 +34330,8 @@
     "code": "005716",
     "description": "D760/E1 TRANSPARENT MID SHADE BLUE X 1",
     "stock": "0134",
-    "price_neto": 155.379,
-    "price": 188.01,
+    "price_neto": 217452.9105,
+    "price": 263118.02,
     "tes": "503"
   },
   {
@@ -34339,8 +34339,8 @@
     "code": "005717",
     "description": "D761/E1 RICH RED BLUE X 1",
     "stock": "0134",
-    "price_neto": 199.969,
-    "price": 241.96,
+    "price_neto": 279856.6155,
+    "price": 338626.5,
     "tes": "503"
   },
   {
@@ -34348,8 +34348,8 @@
     "code": "005718",
     "description": "D762/E1 DELTRON BC VIOLET BLUE X 1",
     "stock": "0134",
-    "price_neto": 172.48,
-    "price": 208.7,
+    "price_neto": 241385.76,
+    "price": 292076.77,
     "tes": "503"
   },
   {
@@ -34357,8 +34357,8 @@
     "code": "005719",
     "description": "D763/E1 DELTRON BC BLUE PEARL X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34366,8 +34366,8 @@
     "code": "005720",
     "description": "D7640AL DELTRON BC RED VIOLET X 1",
     "stock": "0134",
-    "price_neto": 232.848,
-    "price": 281.75,
+    "price_neto": 325870.776,
+    "price": 394303.64,
     "tes": "503"
   },
   {
@@ -34375,8 +34375,8 @@
     "code": "005721",
     "description": "D7650AL DELTRON BC FINE RED PEARL X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34384,8 +34384,8 @@
     "code": "005722",
     "description": "D7670AL DELTRON BC FINE SATIN ALUMINIUM X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34393,8 +34393,8 @@
     "code": "005723",
     "description": "D768/E1 DELTRON BC MEDIUM SATIN ALUMINIUM X 1",
     "stock": "0134",
-    "price_neto": 131.7855,
-    "price": 159.46,
+    "price_neto": 184433.8073,
+    "price": 223164.91,
     "tes": "503"
   },
   {
@@ -34402,8 +34402,8 @@
     "code": "005724",
     "description": "D769/E1 D769 DELTRON BC SILVER EXTRA FINE X 1",
     "stock": "0134",
-    "price_neto": 118.482,
-    "price": 143.36,
+    "price_neto": 165815.559,
+    "price": 200636.83,
     "tes": "503"
   },
   {
@@ -34411,8 +34411,8 @@
     "code": "005725",
     "description": "D770/E3.5 DELTRON BC ALUMINIO FINO X 3,5",
     "stock": "0134",
-    "price_neto": 355.3235,
-    "price": 429.94,
+    "price_neto": 497275.2383,
+    "price": 601703.04,
     "tes": "503"
   },
   {
@@ -34420,8 +34420,8 @@
     "code": "005726",
     "description": "D771/E3.5 DELTRON BC ALUMINIO MEDIO X 3,5",
     "stock": "0134",
-    "price_neto": 335.2335,
-    "price": 405.63,
+    "price_neto": 469159.2832,
+    "price": 567682.73,
     "tes": "503"
   },
   {
@@ -34429,8 +34429,8 @@
     "code": "005727",
     "description": "D772/E3.5 DELTRON BC ALUMINIO GRUESO X 3,5",
     "stock": "0134",
-    "price_neto": 335.2335,
-    "price": 405.63,
+    "price_neto": 469159.2832,
+    "price": 567682.73,
     "tes": "503"
   },
   {
@@ -34438,8 +34438,8 @@
     "code": "005728",
     "description": "D7760AL DELTRON BC AZUL X 1",
     "stock": "0134",
-    "price_neto": 131.7855,
-    "price": 159.46,
+    "price_neto": 184433.8073,
+    "price": 223164.91,
     "tes": "503"
   },
   {
@@ -34447,8 +34447,8 @@
     "code": "005729",
     "description": "D7770AL DELTRON BC VERDE TRANSPARENTE X 1",
     "stock": "0134",
-    "price_neto": 150.9445,
-    "price": 182.64,
+    "price_neto": 211246.8277,
+    "price": 255608.66,
     "tes": "503"
   },
   {
@@ -34456,8 +34456,8 @@
     "code": "005730",
     "description": "D7780AL YELLOW OXIDE X 1",
     "stock": "0134",
-    "price_neto": 122.5735,
-    "price": 148.31,
+    "price_neto": 171541.6132,
+    "price": 207565.35,
     "tes": "503"
   },
   {
@@ -34465,8 +34465,8 @@
     "code": "005731",
     "description": "D7790AL DELTRON BC ROJO OXIDO X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34474,8 +34474,8 @@
     "code": "005732",
     "description": "D7800AL DELTRON BC AMARILLO BRILLANTE X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34483,8 +34483,8 @@
     "code": "005733",
     "description": "D789/E3.5 DELTRON BC JET BLACK X 3,5",
     "stock": "0134",
-    "price_neto": 278.663,
-    "price": 337.18,
+    "price_neto": 389988.8685,
+    "price": 471886.53,
     "tes": "503"
   },
   {
@@ -34492,8 +34492,8 @@
     "code": "005734",
     "description": "D7900AL DELTRON BC TRANSPARENT ORANGE X 1",
     "stock": "0134",
-    "price_neto": 194.5055,
-    "price": 235.35,
+    "price_neto": 272210.4473,
+    "price": 329374.64,
     "tes": "503"
   },
   {
@@ -34501,8 +34501,8 @@
     "code": "005735",
     "description": "D7920AL DELTRON BC NARANJA LUMINOSO X 1",
     "stock": "0134",
-    "price_neto": 194.5055,
-    "price": 235.35,
+    "price_neto": 272210.4473,
+    "price": 329374.64,
     "tes": "503"
   },
   {
@@ -34510,8 +34510,8 @@
     "code": "005736",
     "description": "D7930AL DELTRON BC BRIGHT RED PEARL X 1",
     "stock": "0134",
-    "price_neto": 150.9445,
-    "price": 182.64,
+    "price_neto": 211246.8277,
+    "price": 255608.66,
     "tes": "503"
   },
   {
@@ -34519,8 +34519,8 @@
     "code": "005737",
     "description": "D7940AL DELTRON BC VERDANT YELLOW X 1",
     "stock": "0134",
-    "price_neto": 225.498,
-    "price": 272.85,
+    "price_neto": 315584.451,
+    "price": 381857.19,
     "tes": "503"
   },
   {
@@ -34528,8 +34528,8 @@
     "code": "005738",
     "description": "D7970AL DELTRON BC VERDE PTHALO X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34537,8 +34537,8 @@
     "code": "005739",
     "description": "D8950AL DELTRON BC COLOR BLENDER X 1",
     "stock": "0134",
-    "price_neto": 79.5025,
-    "price": 96.2,
+    "price_neto": 111263.7487,
+    "price": 134629.14,
     "tes": "503"
   },
   {
@@ -34546,8 +34546,8 @@
     "code": "005740",
     "description": "D9021/E0.35 DELTRON BC VIOLA FANTASY X 0,350",
     "stock": "0134",
-    "price_neto": 262.8115,
-    "price": 318,
+    "price_neto": 367804.6943,
+    "price": 445043.68,
     "tes": "503"
   },
   {
@@ -34555,8 +34555,8 @@
     "code": "005741",
     "description": "D9037/E0.35 DELTRON BC TROPIC SUNRISE X 0,350",
     "stock": "0134",
-    "price_neto": 262.8115,
-    "price": 318,
+    "price_neto": 367804.6943,
+    "price": 445043.68,
     "tes": "503"
   },
   {
@@ -34564,8 +34564,8 @@
     "code": "005742",
     "description": "D9420AL DELTRON BC GRAPHITE BLACK X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34573,8 +34573,8 @@
     "code": "005743",
     "description": "D9430AL DELTRON BC FINE BLUE PEARL X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34582,8 +34582,8 @@
     "code": "005744",
     "description": "D9440AL DELTRON BC ALUM. DORADO GRANO MEDIO X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34591,8 +34591,8 @@
     "code": "005745",
     "description": "D945/E1 DELTRON BC PERLA AMARILLO ORO X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34600,8 +34600,8 @@
     "code": "005746",
     "description": "D946/E3.5 DELTRON BC ALUM.LENTIC.  EXTRA FINO X 3,5",
     "stock": "0134",
-    "price_neto": 278.663,
-    "price": 337.18,
+    "price_neto": 389988.8685,
+    "price": 471886.53,
     "tes": "503"
   },
   {
@@ -34609,8 +34609,8 @@
     "code": "005747",
     "description": "D952/E3.5 DELTRON BC ALUM. LENTICULAR FINO X 3,5",
     "stock": "0134",
-    "price_neto": 252.203,
-    "price": 305.17,
+    "price_neto": 352958.0985,
+    "price": 427079.3,
     "tes": "503"
   },
   {
@@ -34618,8 +34618,8 @@
     "code": "005748",
     "description": "D953/E1 DELTRON BC ALUM. LENTICULAR GRUESO X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34627,8 +34627,8 @@
     "code": "005749",
     "description": "D9540AL DELTRON BC EXTRA FINE WHITE PEARL X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34636,8 +34636,8 @@
     "code": "005750",
     "description": "D9550AL DELTRON BC PERLA COBRE X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34645,8 +34645,8 @@
     "code": "005751",
     "description": "D9560AL DELTRON BC PERLA AMARILLA X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34654,8 +34654,8 @@
     "code": "005752",
     "description": "D9570AL DELTRON BC PERLA VERDE X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34663,8 +34663,8 @@
     "code": "005753",
     "description": "D9580AL DELTRON BC PERLA VIOLETA X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34672,8 +34672,8 @@
     "code": "005754",
     "description": "D9590AL DELTRON BC ULTRA FINE WHITE X 1",
     "stock": "0134",
-    "price_neto": 194.5055,
-    "price": 235.35,
+    "price_neto": 272210.4473,
+    "price": 329374.64,
     "tes": "503"
   },
   {
@@ -34681,8 +34681,8 @@
     "code": "005755",
     "description": "D9600AL DELTRON BC PERLA ROJA X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34690,8 +34690,8 @@
     "code": "005756",
     "description": "D9640AL AMARILLO LUMINOSO X 1",
     "stock": "0134",
-    "price_neto": 180.908,
-    "price": 218.9,
+    "price_neto": 253180.746,
+    "price": 306348.7,
     "tes": "503"
   },
   {
@@ -34699,8 +34699,8 @@
     "code": "005757",
     "description": "D9650AL BC ORANGE PEARL X 1",
     "stock": "0134",
-    "price_neto": 151.655,
-    "price": 183.5,
+    "price_neto": 212241.1725,
+    "price": 256811.82,
     "tes": "503"
   },
   {
@@ -34708,8 +34708,8 @@
     "code": "005758",
     "description": "D9660AL DELTRON BC TRACE WHITE X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34717,8 +34717,8 @@
     "code": "005759",
     "description": "D9670AL DELTRON BC TRACE BLACK X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34726,8 +34726,8 @@
     "code": "005760",
     "description": "D9680AL DELTRON BC TRACE RED X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34735,8 +34735,8 @@
     "code": "005761",
     "description": "D9690AL DELTRON BC TRACE YELLOW X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34744,8 +34744,8 @@
     "code": "005762",
     "description": "D9700AL DELTRON BC TRACE BLUE X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34753,8 +34753,8 @@
     "code": "005763",
     "description": "D9710AL DELTRON TRACE GREEN BC X 1",
     "stock": "0134",
-    "price_neto": 105.056,
-    "price": 127.12,
+    "price_neto": 147025.872,
+    "price": 177901.31,
     "tes": "503"
   },
   {
@@ -34762,8 +34762,8 @@
     "code": "005764",
     "description": "D973/E1 DELTRON BC RED GREEN PEARL X 1",
     "stock": "0134",
-    "price_neto": 192.717,
-    "price": 233.19,
+    "price_neto": 269707.4415,
+    "price": 326346,
     "tes": "503"
   },
   {
@@ -34771,8 +34771,8 @@
     "code": "005765",
     "description": "D9760AL DELTRON BC MAGENTA X 1",
     "stock": "0134",
-    "price_neto": 194.5055,
-    "price": 235.35,
+    "price_neto": 272210.4473,
+    "price": 329374.64,
     "tes": "503"
   },
   {
@@ -34780,8 +34780,8 @@
     "code": "005766",
     "description": "D9770AL DELTRON BC RED SHADE BLUE X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34789,8 +34789,8 @@
     "code": "005767",
     "description": "D9780AL DELTRON BC SCARLET X 1",
     "stock": "0134",
-    "price_neto": 194.5055,
-    "price": 235.35,
+    "price_neto": 272210.4473,
+    "price": 329374.64,
     "tes": "503"
   },
   {
@@ -34798,8 +34798,8 @@
     "code": "005768",
     "description": "D9790AL DELTRON BC TRANSPARENT VIOLET X 1",
     "stock": "0134",
-    "price_neto": 194.5055,
-    "price": 235.35,
+    "price_neto": 272210.4473,
+    "price": 329374.64,
     "tes": "503"
   },
   {
@@ -34807,8 +34807,8 @@
     "code": "005769",
     "description": "D9800AL DELTRON BC TRANSPARENT GOLD X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34816,8 +34816,8 @@
     "code": "005770",
     "description": "D9810AL DELTRON BC INTENSE VIOLET X 1",
     "stock": "0134",
-    "price_neto": 163.023,
-    "price": 197.26,
+    "price_neto": 228150.6885,
+    "price": 276062.33,
     "tes": "503"
   },
   {
@@ -34825,8 +34825,8 @@
     "code": "005771",
     "description": "D9830AL DELTRON BC ORANGE ALUMINIUM X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34834,8 +34834,8 @@
     "code": "005772",
     "description": "D985/E1 DELTRON BC BLUE ALUMINIUM X 1",
     "stock": "0134",
-    "price_neto": 185.3915,
-    "price": 224.32,
+    "price_neto": 259455.4043,
+    "price": 313941.04,
     "tes": "503"
   },
   {
@@ -34843,8 +34843,8 @@
     "code": "005773",
     "description": "D9890AL DELTRON BC COARSE SILVER DOLLAR ALUMINIUM X 1",
     "stock": "0134",
-    "price_neto": 112.9205,
-    "price": 136.63,
+    "price_neto": 158032.2398,
+    "price": 191219.01,
     "tes": "503"
   },
   {
@@ -34852,8 +34852,8 @@
     "code": "005774",
     "description": "D990/E1 DELTRON BC FINE GLACIER WHITE X 1",
     "stock": "0134",
-    "price_neto": 215.747,
-    "price": 261.05,
+    "price_neto": 301937.9265,
+    "price": 365344.89,
     "tes": "503"
   },
   {
@@ -34861,8 +34861,8 @@
     "code": "005775",
     "description": "D991/E1 DELTRON BC RUBINE X 1",
     "stock": "0134",
-    "price_neto": 186.102,
-    "price": 225.18,
+    "price_neto": 260449.749,
+    "price": 315144.2,
     "tes": "503"
   },
   {
@@ -34870,8 +34870,8 @@
     "code": "005776",
     "description": "PRLX1KAAH DELTRON BC CRYSTAL RED PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 231.5495,
-    "price": 280.17,
+    "price_neto": 324053.5252,
+    "price": 392104.77,
     "tes": "503"
   },
   {
@@ -34879,8 +34879,8 @@
     "code": "005777",
     "description": "PRLX2KAAH DELTRON BC CRYSTAL SILVER PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 231.5495,
-    "price": 280.17,
+    "price_neto": 324053.5252,
+    "price": 392104.77,
     "tes": "503"
   },
   {
@@ -34888,8 +34888,8 @@
     "code": "005778",
     "description": "PRLX3KAAH CRYSTAL GOLD PEARL X 0,133",
     "stock": "0134",
-    "price_neto": 215.3795,
-    "price": 260.61,
+    "price_neto": 301423.6103,
+    "price": 364722.57,
     "tes": "503"
   },
   {
@@ -34897,8 +34897,8 @@
     "code": "005779",
     "description": "PRLX4KAAH DELTRON BC CRYSTAL BLUE PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 231.5495,
-    "price": 280.17,
+    "price_neto": 324053.5252,
+    "price": 392104.77,
     "tes": "503"
   },
   {
@@ -34906,8 +34906,8 @@
     "code": "005780",
     "description": "PRLX5KAAH DELTRON BC STELLAR GREEN PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 231.5495,
-    "price": 280.17,
+    "price_neto": 324053.5252,
+    "price": 392104.77,
     "tes": "503"
   },
   {
@@ -34915,8 +34915,8 @@
     "code": "005781",
     "description": "PRLX6KAAH SOLARIS RED PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 215.3795,
-    "price": 260.61,
+    "price_neto": 301423.6103,
+    "price": 364722.57,
     "tes": "503"
   },
   {
@@ -34924,8 +34924,8 @@
     "code": "005782",
     "description": "PRLX7KAAH DELTRON BC FIRESIDE COPPER PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 231.5495,
-    "price": 280.17,
+    "price_neto": 324053.5252,
+    "price": 392104.77,
     "tes": "503"
   },
   {
@@ -34933,8 +34933,8 @@
     "code": "005783",
     "description": "PRLX8KAAH DELTRON BC COSMIC TURQUOISE PEARL X 0,113",
     "stock": "0134",
-    "price_neto": 203.203,
-    "price": 245.88,
+    "price_neto": 284382.5985,
+    "price": 344102.94,
     "tes": "503"
   },
   {
@@ -34942,8 +34942,8 @@
     "code": "005784",
     "description": "PRLX9KAAH DELTRON BC AMETHYST DREAM PEARL X X 0,113",
     "stock": "0134",
-    "price_neto": 215.3795,
-    "price": 260.61,
+    "price_neto": 301423.6103,
+    "price": 364722.57,
     "tes": "503"
   },
   {
@@ -35545,8 +35545,8 @@
     "code": "006188",
     "description": "SIGMACOVER 350 (BAS16+HRD4) X 20",
     "stock": "0162",
-    "price_neto": 395.6,
-    "price": 478.68,
+    "price_neto": 553642.2,
+    "price": 669907.06,
     "tes": "503"
   },
   {
@@ -36733,8 +36733,8 @@
     "code": "007300",
     "description": "F300 BCO X 3,5",
     "stock": "0133",
-    "price_neto": 197.3839,
-    "price": 238.83,
+    "price_neto": 276238.7681,
+    "price": 334248.91,
     "tes": "503"
   },
   {
@@ -36742,8 +36742,8 @@
     "code": "007301",
     "description": "F301 RUBI X 3,5",
     "stock": "0133",
-    "price_neto": 462.9884,
-    "price": 560.22,
+    "price_neto": 647952.2658,
+    "price": 784022.24,
     "tes": "503"
   },
   {
@@ -36751,8 +36751,8 @@
     "code": "007302",
     "description": "F302 VIOLETA X 3,5",
     "stock": "0133",
-    "price_neto": 248.6141,
-    "price": 300.82,
+    "price_neto": 347935.4329,
+    "price": 421001.87,
     "tes": "503"
   },
   {
@@ -36760,8 +36760,8 @@
     "code": "007304",
     "description": "F304 ROJO X 3,5",
     "stock": "0133",
-    "price_neto": 209.2461,
-    "price": 253.19,
+    "price_neto": 292839.917,
+    "price": 354336.3,
     "tes": "503"
   },
   {
@@ -36769,8 +36769,8 @@
     "code": "007305",
     "description": "F305 ROJO ESCARLATA X 3,5",
     "stock": "0133",
-    "price_neto": 509.3235,
-    "price": 616.28,
+    "price_neto": 712798.2383,
+    "price": 862485.87,
     "tes": "503"
   },
   {
@@ -36778,8 +36778,8 @@
     "code": "007306",
     "description": "F306 AMARILLO ESPLENDIDO X 3,5",
     "stock": "0133",
-    "price_neto": 485.7286,
-    "price": 587.73,
+    "price_neto": 679777.1757,
+    "price": 822530.38,
     "tes": "503"
   },
   {
@@ -36787,8 +36787,8 @@
     "code": "007308",
     "description": "F308 AMARILLO ORGANICO CLARO X 3,5",
     "stock": "0133",
-    "price_neto": 197.0213,
-    "price": 238.4,
+    "price_neto": 275731.3093,
+    "price": 333634.88,
     "tes": "503"
   },
   {
@@ -36796,8 +36796,8 @@
     "code": "007309",
     "description": "F309 NARANJA ORGANICO CLARO X 3,5",
     "stock": "0133",
-    "price_neto": 281.0927,
-    "price": 340.12,
+    "price_neto": 393389.2336,
+    "price": 476000.97,
     "tes": "503"
   },
   {
@@ -36814,8 +36814,8 @@
     "code": "007312",
     "description": "F312 NARANJA X 3,5 (DISCONTINUADO)",
     "stock": "0133",
-    "price_neto": 101.616,
-    "price": 122.96,
+    "price_neto": 142211.592,
+    "price": 172076.03,
     "tes": "503"
   },
   {
@@ -36823,8 +36823,8 @@
     "code": "007313",
     "description": "F313 AMARILLO ORGANICO X 3,5",
     "stock": "0133",
-    "price_neto": 513.856,
-    "price": 621.77,
+    "price_neto": 719141.472,
+    "price": 870161.18,
     "tes": "503"
   },
   {
@@ -36832,8 +36832,8 @@
     "code": "007314",
     "description": "F314 VERDE MEDIO X 3,5",
     "stock": "0133",
-    "price_neto": 199.8444,
-    "price": 241.81,
+    "price_neto": 279682.2378,
+    "price": 338415.51,
     "tes": "503"
   },
   {
@@ -36841,8 +36841,8 @@
     "code": "007315",
     "description": "F315 VERDE ORGANICO OSCURO X 3,5",
     "stock": "0133",
-    "price_neto": 295.8298,
-    "price": 357.95,
+    "price_neto": 414013.8051,
+    "price": 500956.7,
     "tes": "503"
   },
   {
@@ -36850,8 +36850,8 @@
     "code": "007316",
     "description": "FBR029.01 ALUMINIO FINO X 3,5(EX F3160GL)",
     "stock": "0133",
-    "price_neto": 172.3127,
-    "price": 208.5,
+    "price_neto": 241151.6237,
+    "price": 291793.46,
     "tes": "503"
   },
   {
@@ -36859,8 +36859,8 @@
     "code": "007317",
     "description": "F317.01 OXIDO AMARILLO X 3,5",
     "stock": "0133",
-    "price_neto": 207.3295,
-    "price": 250.87,
+    "price_neto": 290157.6352,
+    "price": 351090.74,
     "tes": "503"
   },
   {
@@ -36868,8 +36868,8 @@
     "code": "007318",
     "description": "F318.01 NEGRO X 3,5",
     "stock": "0133",
-    "price_neto": 129.2151,
-    "price": 156.35,
+    "price_neto": 180836.5325,
+    "price": 218812.2,
     "tes": "503"
   },
   {
@@ -36877,8 +36877,8 @@
     "code": "007319",
     "description": "F319 OXIDO ROJO X 3,5",
     "stock": "0133",
-    "price_neto": 157.8087,
-    "price": 190.95,
+    "price_neto": 220853.2757,
+    "price": 267232.46,
     "tes": "503"
   },
   {
@@ -36886,8 +36886,8 @@
     "code": "007320",
     "description": "F320.01 AZUL ORGANICO X 3,5",
     "stock": "0133",
-    "price_neto": 280.1085,
-    "price": 338.93,
+    "price_neto": 392011.8457,
+    "price": 474334.33,
     "tes": "503"
   },
   {
@@ -36895,8 +36895,8 @@
     "code": "007321",
     "description": "F321.01 AZUL NOCHE X 3,5",
     "stock": "0133",
-    "price_neto": 188.8628,
-    "price": 228.52,
+    "price_neto": 264313.4886,
+    "price": 319819.32,
     "tes": "503"
   },
   {
@@ -36904,8 +36904,8 @@
     "code": "007323",
     "description": "F323 ROJO VIVO X 3,5",
     "stock": "0133",
-    "price_neto": 348.6917,
-    "price": 421.92,
+    "price_neto": 487994.0342,
+    "price": 590472.78,
     "tes": "503"
   },
   {
@@ -36913,8 +36913,8 @@
     "code": "007324",
     "description": "F324 NEGRO INT X 3,5",
     "stock": "0133",
-    "price_neto": 155.1928,
-    "price": 187.78,
+    "price_neto": 217192.3236,
+    "price": 262802.71,
     "tes": "503"
   },
   {
@@ -36922,8 +36922,8 @@
     "code": "007325",
     "description": "F325.01 NARANJA PERMANENTE X 3,5",
     "stock": "0133",
-    "price_neto": 297.2025,
-    "price": 359.62,
+    "price_neto": 415934.8987,
+    "price": 503281.23,
     "tes": "503"
   },
   {
@@ -36931,8 +36931,8 @@
     "code": "007328",
     "description": "F328 NARANJA ORGANICO X 3,5",
     "stock": "0133",
-    "price_neto": 322.2996,
-    "price": 389.98,
+    "price_neto": 451058.2902,
+    "price": 545780.53,
     "tes": "503"
   },
   {
@@ -36940,8 +36940,8 @@
     "code": "007341",
     "description": "F341.20 RESINA PU LINEA 350 X 20",
     "stock": "0133",
-    "price_neto": 540.4266,
-    "price": 653.92,
+    "price_neto": 756327.0267,
+    "price": 915155.7,
     "tes": "503"
   },
   {
@@ -36949,8 +36949,8 @@
     "code": "007342",
     "description": "FBR197.01 RESINA ACRILICA MATE X 3,5 (F342)",
     "stock": "0133",
-    "price_neto": 118.5961,
-    "price": 143.5,
+    "price_neto": 165975.242,
+    "price": 200830.04,
     "tes": "503"
   },
   {
@@ -36958,8 +36958,8 @@
     "code": "007346",
     "description": "F3460JL RESINA NITRO ACRILICA- NA X 5 (DISCONTINUADO)",
     "stock": "0133",
-    "price_neto": 205.4129,
-    "price": 248.55,
+    "price_neto": 287475.3536,
+    "price": 347845.18,
     "tes": "503"
   },
   {
@@ -36967,8 +36967,8 @@
     "code": "007349",
     "description": "BS-02 ADITIVO SEC X 1",
     "stock": "0133",
-    "price_neto": 35.616,
-    "price": 43.1,
+    "price_neto": 49844.592,
+    "price": 60311.96,
     "tes": "503"
   },
   {
@@ -36976,8 +36976,8 @@
     "code": "007351",
     "description": "F351.10 RESINA EPOXI X 5",
     "stock": "0133",
-    "price_neto": 162.4966,
-    "price": 196.62,
+    "price_neto": 227413.9917,
+    "price": 275170.93,
     "tes": "503"
   },
   {
@@ -36985,8 +36985,8 @@
     "code": "007359",
     "description": "F359 CATALIZADOR EPOXI X 1",
     "stock": "0133",
-    "price_neto": 38.319,
-    "price": 46.37,
+    "price_neto": 53627.4405,
+    "price": 64889.2,
     "tes": "503"
   },
   {
@@ -36994,8 +36994,8 @@
     "code": "007361",
     "description": "END010.10 CATALIZADOR NORMAL ACS X 5",
     "stock": "0132",
-    "price_neto": 141.979,
-    "price": 171.79,
+    "price_neto": 198699.6105,
+    "price": 240426.53,
     "tes": "503"
   },
   {
@@ -37003,8 +37003,8 @@
     "code": "007362",
     "description": "F362 CATALIZADOR MS RAPIDO X 1 (DISCONTINUADO)",
     "stock": "0133",
-    "price_neto": 38.22,
-    "price": 46.25,
+    "price_neto": 53488.89,
+    "price": 64721.56,
     "tes": "503"
   },
   {
@@ -37021,8 +37021,8 @@
     "code": "007369",
     "description": "F369 CATALIZADOR MS CLEAR F380 DU 1001 X 5",
     "stock": "0133",
-    "price_neto": 343.9261,
-    "price": 416.15,
+    "price_neto": 481324.577,
+    "price": 582402.74,
     "tes": "503"
   },
   {
@@ -37030,8 +37030,8 @@
     "code": "007372",
     "description": "BTC-1000.01 CLEARS PARA TRICAPAS ACS X 3.500",
     "stock": "0132",
-    "price_neto": 114.586,
-    "price": 138.65,
+    "price_neto": 160363.107,
+    "price": 194039.36,
     "tes": "503"
   },
   {
@@ -37048,8 +37048,8 @@
     "code": "007381",
     "description": "F3800JL 2K ANTIGRAFITI X 5",
     "stock": "0133",
-    "price_neto": 242.6053,
-    "price": 293.55,
+    "price_neto": 339526.1174,
+    "price": 410826.6,
     "tes": "503"
   },
   {
@@ -37057,8 +37057,8 @@
     "code": "007385",
     "description": "F385.04 MATEANTE PARA QD SINTETICO 1K X 0,900",
     "stock": "0133",
-    "price_neto": 38.016,
-    "price": 46,
+    "price_neto": 53203.392,
+    "price": 64376.1,
     "tes": "503"
   },
   {
@@ -37066,8 +37066,8 @@
     "code": "007392",
     "description": "F392.01 FONDO 2K HS RELLENO X 3.500",
     "stock": "0133",
-    "price_neto": 115.0219,
-    "price": 139.18,
+    "price_neto": 160973.1491,
+    "price": 194777.51,
     "tes": "503"
   },
   {
@@ -37075,8 +37075,8 @@
     "code": "007393",
     "description": "F3930HL WASH PRIMER BASE SIN CROMATOS X 4",
     "stock": "0133",
-    "price_neto": 157.2389,
-    "price": 190.26,
+    "price_neto": 220055.8405,
+    "price": 266267.57,
     "tes": "503"
   },
   {
@@ -37084,8 +37084,8 @@
     "code": "007400",
     "description": "A400 BASE SINT. EXT. RAP. X 20",
     "stock": "0133",
-    "price_neto": 282.0062,
-    "price": 341.23,
+    "price_neto": 394667.6769,
+    "price": 477547.89,
     "tes": "503"
   },
   {
@@ -37093,8 +37093,8 @@
     "code": "007402",
     "description": "DP402LF CATALIZADOR RAPIDO P/DP40LF X 0,473",
     "stock": "0133",
-    "price_neto": 31.3968,
-    "price": 37.99,
+    "price_neto": 43939.8216,
+    "price": 53167.18,
     "tes": "503"
   },
   {
@@ -37102,8 +37102,8 @@
     "code": "007420",
     "description": "F420.20 RESINA PU LINEA 290 X 20",
     "stock": "0133",
-    "price_neto": 324.3226,
-    "price": 392.43,
+    "price_neto": 453889.4787,
+    "price": 549206.27,
     "tes": "503"
   },
   {
@@ -37111,8 +37111,8 @@
     "code": "007421",
     "description": "F421.01 BLANCA LINEA 290 X 3,5",
     "stock": "0133",
-    "price_neto": 90.4169,
-    "price": 109.4,
+    "price_neto": 126538.4515,
+    "price": 153111.53,
     "tes": "503"
   },
   {
@@ -37120,8 +37120,8 @@
     "code": "007440",
     "description": "DP50LF/04 FONDO EPOXI X 0,946(EX DP40LF)",
     "stock": "0133",
-    "price_neto": 50.1704,
-    "price": 60.71,
+    "price_neto": 70213.4748,
+    "price": 84958.3,
     "tes": "503"
   },
   {
@@ -37273,8 +37273,8 @@
     "code": "007800",
     "description": "D800.04 BARNIZ CONCEPT 2020 DELTRON X 0,675",
     "stock": "0134",
-    "price_neto": 26.649,
-    "price": 32.25,
+    "price_neto": 37295.2755,
+    "price": 45127.28,
     "tes": "503"
   },
   {
@@ -37282,8 +37282,8 @@
     "code": "007803",
     "description": "D803.11 CATALIZADOR RAPIDO DELTRON X 1",
     "stock": "0134",
-    "price_neto": 60.237,
-    "price": 72.89,
+    "price_neto": 84301.6815,
+    "price": 102005.03,
     "tes": "503"
   },
   {
@@ -37291,8 +37291,8 @@
     "code": "007812",
     "description": "D812 DILUYENTE LENTO PPG X 18",
     "stock": "0134",
-    "price_neto": 273.273,
-    "price": 330.66,
+    "price_neto": 382445.5635,
+    "price": 462759.13,
     "tes": "503"
   },
   {
@@ -37300,8 +37300,8 @@
     "code": "007841",
     "description": "D841.11 CATALIZADOR MEDIO DELTRON X 1.0",
     "stock": "0134",
-    "price_neto": 58.581,
-    "price": 70.88,
+    "price_neto": 81984.1095,
+    "price": 99200.77,
     "tes": "503"
   },
   {
@@ -37498,8 +37498,8 @@
     "code": "008125",
     "description": "D8125/E1 RAPID PERFORMANCE CLEARCOAT X 1",
     "stock": "0134",
-    "price_neto": 49.059,
-    "price": 59.36,
+    "price_neto": 68658.0705,
+    "price": 83076.27,
     "tes": "503"
   },
   {
@@ -37507,8 +37507,8 @@
     "code": "008126",
     "description": "D8125/E5 RAPID PERFORMANCE CLEARCOAT X 5",
     "stock": "0134",
-    "price_neto": 198.36,
-    "price": 240.02,
+    "price_neto": 277604.82,
+    "price": 335901.83,
     "tes": "503"
   },
   {
@@ -37516,8 +37516,8 @@
     "code": "008260",
     "description": "D8260/E0.5 ACTIVADDOR P/T510 (B.ACUOSA) X 0,500",
     "stock": "0169",
-    "price_neto": 51.3597,
-    "price": 62.15,
+    "price_neto": 71877.9002,
+    "price": 86972.26,
     "tes": "503"
   },
   {
@@ -37525,8 +37525,8 @@
     "code": "008263",
     "description": "D8263/E0.5 CATALIZADOR MEDIO P/BZ. D8125 X 0,500",
     "stock": "0134",
-    "price_neto": 30.409,
-    "price": 36.79,
+    "price_neto": 42557.3955,
+    "price": 51494.45,
     "tes": "503"
   },
   {
@@ -37534,8 +37534,8 @@
     "code": "008264",
     "description": "D8263/E2.5 CATALIZADOR MEDIO D8125 X 2,500",
     "stock": "0134",
-    "price_neto": 112.905,
-    "price": 136.62,
+    "price_neto": 158010.5475,
+    "price": 191192.76,
     "tes": "503"
   },
   {
@@ -38002,8 +38002,8 @@
     "code": "008951",
     "description": "D8951.51 BASE TRANSPARENTE X 18",
     "stock": "0134",
-    "price_neto": 294.21,
-    "price": 355.99,
+    "price_neto": 411746.895,
+    "price": 498213.74,
     "tes": "503"
   },
   {
@@ -38011,8 +38011,8 @@
     "code": "009011",
     "description": "SELLADOR SILICONA NODULO NODUFIX ACETICO TRANSPARENTE X 0,050",
     "stock": "0136",
-    "price_neto": 4.625,
-    "price": 5.6,
+    "price_neto": 6567.5,
+    "price": 7946.68,
     "tes": "503"
   },
   {
@@ -38020,8 +38020,8 @@
     "code": "009401",
     "description": "SELLADOR SILICONA NODULO NODULASTIC 415 NEUTRO TRANSPARENTE X 0,280",
     "stock": "0136",
-    "price_neto": 9.4325,
-    "price": 11.41,
+    "price_neto": 13394.15,
+    "price": 16206.92,
     "tes": "503"
   },
   {
@@ -38029,8 +38029,8 @@
     "code": "009421",
     "description": "SELLADOR SILICONA NODULO NODULASTIC 415 NEUTRO BLANCO X 0,280",
     "stock": "0136",
-    "price_neto": 9.6775,
-    "price": 11.71,
+    "price_neto": 13742.05,
+    "price": 16627.88,
     "tes": "503"
   },
   {
@@ -38137,8 +38137,8 @@
     "code": "009941",
     "description": "SELLADOR SILICONA NODULO NODUFIX ACETICO TRANSPARENTE X 0,280",
     "stock": "0136",
-    "price_neto": 6.9825,
-    "price": 8.45,
+    "price_neto": 9915.15,
+    "price": 11997.33,
     "tes": "503"
   },
   {
@@ -40954,8 +40954,8 @@
     "code": "099998",
     "description": "COLORES AUTOMOTOR PU X 1",
     "stock": "0147",
-    "price_neto": 30.15,
-    "price": 36.48,
+    "price_neto": 42194.925,
+    "price": 51055.86,
     "tes": "503"
   },
   {
@@ -40963,8 +40963,8 @@
     "code": "099999",
     "description": "COLORES AUTOMOTOR BICAPA X 1",
     "stock": "0147",
-    "price_neto": 63.222,
-    "price": 76.5,
+    "price_neto": 88479.189,
+    "price": 107059.82,
     "tes": "503"
   },
   {
@@ -40974,6 +40974,51 @@
     "stock": "0120",
     "price_neto": 219056.0825,
     "price": 265057.86,
+    "tes": "503"
+  },
+  {
+    "id": "000293",
+    "code": "000293",
+    "description": "IMPRIMACION FIJADORA AL AGUA TERSUAVE BLANCA X 20",
+    "stock": "0152",
+    "price_neto": 126953.2755,
+    "price": 153613.46,
+    "tes": "503"
+  },
+  {
+    "id": "000765",
+    "code": "000765",
+    "description": "FIJADOR PARA PARED SELLAPLAST SINTEPLAST AL AGUA X  1",
+    "stock": "0150",
+    "price_neto": 6760.677,
+    "price": 8180.42,
+    "tes": "503"
+  },
+  {
+    "id": "003304",
+    "code": "003304",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE BLANCO X  4",
+    "stock": "0152",
+    "price_neto": 68533.1966,
+    "price": 82925.17,
+    "tes": "503"
+  },
+  {
+    "id": "003889",
+    "code": "003889",
+    "description": "GUANTE NARANJA MICROFIBRA  3D MICROFIBER FUZZY NARANJA (G-02-01OR)",
+    "stock": "0143",
+    "price_neto": 1065,
+    "price": 1288.65,
+    "tes": "503"
+  },
+  {
+    "id": "005184",
+    "code": "005184",
+    "description": "LATEX PARA CIELORRASOS ALBA ESTANDAR MATE BLANCO X 10",
+    "stock": "0107",
+    "price_neto": 58887.18,
+    "price": 71253.49,
     "tes": "503"
   }
 ]
