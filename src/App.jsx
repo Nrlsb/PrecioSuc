@@ -870,14 +870,16 @@ function PriceListPage({ user, onLogout }) {
         </div>
         <div className="flex items-center gap-3 bg-white p-2 px-4 rounded-full shadow-sm border border-gray-200 self-start sm:self-auto">
           <span className="text-sm font-medium text-gray-700">Hola, <span className="font-bold">{user.username}</span></span>
-          <button
-            onClick={handleUpdatePrices}
-            disabled={isUpdatingPrices}
-            className={`text-xs px-3 py-1 rounded-full transition-colors font-semibold ${isUpdatingPrices ? 'bg-gray-100 text-gray-400' : 'bg-green-50 text-green-600 hover:bg-green-100'
-              }`}
-          >
-            {isUpdatingPrices ? 'Actualizando...' : 'Actualizar Precios'}
-          </button>
+          {user.role === 'admin' && (
+            <button
+              onClick={handleUpdatePrices}
+              disabled={isUpdatingPrices}
+              className={`text-xs px-3 py-1 rounded-full transition-colors font-semibold ${isUpdatingPrices ? 'bg-gray-100 text-gray-400' : 'bg-green-50 text-green-600 hover:bg-green-100'
+                }`}
+            >
+              {isUpdatingPrices ? 'Actualizando...' : 'Actualizar Precios'}
+            </button>
+          )}
           <button
             onClick={onLogout}
             className="text-xs bg-red-50 text-red-600 px-3 py-1 rounded-full hover:bg-red-100 transition-colors font-semibold"
