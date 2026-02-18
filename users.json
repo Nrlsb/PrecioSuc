@@ -1,8 +1,15 @@
 [
-    {
-        "username": "BenitezLucas",
-        "password": "12345678",
-        "role": "admin",
-        "canSeePrices": true
-    }
+  {
+    "username": "BenitezLucas",
+    "password": "12345678",
+    "role": "admin",
+    "canSeePrices": true
+  },
+  {
+    "username": "Sucursal11",
+    "password": "gCMwU8m&amp;EciwR",
+    "role": "user",
+    "canSeePrices": true,
+    "percentage": 4
+  }
 ]
