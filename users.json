@@ -11,5 +11,12 @@
     "role": "user",
     "canSeePrices": true,
     "percentage": 4
+  },
+  {
+    "username": "Sucursal17",
+    "password": "JVk870orA4q1IPMf",
+    "role": "user",
+    "canSeePrices": true,
+    "percentage": 4
   }
 ]
