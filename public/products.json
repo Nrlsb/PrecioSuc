@@ -25200,6 +25200,15 @@
     "tes": "503"
   },
   {
+    "id": "004069",
+    "code": "004069",
+    "description": "PAD ESPUMA VIOLETA CORTE 3D DARK PURPLE FOAM CUTTING (K-55DP)",
+    "stock": "0902",
+    "price_neto": 11929.725,
+    "price": 14434.97,
+    "tes": "503"
+  },
+  {
     "id": "004070",
     "code": "004070",
     "description": "3D PAD DE ESPUMA PURPURA CLARO DE CORTE/FINALIZADO (K-55LP)",
@@ -28057,8 +28066,8 @@
     "code": "004626",
     "description": "ESMALTE POLIURETANO ACRILICO ALBAMIX TRASPARENTE X 15(4570100)",
     "stock": "0192",
-    "price_neto": 279276.2355,
-    "price": 337924.24,
+    "price_neto": 286087.851,
+    "price": 346166.3,
     "tes": "503"
   },
   {
@@ -29884,8 +29893,8 @@
     "code": "004994",
     "description": "PEGAMENTO RAPIDO WEBER PISO SOBRE PISO 12 HS. GRIS X 25",
     "stock": "0163",
-    "price_neto": 34833.9,
-    "price": 42149.02,
+    "price_neto": 37446.4425,
+    "price": 45310.2,
     "tes": "503"
   },
   {
@@ -40981,8 +40990,8 @@
     "code": "000293",
     "description": "IMPRIMACION FIJADORA AL AGUA TERSUAVE BLANCA X 20",
     "stock": "0152",
-    "price_neto": 126953.2755,
-    "price": 153613.46,
+    "price_neto": 129044.475,
+    "price": 156143.81,
     "tes": "503"
   },
   {
@@ -40995,21 +41004,102 @@
     "tes": "503"
   },
   {
+    "id": "001046",
+    "code": "001046",
+    "description": "SOLVENTE INDUSTRIAL S",
+    "stock": "0200",
+    "price_neto": 478.989,
+    "price": 579.58,
+    "tes": "503"
+  },
+  {
+    "id": "002393",
+    "code": "002393",
+    "description": "BLOQUEADOR HIDROESTATICO DE CIMIENTOS PLAVICON INCOLORO X  1",
+    "stock": "0139",
+    "price_neto": 10570.6258,
+    "price": 12790.46,
+    "tes": "503"
+  },
+  {
+    "id": "002394",
+    "code": "002394",
+    "description": "BLOQUEADOR HIDROESTATICO DE CIMIENTOS PLAVICON INCOLORO X  5",
+    "stock": "0139",
+    "price_neto": 41257.2977,
+    "price": 49921.33,
+    "tes": "503"
+  },
+  {
+    "id": "002395",
+    "code": "002395",
+    "description": "BLOQUEADOR HIDROESTATICO DE CIMIENTOS PLAVICON INCOLORO X 10",
+    "stock": "0139",
+    "price_neto": 76834.9602,
+    "price": 92970.3,
+    "tes": "503"
+  },
+  {
+    "id": "002429",
+    "code": "002429",
+    "description": "BLOQUEADOR HIDROESTATICO DE CIMIENTOS PLAVICON INCOLORO X 20",
+    "stock": "0139",
+    "price_neto": 138620.6993,
+    "price": 167731.05,
+    "tes": "503"
+  },
+  {
+    "id": "002980",
+    "code": "002980",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE BLANCO X 20",
+    "stock": "0152",
+    "price_neto": 173247.438,
+    "price": 209629.4,
+    "tes": "503"
+  },
+  {
     "id": "003304",
     "code": "003304",
     "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE BLANCO X  4",
     "stock": "0152",
-    "price_neto": 68533.1966,
-    "price": 82925.17,
+    "price_neto": 69523.951,
+    "price": 84123.98,
+    "tes": "503"
+  },
+  {
+    "id": "003307",
+    "code": "003307",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE NEGRO X  4",
+    "stock": "0152",
+    "price_neto": 68360.8499,
+    "price": 82716.63,
+    "tes": "503"
+  },
+  {
+    "id": "003780",
+    "code": "003780",
+    "description": "LACA PARA PISO DE CEMENTO RECUFLOOR HIDROLACA X 1",
+    "stock": "0150",
+    "price_neto": 41757.5346,
+    "price": 50526.62,
     "tes": "503"
   },
   {
     "id": "003889",
     "code": "003889",
     "description": "GUANTE NARANJA MICROFIBRA  3D MICROFIBER FUZZY NARANJA (G-02-01OR)",
-    "stock": "0143",
+    "stock": "0103",
     "price_neto": 1035,
     "price": 1252.35,
+    "tes": "503"
+  },
+  {
+    "id": "005183",
+    "code": "005183",
+    "description": "LATEX PARA CIELORRASOS ALBA ESTANDAR MATE BLANCO X  4",
+    "stock": "0107",
+    "price_neto": 32861.3421,
+    "price": 39762.22,
     "tes": "503"
   },
   {
@@ -41017,8 +41107,35 @@
     "code": "005184",
     "description": "LATEX PARA CIELORRASOS ALBA ESTANDAR MATE BLANCO X 10",
     "stock": "0107",
-    "price_neto": 58887.18,
-    "price": 71253.49,
+    "price_neto": 63009.27,
+    "price": 76241.22,
+    "tes": "503"
+  },
+  {
+    "id": "005185",
+    "code": "005185",
+    "description": "LATEX PARA CIELORRASOS ALBA ESTANDAR MATE BLANCO X 20",
+    "stock": "0107",
+    "price_neto": 112941.9096,
+    "price": 136659.71,
+    "tes": "503"
+  },
+  {
+    "id": "030702",
+    "code": "030702",
+    "description": "THINNER DIXILINA VERTIENTE UNIVERSAL 702 X 200",
+    "stock": "0200",
+    "price_neto": 532.749,
+    "price": 644.63,
+    "tes": "503"
+  },
+  {
+    "id": "030707",
+    "code": "030707",
+    "description": "THINNER DIXILINA VERTIENTE ORO 707 X 200",
+    "stock": "0200",
+    "price_neto": 655.221,
+    "price": 792.82,
     "tes": "503"
   }
 ]
