@@ -25,5 +25,12 @@
     "role": "user",
     "canSeePrices": true,
     "percentage": 4
+  },
+  {
+    "username": "Sucursal21",
+    "password": "Suc21",
+    "role": "user",
+    "canSeePrices": true,
+    "percentage": 4
   }
 ]
