@@ -97,7 +97,7 @@ async function updatePrices() {
         });
 
         if (keyColIdx === -1) {
-            // console.log(`  -> Saltando hoja '${sheetName}': No se encontró '${KEY_COLUMN}'.`);
+            // console.log(`  ->  Saltando hoja '${sheetName}': No se encontró '${KEY_COLUMN}'.`);
             return;
         }
 
