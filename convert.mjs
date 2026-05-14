@@ -121,6 +121,10 @@ export async function convertExcelToJson() {
 
       console.log(`  -> Índices detectados: Code:${codeIdx}, Neto:${netoIdx}, Final:${finalIdx}, TES:${tesIdx}, Moneda:${monedaIdx}`);
 
+      let sheetAddedCount = 0;
+      let skippedNoPrice = 0;
+      let skippedNoDesc = 0;
+
       const dataRows = dataAsArray.slice(headerRowIndex + 1);
       dataRows.forEach((row, index) => {
         const code = String(row[codeIdx] || '').trim();
@@ -154,24 +158,20 @@ export async function convertExcelToJson() {
         if (rawNeto > 0) {
           priceNeto = rawNeto;
         } else if (rawFinal > 0) {
-          // Si solo hay 'Final', calculamos el Neto hacia atrás.
-          // Neto = Final / (1.04 * Factor_IVA)
           priceNeto = rawFinal / (1.04 * ivaFactor);
         }
 
-        if (priceNeto === 0) return;
+        if (priceNeto === 0) {
+          skippedNoPrice++;
+          return;
+        }
 
         // --- CONVERSIÓN DE MONEDA ---
-        // Moneda 1: ARS (1:1)
-        // Moneda 2: USD Billete
-        // Moneda 3: USD Divisa
         let monedaStr = String(row[monedaIdx] || '').trim().toUpperCase();
 
-        // Registrar moneda en el mapa para usar de fallback en otras hojas
         if (monedaStr) {
           productMonedaMap.set(code, monedaStr);
         } else if (productMonedaMap.has(code)) {
-          // Fallback si no hay moneda en esta hoja (ej: ListaCorte)
           monedaStr = productMonedaMap.get(code);
         }
 
@@ -183,31 +183,35 @@ export async function convertExcelToJson() {
         }
 
         priceNeto = priceNeto * exchangeRate;
-        // ----------------------------
 
         const priceConIva = priceNeto * ivaFactor;
 
-        // Si ya existe en el mapa de productos, lo actualizamos (sobrescribimos)
-        // Esto permite que 'ListaCorte' (que es la última en procesarse) tenga la última palabra en precios
         const product = {
           id: code,
           code: code,
           description: masterDataMap.get(code)?.desc || String(row[descIdx] || '').trim(),
           stock: String(row[stockIdx] || '').trim(),
           price_neto: parseFloat(priceNeto.toFixed(4)),
-          price: parseFloat(priceConIva.toFixed(2)), // Base con IVA
+          price: parseFloat(priceConIva.toFixed(2)),
           tes: tesValue || (ivaFactor === 1.105 ? '501' : '503')
         };
 
-        if (product.description && product.description !== 'undefined') {
+        if (product.description && product.description !== 'undefined' && product.description.length > 0) {
           productMap.set(code, product);
+          sheetAddedCount++;
+        } else {
+          skippedNoDesc++;
         }
       });
+      console.log(`  -> Resultados en '${sheetName}':`);
+      console.log(`     - Agregados/Actualizados: ${sheetAddedCount}`);
+      console.log(`     - Saltados por precio 0: ${skippedNoPrice}`);
+      console.log(`     - Saltados por falta de descripción: ${skippedNoDesc}`);
     }
 
     const finalProductList = Array.from(productMap.values());
     await writeFile(JSON_OUTPUT_PATH, JSON.stringify(finalProductList, null, 2));
-    console.log(`¡Éxito! JSON actualizado con ${finalProductList.length} productos.`);
+    console.log(`\n¡Éxito! JSON actualizado con ${finalProductList.length} productos en total.`);
     return { success: true, count: finalProductList.length };
 
   } catch (error) {
