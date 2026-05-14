@@ -88,13 +88,30 @@ export async function convertExcelToJson() {
       }
 
       const dataAsArray = utils.sheet_to_json(worksheet, { header: 1 });
-      if (dataAsArray.length < 2) continue;
+      if (dataAsArray.length < 1) continue;
 
-      const headers = dataAsArray[0];
-      // console.log(`  -> Cabeceras encontradas: ${headers.join(', ')}`);
+      // Buscar la fila de encabezados (buscamos una fila que tenga algo parecido a "Codigo")
+      let headerRowIndex = 0;
+      let codeIdx = -1;
+      
+      for (let i = 0; i < Math.min(dataAsArray.length, 10); i++) {
+        const potentialHeaders = dataAsArray[i] || [];
+        codeIdx = findHeaderIndex(potentialHeaders, ['Cod.Producto', 'Codigo', 'Cod']);
+        if (codeIdx !== -1) {
+          headerRowIndex = i;
+          break;
+        }
+      }
 
-      // Índices de columnas clave
-      const codeIdx = findHeaderIndex(headers, ['Cod.Producto', 'Codigo', 'Cod']);
+      if (codeIdx === -1) {
+        console.log(`  [Aviso] No se encontró columna de Código en '${sheetName}'. Saltando pestaña.`);
+        continue;
+      }
+
+      const headers = dataAsArray[headerRowIndex];
+      // console.log(`  -> Cabeceras encontradas en fila ${headerRowIndex}: ${headers.join(', ')}`);
+
+      // Índices de columnas clave (usando la fila encontrada)
       const descIdx = findHeaderIndex(headers, 'Descripcion');
       const stockIdx = findHeaderIndex(headers, 'Grupo');
       const netoIdx = findHeaderIndex(headers, ['Precio Venta', 'Neto', 'Unitario']);
@@ -102,11 +119,9 @@ export async function convertExcelToJson() {
       const tesIdx = findHeaderIndex(headers, ['TES', 'Impuesto', 'IVA', 'TS Estandar']);
       const monedaIdx = findHeaderIndex(headers, ['Moneda', 'MND', 'MND.', 'Mon']);
 
-
       console.log(`  -> Índices detectados: Code:${codeIdx}, Neto:${netoIdx}, Final:${finalIdx}, TES:${tesIdx}, Moneda:${monedaIdx}`);
 
-
-      const dataRows = dataAsArray.slice(1);
+      const dataRows = dataAsArray.slice(headerRowIndex + 1);
       dataRows.forEach((row, index) => {
         const code = String(row[codeIdx] || '').trim();
         if (!code || code === 'undefined' || code === 'Codigo') return;

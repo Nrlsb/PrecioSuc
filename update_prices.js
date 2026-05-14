@@ -149,10 +149,10 @@ async function updatePrices() {
 
 
 
-    const outputFile = path.join(__dirname, 'public', 'ListaDeProductos_Updated.xlsx');
-    await workbook.xlsx.writeFile(outputFile);
-    console.log(`\n¡Éxito! Precios actualizados: ${totalUpdates}`);
-    console.log(`Archivo generado: ${outputFile}`);
+    // Guardar los cambios sobreescribiendo el archivo original
+    await workbook.xlsx.writeFile(TARGET_FILE);
+    console.log(`\n¡Éxito! Precios actualizados en el archivo original: ${TARGET_FILE}`);
+    console.log(`Total de actualizaciones: ${totalUpdates}`);
 }
 
 updatePrices().catch(err => console.error(err));
